@@ -43,16 +43,34 @@ class PixelPaletteManager:
 class PixelDeserializer:
     @classmethod
     def image_to_matrix(cls, image_path, target_size=16):
-        img = Image.open(image_path).convert('RGB')
+        # 💡 RGBA 모드로 열어서 투명도(Alpha) 채널까지 확보합니다.
+        img = Image.open(image_path).convert('RGBA')
         if img.size != (target_size, target_size):
             img = img.resize((target_size, target_size), Image.Resampling.NEAREST)
             
+        # 💡 파일명이나 경로에 'black'이 들어가는지 감지합니다.
+        is_black_subject = "black" in os.path.basename(image_path).lower()
+        
         matrix = []
         for r in range(target_size):
             row = []
             for c in range(target_size):
-                rgb = img.getpixel((c, r))
-                row.append(PixelPaletteManager.get_nearest_color_token(*rgb))
+                pixel = img.getpixel((c, r))
+                r_val, g_val, b_val, a_val = pixel[0], pixel[1], pixel[2], pixel[3]
+                
+                # 1. 만약 완전히 투명한(Alpha=0) 픽셀이라면 배경으로 간주
+                if a_val < 10:
+                    token = 'c255' if is_black_subject else 'c000'
+                else:
+                    # 2. 불투명한 픽셀인데 오브젝트가 black 계열이고 검은색에 가까운 경우
+                    token = PixelPaletteManager.get_nearest_color_token(r_val, g_val, b_val)
+                    if is_black_subject and token == 'c000':
+                        # 오브젝트 자체는 검은색을 유지해야 하므로 통과
+                        pass
+                    # 만약 배경이 투명 처리가 안 되어 있고 이미지 자체가 검은 배경에 검은 오브젝트라면
+                    # 명도 기준(예: RGB 총합 < 30)으로 배경과 물체를 분리하는 로직을 추가할 수도 있습니다.
+                
+                row.append(token)
             matrix.append(row)
         return matrix
 
