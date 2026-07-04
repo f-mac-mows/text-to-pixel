@@ -1,11 +1,52 @@
 import os
 import sys
+import json
 import subprocess
-from pixel_config import PixelPaths
-from pixel_logger import setup_logger  # 💡 로거 추가
+import importlib
+from pixel_logger import setup_logger
+
+VERSION_FILE = "pixel_versions.json"
+
+def prepare_history_directories(logger):
+    """스크린샷의 아카이빙 폴더들이 없으면 빌드 전 미리 자동 생성"""
+    target_folders = ["dataset_history", "models_history", "tokenizer_history"]
+    for folder in target_folders:
+        if not os.path.exists(folder):
+            os.makedirs(folder, exist_ok=True)
+            logger.info(f" [✓] 디렉토리 신규 생성: {folder}")
+
+
+def auto_increment_versions(logger):
+    """빌드 시 버전을 자동으로 +1 하고 JSON에 세이브"""
+    if not os.path.exists(VERSION_FILE):
+        logger.warning(f"[⚠️] {VERSION_FILE}이 존재하지 않아 기본값으로 생성합니다.")
+        import pixel_config
+        importlib.reload(pixel_config)
+
+    try:
+        with open(VERSION_FILE, "r", encoding="utf-8") as f:
+            versions = json.load(f)
+        
+        # 모든 활성 관리 버전 카운트 +1 상향
+        for key in versions.keys():
+            versions[key] += 1
+            
+        with open(VERSION_FILE, "w", encoding="utf-8") as f:
+            json.dump(versions, f, indent=4)
+            
+        logger.info(f"[✓] 🔄 모든 버전 카운트 업 완료 (+1) -> {VERSION_FILE} 업데이트")
+        
+        # 부모 프로세스에 물려있는 캐시를 새로고침하여 리로드
+        import pixel_config
+        importlib.reload(pixel_config)
+        
+    except Exception as e:
+        logger.error(f"[❌ 에러] 버전 자동 업데이트 중 오류 발생: {e}")
+        sys.exit(1)
+
 
 def check_and_install_dependencies(logger):
-    """필수 라이브러리(torch, tokenizers, sklearn) 설치 확인 및 자동 설치"""
+    """필수 라이브러리 설치 확인 및 자동 설치"""
     logger.info("[*] ⚙️  [1/6] 개발 환경 내 필수 패키지 검사 중...")
     
     requirements = {
@@ -28,12 +69,12 @@ def check_and_install_dependencies(logger):
                 sys.exit(1)
     logger.info("-" * 60)
 
+
 def run_script(script_name, step_num, logger):
     """지정한 파이썬 스크립트를 파이프라인의 하위 프로세스로 실행"""
     logger.info(f"\n🎬 [{step_num}/6] {script_name} 가동 중...")
     
-    # 💡 하위 프로세스(자식 스크립트)들이 자체 로거로 찍는 내부 print/logger 메시지들은
-    # 그대로 부모 터미널 화면(stdout)에 실시간으로 흘러나오도록 둡니다.
+    # 자식 스크립트들의 출력을 실시간으로 부모 터미널에 송출
     result = subprocess.run([sys.executable, script_name])
     
     if result.returncode != 0:
@@ -43,21 +84,24 @@ def run_script(script_name, step_num, logger):
     logger.info(f"[✓] {script_name} 연산 성공.")
     logger.info("-" * 60)
 
+
 def main():
-    # 💡 1. 마스터 파이프라인 전용 로거 가동
+    # 💡 마스터 파이프라인 전용 로거 가동 -> 이제 logs/pipeline/ 폴더 밑으로 안착합니다.
     logger, log_path = setup_logger(mode="pipeline")
 
     logger.info("=" * 60)
     logger.info("🛰️  PIXEL-ART CORE TRAINING PIPELINE")
     logger.info("=" * 60)
     
-    # 2. 환경 및 필수 패키지 검사 (로거 전달)
-    check_and_install_dependencies(logger)
+    prepare_history_directories(logger)
+    auto_increment_versions(logger)
     
-    # 3. 현재 설정 상태 출력 (앞서 수정한 대상을 로거와 함께 호출)
+    from pixel_config import PixelPaths
+
+    check_and_install_dependencies(logger)
     PixelPaths.log_summary(logger)
     
-    # 4. 파이프라인 단계별 실행 (각 단계의 시작과 끝을 마스터 로그에 박제)
+    # 파이프라인 단계별 순차 프로세싱 실행
     run_script("pixel_data_generator.py", "2", logger)
     run_script("train_tokenizer.py", "3", logger)
     run_script("split_dataset.py", "4", logger)

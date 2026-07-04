@@ -1,34 +1,58 @@
 import os
-from enum import Enum
+import json
 from dataclasses import dataclass
 
-# 모델 8부터 트랜스포머 적용
+VERSION_FILE = "pixel_versions.json"
 
-class VersionConfig(Enum):
-    TOTAL_DATASET = 11
-    DATASET = 7  # 쪼개놓은 데이터셋(train, val, test)의 버전
-    MODEL = 11    # 가중치(.pt)의 실험 버전
-    TOKENIZER = 7
+def load_or_init_versions():
+    """json 파일에서 버전을 읽어오거나, 없으면 초기값으로 생성"""
+    default_versions = {
+        "TOTAL_DATASET": 13,
+        "DATASET": 9,
+        "MODEL": 13,
+        "TOKENIZER": 9
+    }
+    
+    if os.path.exists(VERSION_FILE):
+        try:
+            with open(VERSION_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            print(f"⚠️ {VERSION_FILE} 읽기 실패. 기본값으로 초기화합니다.")
+            
+    # 파일이 없거나 깨졌을 경우 생성
+    with open(VERSION_FILE, "w", encoding="utf-8") as f:
+        json.dump(default_versions, f, indent=4)
+    return default_versions
+
+
+# 런타임에 실시간으로 JSON 버전을 로드
+_v = load_or_init_versions()
 
 @dataclass(frozen=True)
 class PixelPaths:
-    TOTAL_DATASET_VER = VersionConfig.TOTAL_DATASET.value
-    DATASET_VER = VersionConfig.DATASET.value
-    MODEL_VER = VersionConfig.MODEL.value
-    TOKENIZER_VER = VersionConfig.TOKENIZER.value
+    TOTAL_DATASET_VER = _v["TOTAL_DATASET"]
+    DATASET_VER = _v["DATASET"]
+    MODEL_VER = _v["MODEL"]
+    TOKENIZER_VER = _v["TOKENIZER"]
 
-    TOTAL_DATA = f"pixel_dataset_v{TOTAL_DATASET_VER}.jsonl"
-    TRAIN_DATA = f"pixel_train_v{DATASET_VER}.jsonl"
-    VAL_DATA = f"pixel_val_v{DATASET_VER}.jsonl"
-    TEST_DATA = f"pixel_test_v{DATASET_VER}.jsonl"
+    # 📂 스크린샷에 매칭되는 아카이빙 폴더 정의
+    DATA_DIR = "dataset_history"
+    MODEL_DIR = "models_history"
+    TOKEN_DIR = "tokenizer_history"
 
-    TOKENIZER = f"pixel_bpe_tokenizer_v{TOKENIZER_VER}.json"
-    MODEL_CHECKPOINT = f"pixel_model_v{MODEL_VER}.pt"
+    # 🎯 하위 스크립트들이 이 경로를 그대로 사용하므로 파일이 자동으로 해당 폴더에 저장됩니다.
+    TOTAL_DATA = os.path.join(DATA_DIR, f"pixel_dataset_v{TOTAL_DATASET_VER}.jsonl")
+    TRAIN_DATA = os.path.join(DATA_DIR, f"pixel_train_v{DATASET_VER}.jsonl")
+    VAL_DATA   = os.path.join(DATA_DIR, f"pixel_val_v{DATASET_VER}.jsonl")
+    TEST_DATA  = os.path.join(DATA_DIR, f"pixel_test_v{DATASET_VER}.jsonl")
+
+    TOKENIZER        = os.path.join(TOKEN_DIR, f"pixel_bpe_tokenizer_v{TOKENIZER_VER}.json")
+    MODEL_CHECKPOINT = os.path.join(MODEL_DIR, f"pixel_model_v{MODEL_VER}.pt")
 
     @classmethod
     def log_summary(cls, logger=None):
         """현재 가동 중인 파이프라인 버전을 로거(또는 print)를 통해 기록"""
-        # 로거가 넘어오면 logger.info를 쓰고, 없으면 그냥 print 함수를 매핑합니다.
         write = logger.info if logger else print
 
         write("=" * 60)

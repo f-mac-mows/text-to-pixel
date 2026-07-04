@@ -4,34 +4,33 @@ from datetime import datetime
 
 def setup_logger(mode="train"):
     """
-    mode: 'train' 또는 'evaluate' 등 실행 모드 지정
-    터미널 출력과 파일 저장을 동시에 수행하는 로거를 반환합니다.
+    mode: 'pipeline', 'train', 'evaluate', 'inference' 등 실행 모드 지정
+    각 모드별로 logs/<mode>/ 하위 폴더에 로그 파일을 격리 저장합니다.
     """
-    # 1. 로그를 저장할 폴더 생성
-    log_dir = "logs"
+    # 1. 실행 모드별 세부 로그 폴더 분리 생성
+    log_dir = os.path.join("logs", mode)
     os.makedirs(log_dir, exist_ok=True)
 
-    # 2. 파일명 포맷 설정 (예: logs/20260703_0034_train.log)
+    # 2. 파일명 포맷 설정 (예: logs/pipeline/20260704_093000.log)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_filename = os.path.join(log_dir, f"{timestamp}_{mode}.log")
+    log_filename = os.path.join(log_dir, f"{timestamp}.log")
 
-    # 3. 로거 객체 생성 및 기본 레벨 설정
-    logger = logging.getLogger(mode)
+    # 4. 로거 객체 생성 및 기본 레벨 설정 (중복 호출 방지용 네임스페이스 격리)
+    logger = logging.getLogger(f"pixel_{mode}_{timestamp}")
     logger.setLevel(logging.INFO)
 
-    # 중복 출력 방지
     if logger.handlers:
         logger.handlers.clear()
 
-    # 4. 출력 포맷 설정 (시간 [로그레벨] 메시지)
+    # 4. 출력 포맷 설정
     formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
-    # 5. 파일 핸들러 (파일에 기록)
+    # 5. 파일 핸들러 (세부 격리 폴더에 기록)
     file_handler = logging.FileHandler(log_filename, encoding="utf-8")
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 
-    # 6. 스트림 핸들러 (터미널에 출력)
+    # 6. 스트림 핸들러 (터미널 출력)
     stream_handler = logging.StreamHandler()
     stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)

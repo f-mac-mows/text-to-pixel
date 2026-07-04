@@ -10,7 +10,8 @@ from tokenizers.pre_tokenizers import Whitespace
 
 class PixelArtTokenizerWrapper:
     def __init__(self, vocab_size=2000, tokenizer_path="tokenizer.json"):
-        self.vocab_size_target = vocab_size
+        # 인자값으로 받는 vocab_size는 이제 '순수 자연어(Input) 학습용 기본 공간' 의미로 사용됩니다.
+        self.input_bpe_space = vocab_size
         self.tokenizer_path = tokenizer_path
         
         # 기본 공통 스페셜 토큰 정의 (PAD=0, SOS=1, EOS=2, UNK=3)
@@ -26,6 +27,11 @@ class PixelArtTokenizerWrapper:
     @property
     def vocab_size(self):
         """기본 BPE 단어 + 스페셜 토큰으로 등록된 고유 Output 문장이 모두 포함된 총 크기"""
+        return self.base_tokenizer.get_vocab_size()
+
+    @property
+    def input_vocab_size(self):
+        """이전 코드 및 외부 훈련 인스턴스 규칙(bpe_vocab.input_vocab_size) 호환용 프로퍼티"""
         return self.base_tokenizer.get_vocab_size()
 
     def train_from_dataset(self, dataset_path):
@@ -49,11 +55,14 @@ class PixelArtTokenizerWrapper:
         unique_outputs = sorted(list(outputs_set))
         
         # 3. 토크나이저가 인식할 전체 스페셜 토큰 목록 구성
-        # 기본 스페셜 토큰 뒤에 고유 아웃풋 문장들이 통째로 붙습니다.
         all_special_tokens = self.base_special_tokens + unique_outputs
 
-        # 4. Input 자연어 기반 BPE 학습 실행 (이때 모든 스페셜 토큰을 사전에 미리 확보)
-        trainer = BpeTrainer(vocab_size=self.vocab_size_target, special_tokens=all_special_tokens)
+        # 💡 [핵심 방어선] 데이터 급증으로 인한 사증 크기 부족(ValueError) 원천 차단
+        # 초기에 지정한 기본 텍스트 공간 공간에 '추가된 고유 이미지 토큰 개수'를 동적으로 더해줍니다.
+        dynamic_vocab_size = self.input_bpe_space + len(all_special_tokens)
+
+        # 4. 동적으로 확장된 크기로 BPE 학습 실행
+        trainer = BpeTrainer(vocab_size=dynamic_vocab_size, special_tokens=all_special_tokens)
         self.base_tokenizer.train_from_iterator(inputs_corpus, trainer)
 
     def save(self):
@@ -71,10 +80,7 @@ class PixelArtTokenizerWrapper:
     def encode_output(self, text):
         """Output 통문장 전체를 토크나이저 사전에서 찾아 단 하나의 스페셜 토큰 ID로 반환"""
         clean = text.strip()
-        # 토크나이저 내장 token_to_id를 사용하여 완벽하게 매핑된 ID 추출
         token_id = self.base_tokenizer.token_to_id(clean)
-        
-        # 혹시 사전에 없는 새로운 문장이라면 <UNK> ID 반환
         return token_id if token_id is not None else self.unk_id
 
     def decode_output(self, token_id):
@@ -98,7 +104,6 @@ class PixelArtDataset(Dataset):
         sample = self.samples[index]
         return {
             "input_ids": torch.tensor(self.tokenizer.encode_input(sample["input"]), dtype=torch.long),
-            # 통문장 자체에 부여된 단 하나의 스페셜 토큰 ID를 가져옴
             "target_id": torch.tensor(self.tokenizer.encode_output(sample["output"]), dtype=torch.long)
         }
 
@@ -109,7 +114,6 @@ def get_pixel_collate_fn(pad_id):
         
         return {
             "input_ids": pad_sequence(input_ids, batch_first=True, padding_value=pad_id),
-            # 시퀀스가 아니므로 스택(Stack)을 이용해 1차원 텐서 (Batch_Size,) 로 결합
             "target_ids": torch.stack(target_ids)
         }
     return collate_fn

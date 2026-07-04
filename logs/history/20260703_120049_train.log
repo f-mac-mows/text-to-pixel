@@ -1,0 +1,18 @@
+[2026-07-03 12:00:49] [INFO] **************************************************
+[2026-07-03 12:00:49] [INFO] 활성화된 연산 가속 장치: mps
+[2026-07-03 12:00:50] [INFO] ⚡ 스케줄드 샘플링이 탑재된 Robust 트레이닝을 시작합니다...
+[2026-07-03 12:01:36] [INFO] Epoch  1/60 | TF Ratio: 0.99 | Train Loss: 2.5814353 | Val Loss: 5.0676847
+[2026-07-03 12:04:34] [INFO] Epoch  5/60 | TF Ratio: 0.96 | Train Loss: 0.2128215 | Val Loss: 2.0910162
+[2026-07-03 12:08:22] [INFO] Epoch 10/60 | TF Ratio: 0.92 | Train Loss: 0.0465764 | Val Loss: 0.7827848
+[2026-07-03 12:12:17] [INFO] Epoch 15/60 | TF Ratio: 0.88 | Train Loss: 0.0210954 | Val Loss: 0.5714324
+[2026-07-03 12:16:15] [INFO] Epoch 20/60 | TF Ratio: 0.83 | Train Loss: 0.0314232 | Val Loss: 0.4366931
+[2026-07-03 12:20:11] [INFO] Epoch 25/60 | TF Ratio: 0.79 | Train Loss: 0.0185104 | Val Loss: 0.4391217
+[2026-07-03 12:24:11] [INFO] Epoch 30/60 | TF Ratio: 0.75 | Train Loss: 0.0211225 | Val Loss: 0.8003192
+[2026-07-03 12:28:13] [INFO] Epoch 35/60 | TF Ratio: 0.71 | Train Loss: 0.0193162 | Val Loss: 0.6508630
+[2026-07-03 12:32:13] [INFO] Epoch 40/60 | TF Ratio: 0.67 | Train Loss: 0.0256414 | Val Loss: 0.5291868
+[2026-07-03 12:36:14] [INFO] Epoch 45/60 | TF Ratio: 0.62 | Train Loss: 0.0255981 | Val Loss: 0.4583426
+[2026-07-03 12:40:18] [INFO] Epoch 50/60 | TF Ratio: 0.58 | Train Loss: 0.0258324 | Val Loss: 0.5450827
+[2026-07-03 12:44:21] [INFO] Epoch 55/60 | TF Ratio: 0.54 | Train Loss: 0.0231516 | Val Loss: 0.4870174
+[2026-07-03 12:48:26] [INFO] Epoch 60/60 | TF Ratio: 0.50 | Train Loss: 0.0539729 | Val Loss: 0.3963026
+[2026-07-03 12:48:26] [INFO] [+] 🚀 스케줄드 샘플링 기반 견고한 학습 완료! (Best Val Loss: 0.3910865)
+[2026-07-03 12:48:26] [INFO] [✓] 로그 파일이 기록되었습니다: logs/20260703_120049_train.log
