@@ -61,6 +61,7 @@
 
 프로젝트는 자동화된 버전 관리와 모듈화된 파이프라인으로 구성되어 있습니다.
 
+``` text
 BITNET-ASCII-COLORIZER/
 ├── dataset_history/                # 파이프라인 버전별 생성 데이터셋(total, train, val, test) 아카이브
 ├── models_history/                 # 학습 및 전수 검증이 완료된 트랜스포머 가중치(.pt) 아카이브
@@ -85,6 +86,7 @@ BITNET-ASCII-COLORIZER/
 ├── extractor.py                    # 스프라이트 시트(SpriteSheet) 이미지 소스를 개별 슬라이스(이름.png)로 자동 추출
 ├── pixel_logger.py                 # 공정 격리형 멀티 헨들러 파일/터미널 로깅 유틸리티
 └── pixel_versions.json             # (Auto-generated) 파이프라인 빌드 성공 이력 및 릴리즈 버전 트래킹 인덱스
+```
 
 ---
 
