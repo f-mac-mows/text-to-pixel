@@ -1,0 +1,11 @@
+[2026-07-06 12:11:35] [INFO] [*] 📂 작업 시작 파이프라인 명세:
+[2026-07-06 12:11:35] [INFO]  ├─ 원본 로드 소스: dataset_history/pixel_dataset_v1.jsonl
+[2026-07-06 12:11:35] [INFO]  └─ 대상 타깃 파일: dataset_history/pixel_train_v1.jsonl / dataset_history/pixel_val_v1.jsonl / dataset_history/pixel_test_v1.jsonl
+
+[2026-07-06 12:11:35] [INFO] [*] 원본 데이터 로드 완료: 총 121116개
+[2026-07-06 12:11:36] [INFO] 
+[*] 🚀 버전 반영 3비율 데이터셋 분리 성공! (8:1:1)
+[2026-07-06 12:11:36] [INFO]  ├─ 학습 (Train Set - 80%)      : 96893개 -> dataset_history/pixel_train_v1.jsonl
+[2026-07-06 12:11:36] [INFO]  ├─ 검증 (Validation Set - 10%) : 12111개 -> dataset_history/pixel_val_v1.jsonl
+[2026-07-06 12:11:36] [INFO]  └─ 시험 (Test Set - 10%)       : 12112개 -> dataset_history/pixel_test_v1.jsonl
+[2026-07-06 12:11:36] [INFO] [✓] 데이터셋 분할기 세부 로그 저장 완료: logs/dataset_splitter/20260706_121135.log

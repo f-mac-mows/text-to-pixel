@@ -3,65 +3,93 @@ import torch.nn as nn
 import math
 
 class PositionalEncoding(nn.Module):
-    def __init__(self, d_model, max_len=500):
+    def __init__(self, d_model, max_len=512):
         super().__init__()
         pe = torch.zeros(max_len, d_model)
         position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
         div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))
-
         pe[:, 0::2] = torch.sin(position * div_term)
         pe[:, 1::2] = torch.cos(position * div_term)
         self.register_buffer('pe', pe.unsqueeze(0))
 
     def forward(self, x):
-        # x: [Batch, Seq_Len, Embed_Dim]
         return x + self.pe[:, :x.size(1)]
-    
-class PixelTransformer(nn.Module):
-    def __init__(self, vocab_size, embed_dim, hidden_dim, num_heads, num_layers, pad_idx, max_seq_len=256):
+
+
+class PixelSeq2SeqTransformer(nn.Module):
+    def __init__(self, text_vocab_size=5000, pixel_vocab_size=3000, embed_dim=256, hidden_dim=1024, nhead=8, 
+                 num_encoder_layers=4, num_decoder_layers=6, pad_idx=0):
         super().__init__()
         self.pad_idx = pad_idx
-        self.embedding = nn.Embedding(vocab_size, embed_dim, padding_idx=pad_idx)
-        self.pos_encoder = PositionalEncoding(embed_dim, max_len=max_seq_len)
-
-        # 💡 디코더를 제거하고 PyTorch 내장 TransformerEncoderLayer 및 Encoder 구성
-        encoder_layer = nn.TransformerEncoderLayer(
-            d_model=embed_dim,
-            nhead=num_heads,
-            dim_feedforward=hidden_dim,
-            dropout=0.2,
-            norm_first=True,
-            batch_first=True
+        self.d_model = embed_dim
+        
+        # 💡 [보존] 2원화된 독립 임베딩 층 구성
+        self.text_embedding = nn.Embedding(text_vocab_size, embed_dim, padding_idx=pad_idx)
+        self.pixel_embedding = nn.Embedding(pixel_vocab_size, embed_dim, padding_idx=pad_idx)
+        
+        self.pos_encoder = PositionalEncoding(embed_dim)
+        
+        # 1. 인코더 층 구성
+        enc_layer = nn.TransformerEncoderLayer(
+            d_model=embed_dim, nhead=nhead, dim_feedforward=hidden_dim,
+            dropout=0.1, batch_first=True, norm_first=True
         )
-        self.transformer_encoder = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
+        self.encoder = nn.TransformerEncoder(enc_layer, num_layers=num_encoder_layers)
         
-        # 💡 시퀀스 임베딩 벡터를 하나로 합친 뒤 최종 클래스(Vocab) 개수만큼 매핑할 Linear 레이어
-        self.fc_out = nn.Linear(embed_dim, vocab_size)
+        # 2. 디코더 층 구성
+        dec_layer = nn.TransformerDecoderLayer(
+            d_model=embed_dim, nhead=nhead, dim_feedforward=hidden_dim,
+            dropout=0.1, batch_first=True, norm_first=True
+        )
+        self.decoder = nn.TransformerDecoder(dec_layer, num_layers=num_decoder_layers)
+        
+        # 💡 [보존] 최종 출력 헤드 분리
+        self.fc_text_out = nn.Linear(embed_dim, text_vocab_size)
+        self.fc_pixel_out = nn.Linear(embed_dim, pixel_vocab_size)
+        
+    def generate_causal_mask(self, sz, device):
+        mask = torch.triu(torch.ones(sz, sz, device=device), diagonal=1).bool()
+        return mask
 
-    def forward(self, src):
-        # src: [Batch, Src_Len]
-        # 패딩 토큰 위치를 True로 표시하는 마스크 생성
+    def forward(self, src, tgt):
+        device = src.device
+        
+        # 1. 태스크 라우팅 확인 (배치 내 첫 번째 토큰 검사)
+        is_text_input = (src[:, 0] < self.text_embedding.num_embeddings)
+        is_gen_task = is_text_input[0].item() 
+
+        # 패딩 마스크 생성
         src_padding_mask = (src == self.pad_idx)
-
-        # 1. 인풋 자연어 임베딩 및 포지셔널 인코딩
-        src_emb = self.pos_encoder(self.embedding(src))
-
-        # 2. 트랜스포머 인코더 통과
-        # out: [Batch, Src_Len, Embed_Dim]
-        out = self.transformer_encoder(src_emb, src_key_padding_mask=src_padding_mask)
+        tgt_padding_mask = (tgt == self.pad_idx)
         
-        # 3. 💡 풀링 (Pooling) 단계
-        # 문장 전체의 의미를 담고 있는 첫 번째 토큰(<SOS>) 위치의 벡터만 추출하거나, 평균(Mean)을 낼 수 있습니다.
-        # 자연어 분류에서는 패딩을 제외한 평균 풀링(Mean Pooling)이 성능 안정성에 유리합니다.
+        # 디코더 인과적 마스크 가동
+        tgt_mask = self.generate_causal_mask(tgt.size(1), device)
         
-        # 패딩이 아닌 토큰 마스크 생성 ([Batch, Src_Len, 1])
-        mask = (~src_padding_mask).unsqueeze(-1).float()
+        # 2. 태스크 유형에 따른 가변 임베딩 라우팅
+        if is_gen_task:
+            # TASK_GEN: 입력(Text) -> 출력(Pixel)
+            src_emb = self.text_embedding(src)
+            tgt_emb = self.pixel_embedding(tgt)
+        else:
+            # TASK_DESC: 입력(Pixel) -> 출력(Text)
+            src_emb = self.pixel_embedding(src)
+            tgt_emb = self.text_embedding(tgt)
+            
+        src_emb = self.pos_encoder(src_emb * math.sqrt(self.d_model))
+        tgt_emb = self.pos_encoder(tgt_emb * math.sqrt(self.d_model))
         
-        # 패딩 성분을 0으로 만들고 합산 후, 실제 토큰 개수로 나누어 평균 벡터 계산
-        # pooled: [Batch, Embed_Dim]
-        sum_embeddings = torch.sum(out * mask, dim=1)
-        token_counts = torch.clamp(mask.sum(dim=1), min=1) # 0으로 나누기 방지
-        pooled = sum_embeddings / token_counts
-
-        # 4. 최종 로짓 출력 ([Batch, Vocab_Size])
-        return self.fc_out(pooled)
+        # 3. 인코더 및 디코더 통과
+        memory = self.encoder(src_emb, src_key_padding_mask=src_padding_mask)
+        
+        output = self.decoder(
+            tgt=tgt_emb, memory=memory,
+            tgt_mask=tgt_mask,
+            tgt_key_padding_mask=tgt_padding_mask,
+            memory_key_padding_mask=src_padding_mask
+        )
+        
+        # 4. 태스크 유형에 따른 최종 출력 헤드 분기 완전히 복원
+        if is_gen_task:
+            return self.fc_pixel_out(output)
+        else:
+            return self.fc_text_out(output)
