@@ -2,18 +2,19 @@ import os
 import json
 import torch
 from torch.utils.data import Dataset
-from torch.nn.utils.rnn import pad_sequence
 from tokenizers import Tokenizer
-from tokenizers.models import BPE
-from tokenizers.trainers import BpeTrainer
-from tokenizers.pre_tokenizers import Whitespace
+from tokenizers.models import BPE, WordLevel
+from tokenizers.trainers import BpeTrainer, WordLevelTrainer
+from tokenizers.pre_tokenizers import Whitespace, WhitespaceSplit
 
-class PixelArtTokenizerWrapper:
-    def __init__(self, vocab_size=2000, tokenizer_path="tokenizer.json"):
-        self.input_bpe_space = vocab_size
+# ==========================================
+# 1. 영어 프롬프트 전용 BPE 토크나이저
+# ==========================================
+class TextBpeTokenizerWrapper:
+    def __init__(self, vocab_size=5000, tokenizer_path="pixel_text_tokenizer.json"):
+        self.target_vocab_size = vocab_size
         self.tokenizer_path = tokenizer_path
-        
-        self.base_special_tokens = ["<PAD>", "<SOS>", "<EOS>", "<UNK>"]
+        self.special_tokens = ["<PAD>", "<SOS>", "<EOS>", "<UNK>", "<TASK_GEN>", "<TASK_DESC>"]
         self.pad_id, self.sos_id, self.eos_id, self.unk_id = 0, 1, 2, 3
         
         self.base_tokenizer = Tokenizer(BPE(unk_token="<UNK>"))
@@ -22,74 +23,142 @@ class PixelArtTokenizerWrapper:
         if os.path.exists(self.tokenizer_path):
             self.load()
 
-    @property
-    def vocab_size(self):
-        return self.base_tokenizer.get_vocab_size()
-
-    @property
-    def input_vocab_size(self):
-        return self.base_tokenizer.get_vocab_size()
-
     def train_from_dataset(self, dataset_path):
-        """데이터셋에서 input BPE 학습 및 output 문장들을 스페셜 토큰으로 등록"""
-        inputs_corpus = []
-        outputs_set = set()
+        def corpus_iterator():
+            with open(dataset_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if not line.strip(): continue
+                    data = json.loads(line)
+                    if data["input"].startswith("<TASK_GEN>"):
+                        yield data["input"].replace("<TASK_GEN>", "").strip()
+                    if "input" in data and data["input"].startswith("<TASK_DESC>"):
+                        yield data["output"].strip()
 
-        # 💡 분류 성능 방어를 위한 핵심 키워드 보호 풀 빌드
-        # 이 단어들은 BPE 알고리즘 안에서 서브워드로 찢어지지 않고 온전한 원형을 보존합니다.
-        protected_keywords = [
-            "square", "triangle", "cross", "checkerboard", "diamond", "stripes", "frame", "hollow",
-            "red", "blue", "green", "yellow", "black", "white", "purple", "orange", "pink", "gray",
-            "brown", "gold", "silver", "book", "potion", "bottle", "liquid", "filled", "asset", "pixel",
-            "slender", "sleek", "ornate", "reinforced", "basic", "small", "medium", "large", "grand"
-        ]
-
-        with open(dataset_path, "r", encoding="utf-8") as f:
-            for line in f:
-                if not line.strip(): continue
-                data = json.loads(line)
-                inputs_corpus.append(data["input"].lower())
-                
-                clean_output = data["output"].strip()
-                if clean_output:
-                    outputs_set.add(clean_output)
-
-        unique_outputs = sorted(list(outputs_set))
-        
-        # 💡 공통 스페셜 토큰 + 보호할 핵심 키워드 + 분류 타깃용 고유 아웃풋 통째로 병합
-        all_special_tokens = self.base_special_tokens + protected_keywords + unique_outputs
-
-        dynamic_vocab_size = self.input_bpe_space + len(all_special_tokens)
-
-        # 동적으로 확장된 크기로 BPE 학습 실행 (보호 키워드가 스페셜 토큰 취급되어 고유 ID를 부여받음)
-        trainer = BpeTrainer(vocab_size=dynamic_vocab_size, special_tokens=all_special_tokens)
-        self.base_tokenizer.train_from_iterator(inputs_corpus, trainer)
-
-    def save(self):
+        trainer = BpeTrainer(
+            vocab_size=self.target_vocab_size,
+            min_frequency=1,
+            special_tokens=self.special_tokens
+        )
+        self.base_tokenizer.train_from_iterator(corpus_iterator(), trainer)
         self.base_tokenizer.save(self.tokenizer_path)
+
+    def encode(self, text, add_sos_eos=True):
+        # 💡 [방어 코드] 미공개 테스트셋에서 완전 무작위 Out-of-Vocabulary 발생 시 크래시 원천 차단
+        try:
+            token_ids = self.base_tokenizer.encode(text).ids
+        except Exception:
+            token_ids = []
+            for char in text:
+                try:
+                    token_ids.extend(self.base_tokenizer.encode(char).ids)
+                except Exception:
+                    continue  # 사전에 도저히 없는 이모지나 글자는 스킵
+                    
+        if add_sos_eos:
+            return [self.sos_id] + token_ids + [self.eos_id]
+        return token_ids
+
+    def decode(self, token_ids):
+        if isinstance(token_ids, torch.Tensor):
+            token_ids = token_ids.tolist()
+            
+        # 💡 [방어 코드] token_to_id가 None을 반환할 것에 대비하여 필터 집합 구성 변경
+        ignore_ids = {self.pad_id, self.sos_id, self.eos_id}
+        for token_name in ["<TASK_GEN>", "<TASK_DESC>", "<UNK>"]:
+            tid = self.base_tokenizer.token_to_id(token_name)
+            if tid is not None:
+                ignore_ids.add(tid)
+                
+        filtered_ids = [tid for tid in token_ids if tid not in ignore_ids]
+        return self.base_tokenizer.decode(filtered_ids)
 
     def load(self):
         self.base_tokenizer = Tokenizer.from_file(self.tokenizer_path)
 
-    def encode_input(self, text):
-        """Input 자연어 텍스트를 정제 후 토큰 ID 리스트로 인코딩"""
-        # 특수문자 제거 규칙 고도화 및 소문자 정형화
-        clean = text.lower().replace("?", "").replace(",", "").replace(".", "").replace("-", " ").replace("_", " ").strip()
-        return self.base_tokenizer.encode(clean).ids
 
-    def encode_output(self, text):
-        clean = text.strip()
-        token_id = self.base_tokenizer.token_to_id(clean)
-        return token_id if token_id is not None else self.unk_id
+# ==========================================
+# 2. RLE 픽셀 프로토콜 전용 WordLevel 토크나이저
+# ==========================================
+class PixelWordTokenizerWrapper:
+    def __init__(self, tokenizer_path="pixel_pixel_tokenizer.json"):
+        self.tokenizer_path = tokenizer_path
+        self.special_tokens = ["<PAD>", "<SOS>", "<EOS>", "<UNK>", "<TASK_GEN>", "<TASK_DESC>"]
+        self.pad_id, self.sos_id, self.eos_id, self.unk_id = 0, 1, 2, 3
+        
+        self.base_tokenizer = Tokenizer(WordLevel(unk_token="<UNK>"))
+        self.base_tokenizer.pre_tokenizer = WhitespaceSplit()
 
-    def decode_output(self, token_id):
-        token_str = self.base_tokenizer.id_to_token(int(token_id))
-        return token_str if token_str is not None else "<UNK>"
+        if os.path.exists(self.tokenizer_path):
+            self.load()
 
-class PixelArtDataset(Dataset):
-    def __init__(self, dataset_path, wrapper_tokenizer):
-        self.tokenizer = wrapper_tokenizer
+    def train_from_dataset(self, dataset_path):
+        def corpus_iterator():
+            with open(dataset_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if not line.strip(): continue
+                    data = json.loads(line)
+                    if data["input"].startswith("<TASK_DESC>"):
+                        yield data["input"].replace("<TASK_DESC>", "").strip()
+                    if data["input"].startswith("<TASK_GEN>"):
+                        yield data["output"].strip()
+
+        trainer = WordLevelTrainer(vocab_size=5000, min_frequency=1, special_tokens=self.special_tokens)
+        self.base_tokenizer.train_from_iterator(corpus_iterator(), trainer)
+        self.base_tokenizer.save(self.tokenizer_path)
+
+    def encode(self, text, add_sos_eos=True):
+        try:
+            token_ids = self.base_tokenizer.encode(text).ids
+        except Exception:
+            token_ids = []
+            for word in text.split():
+                try:
+                    token_ids.extend(self.base_tokenizer.encode(word).ids)
+                except Exception:
+                    continue
+                    
+        if add_sos_eos:
+            return [self.sos_id] + token_ids + [self.eos_id]
+        return token_ids
+
+    def decode(self, token_ids):
+        if isinstance(token_ids, torch.Tensor):
+            token_ids = token_ids.tolist()
+            
+        # 💡 [방어 코드] token_to_id가 None을 반환하더라도 안전하게 정수 매핑 셋 확보
+        ignore_ids = {self.pad_id, self.sos_id, self.eos_id}
+        for token_name in ["<TASK_DESC>", "<TASK_GEN>", "<UNK>"]:
+            tid = self.base_tokenizer.token_to_id(token_name)
+            if tid is not None:
+                ignore_ids.add(tid)
+                
+        # id_to_token 시 발생할 수 있는 결측 에러 방지 가드
+        filtered_tokens = []
+        for tid in token_ids:
+            if tid in ignore_ids:
+                continue
+            try:
+                t = self.base_tokenizer.id_to_token(tid)
+                if t is not None:
+                    filtered_tokens.append(t)
+            except Exception:
+                continue
+                
+        return " ".join(filtered_tokens)
+
+    def load(self):
+        self.base_tokenizer = Tokenizer.from_file(self.tokenizer_path)
+
+
+# ==========================================
+# 3. 2원화 토크나이저 대응 대칭형 Dataset
+# ==========================================
+class HybridPixelArtDataset(Dataset):
+    def __init__(self, dataset_path, text_tokenizer, pixel_tokenizer):
+        self.text_tokenizer = text_tokenizer
+        self.pixel_tokenizer = pixel_tokenizer
         self.samples = []
+        
         with open(dataset_path, "r", encoding="utf-8") as f:
             for line in f:
                 if line.strip():
@@ -100,18 +169,30 @@ class PixelArtDataset(Dataset):
     
     def __getitem__(self, index):
         sample = self.samples[index]
-        return {
-            "input_ids": torch.tensor(self.tokenizer.encode_input(sample["input"]), dtype=torch.long),
-            "target_id": torch.tensor(self.tokenizer.encode_output(sample["output"]), dtype=torch.long)
-        }
+        raw_input = sample["input"]
+        raw_output = sample["output"]
 
-def get_pixel_collate_fn(pad_id):
-    def collate_fn(batch):
-        input_ids = [item["input_ids"] for item in batch]
-        target_ids = [item["target_id"] for item in batch]
-        
+        if raw_input.startswith("<TASK_GEN>"):
+            pure_text = raw_input.replace("<TASK_GEN>", "").strip()
+            gen_task_id = self.text_tokenizer.base_tokenizer.token_to_id("<TASK_GEN>")
+            # 💡 혹시라도 토크나이저 내부에서 매핑을 못 찾으면 임시 고정 아이디 배정
+            if gen_task_id is None: gen_task_id = 4 
+            
+            input_ids = [self.text_tokenizer.sos_id, gen_task_id] + self.text_tokenizer.encode(pure_text, add_sos_eos=False) + [self.text_tokenizer.eos_id]
+            target_ids = self.pixel_tokenizer.encode(raw_output, add_sos_eos=True)
+            task_type = "GEN"
+
+        elif raw_input.startswith("<TASK_DESC>"):
+            pure_pixel = raw_input.replace("<TASK_DESC>", "").strip()
+            desc_task_id = self.pixel_tokenizer.base_tokenizer.token_to_id("<TASK_DESC>")
+            if desc_task_id is None: desc_task_id = 5
+            
+            input_ids = [self.pixel_tokenizer.sos_id, desc_task_id] + self.pixel_tokenizer.encode(pure_pixel, add_sos_eos=False) + [self.pixel_tokenizer.eos_id]
+            target_ids = self.text_tokenizer.encode(raw_output, add_sos_eos=True)
+            task_type = "DESC"
+
         return {
-            "input_ids": pad_sequence(input_ids, batch_first=True, padding_value=pad_id),
-            "target_ids": torch.stack(target_ids)
+            "input_ids": torch.tensor(input_ids, dtype=torch.long),
+            "target_ids": torch.tensor(target_ids, dtype=torch.long),
+            "task_type": task_type
         }
-    return collate_fn

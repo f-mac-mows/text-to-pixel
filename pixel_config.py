@@ -7,10 +7,10 @@ VERSION_FILE = "pixel_versions.json"
 def load_or_init_versions():
     """json 파일에서 버전을 읽어오거나, 없으면 초기값으로 생성"""
     default_versions = {
-        "TOTAL_DATASET": 13,
-        "DATASET": 9,
-        "MODEL": 13,
-        "TOKENIZER": 9
+        "TOTAL_DATASET": 0,
+        "DATASET": 0,
+        "MODEL": 0,
+        "TOKENIZER": 0
     }
     
     if os.path.exists(VERSION_FILE):
@@ -36,18 +36,22 @@ class PixelPaths:
     MODEL_VER = _v["MODEL"]
     TOKENIZER_VER = _v["TOKENIZER"]
 
-    # 📂 스크린샷에 매칭되는 아카이빙 폴더 정의
+    # 📂 아카이빙 폴더 정의
     DATA_DIR = "dataset_history"
     MODEL_DIR = "models_history"
     TOKEN_DIR = "tokenizer_history"
 
-    # 🎯 하위 스크립트들이 이 경로를 그대로 사용하므로 파일이 자동으로 해당 폴더에 저장됩니다.
+    # 🎯 데이터셋 경로 명세
     TOTAL_DATA = os.path.join(DATA_DIR, f"pixel_dataset_v{TOTAL_DATASET_VER}.jsonl")
     TRAIN_DATA = os.path.join(DATA_DIR, f"pixel_train_v{DATASET_VER}.jsonl")
     VAL_DATA   = os.path.join(DATA_DIR, f"pixel_val_v{DATASET_VER}.jsonl")
     TEST_DATA  = os.path.join(DATA_DIR, f"pixel_test_v{DATASET_VER}.jsonl")
 
-    TOKENIZER        = os.path.join(TOKEN_DIR, f"pixel_bpe_tokenizer_v{TOKENIZER_VER}.json")
+    # 💡 [핵심 통합] 2원화 토크나이저 타겟 경로 공식 지정
+    TEXT_TOKENIZER  = os.path.join(TOKEN_DIR, f"pixel_text_tokenizer_v{TOKENIZER_VER}.json")
+    PIXEL_TOKENIZER = os.path.join(TOKEN_DIR, f"pixel_pixel_tokenizer_v{TOKENIZER_VER}.json")
+    
+    # 모델 가중치 체크포인트 경로
     MODEL_CHECKPOINT = os.path.join(MODEL_DIR, f"pixel_model_v{MODEL_VER}.pt")
 
     @classmethod
@@ -58,11 +62,14 @@ class PixelPaths:
         write("=" * 60)
         write(f"🛰️  [PIXEL-ART ENGINE CONFIG] ACTIVE VERSION MANAGEMENT")
         write(f" ├─ Dataset Version  : v{cls.DATASET_VER}")
-        write(f" ├─ BPE Version      : v{cls.TOKENIZER_VER}")
+        write(f" ├─ Tokenizer Version: v{cls.TOKENIZER_VER}")
         write(f" └─ Model Version    : v{cls.MODEL_VER}")
         write("-" * 60)
         write(f" 📝 [Source Train]   : {cls.TRAIN_DATA}")
         write(f" 📝 [Source Val]     : {cls.VAL_DATA}")
         write(f" 📝 [Source Test]    : {cls.TEST_DATA}")
+        # 💡 요약 창에서도 분리된 사전을 직관적으로 볼 수 있게 수정
+        write(f" 🔑 [Text Tokenizer] : {cls.TEXT_TOKENIZER}")
+        write(f" 🔑 [Pixel Tokenizer]: {cls.PIXEL_TOKENIZER}")
         write(f" 💾 [Target Weights] : {cls.MODEL_CHECKPOINT}")
         write("=" * 60 + "\n")
