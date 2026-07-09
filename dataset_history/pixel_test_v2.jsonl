@@ -1,0 +1,1086 @@
+{"input": "create a beautiful diamond colored orange", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 3W 11O 2W 1X 4W 9O 3W 1X 5W 7O 4W 1X 6W 5O 5W 1X 7W 3O 6W 1X 8W 1O 7W 1X 16W"}
+{"input": "create a retro 16x16 border frame colored gold", "output": "[ Re2 ] [ 16D 1X ] [ Re12 ] [ 2D 12W 2D 1X ] [ Re2 ] [ 16D  ]"}
+{"input": "render a retro 16x16 yellow hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 1Y 1W 1Y 6W 1X 6W 1Y 3W 1Y 5W 1X 5W 1Y 5W 1Y 4W 1X 4W 1Y 7W 1Y 3W 1X 3W 1Y 9W 1Y 2W 1X 2W 1Y 11W 1Y 1W 1X 1W 1Y 13W 1Y 1X [ Re3 ] [ 1Y 14W 1Y 1X ] 16Y 1X [ Re2 ] [ 16W  ]"}
+{"input": "paint a gold hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10D 3W 1X [ Re8 ] [ 3W 1D 8W 1D 3W 1X ] 3W 10D 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "render a beautiful white horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system paint a yellow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 1W 15Y 1X [ Re4 ] [ 16Y 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful horizontal stripes colored green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a lime checkerboard for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a purple cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 green diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 3W 11G 2W 1X 4W 9G 3W 1X 5W 7G 4W 1X 6W 5G 5W 1X 7W 3G 6W 1X 8W 1G 7W 1X 16W"}
+{"input": "sketch a simple square with blue color", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "make a purple hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 1P 1W 1P 6W 1X 6W 1P 3W 1P 5W 1X 5W 1P 5W 1P 4W 1X 4W 1P 7W 1P 3W 1X 3W 1P 9W 1P 2W 1X 2W 1P 11W 1P 1W 1X 1W 1P 13W 1P 1X [ Re3 ] [ 1P 14W 1P 1X ] 16P 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you create a square colored brown", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system render a sky blue checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a hollow square colored red for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10R 3W 1X [ Re8 ] [ 3W 1R 8W 1R 3W 1X ] 3W 10R 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system paint a red border frame grid", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "could you please draw a silver cross for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a beautiful purple square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10P 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "silver triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 3V 6W 1X 6W 5V 5W 1X 5W 7V 4W 1X 4W 9V 3W 1X 3W 11V 2W 1X 2W 13V 1W 1X 1W 15V 1X [ Re4 ] [ 16V 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple gold border frame", "output": "[ Re2 ] [ 16D 1X ] [ Re12 ] [ 2D 12W 2D 1X ] [ Re2 ] [ 16D  ]"}
+{"input": "paint a retro 16x16 lime hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you generate a diamond in silver", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 3V 6W 1X 6W 5V 5W 1X 5W 7V 4W 1X 4W 9V 3W 1X 3W 11V 2W 1X 2W 13V 1W 1X 3W 11V 2W 1X 4W 9V 3W 1X 5W 7V 4W 1X 6W 5V 5W 1X 7W 3V 6W 1X 8W 1V 7W 1X 16W"}
+{"input": "could you please render a blue border frame for me", "output": "[ Re2 ] [ 16B 1X ] [ Re12 ] [ 2B 12W 2B 1X ] [ Re2 ] [ 16B  ]"}
+{"input": "make a retro 16x16 white cross pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "sketch a cross with purple color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a olive hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a beautiful yellow diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 3W 11Y 2W 1X 4W 9Y 3W 1X 5W 7Y 4W 1X 6W 5Y 5W 1X 7W 3Y 6W 1X 8W 1Y 7W 1X 16W"}
+{"input": "system render a gray diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 3W 11A 2W 1X 4W 9A 3W 1X 5W 7A 4W 1X 6W 5A 5W 1X 7W 3A 6W 1X 8W 1A 7W 1X 16W"}
+{"input": "create a beautiful horizontal stripes colored gold", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12D 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a yellow checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 3W 1X 3W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a hollow square colored purple for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10P 3W 1X [ Re8 ] [ 3W 1P 8W 1P 3W 1X ] 3W 10P 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "checkerboard sky blue", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a black hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10K 3W 1X [ Re8 ] [ 3W 1K 8W 1K 3W 1X ] 3W 10K 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 purple hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 1P 1W 1P 6W 1X 6W 1P 3W 1P 5W 1X 5W 1P 5W 1P 4W 1X 4W 1P 7W 1P 3W 1X 3W 1P 9W 1P 2W 1X 2W 1P 11W 1P 1W 1X 1W 1P 13W 1P 1X [ Re3 ] [ 1P 14W 1P 1X ] 16P 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a horizontal stripes with blue color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12B 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a purple triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please generate a checkerboard in brown", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please render a brown checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a mint border frame for me", "output": "[ Re2 ] [ 16M 1X ] [ Re12 ] [ 2M 12W 2M 1X ] [ Re2 ] [ 16M  ]"}
+{"input": "system make a purple border frame pixel art", "output": "[ Re2 ] [ 16P 1X ] [ Re12 ] [ 2P 12W 2P 1X ] [ Re2 ] [ 16P  ]"}
+{"input": "generate a simple checkerboard in red", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 3W 1X 3W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a green horizontal stripes pixel art for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system generate a hollow triangle in navy", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 1U 1W 1U 6W 1X 6W 1U 3W 1U 5W 1X 5W 1U 5W 1U 4W 1X 4W 1U 7W 1U 3W 1X 3W 1U 9W 1U 2W 1X 2W 1U 11W 1U 1W 1X 1W 1U 13W 1U 1X [ Re3 ] [ 1U 14W 1U 1X ] 16U 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you create a horizontal stripes colored lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a gold cross grid for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1D 7W 1X ] 2W 12D 2W 1X [ Re5 ] [ 8W 1D 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a lime hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple diamond with olive color", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "can you create a triangle colored green", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 1W 15G 1X [ Re4 ] [ 16G 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system make a navy diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 3W 11U 2W 1X 4W 9U 3W 1X 5W 7U 4W 1X 6W 5U 5W 1X 7W 3U 6W 1X 8W 1U 7W 1X 16W"}
+{"input": "please render a gray triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 1W 15A 1X [ Re4 ] [ 16A 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a purple cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 purple checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Create a hollow square colored gray", "output": "[ Re3 ] [ 16W 1X ] 3W 10A 3W 1X [ Re8 ] [ 3W 1A 8W 1A 3W 1X ] 3W 10A 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "could you please generate a hollow triangle in blue for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 1B 1W 1B 6W 1X 6W 1B 3W 1B 5W 1X 5W 1B 5W 1B 4W 1X 4W 1B 7W 1B 3W 1X 3W 1B 9W 1B 2W 1X 2W 1B 11W 1B 1W 1X 1W 1B 13W 1B 1X [ Re3 ] [ 1B 14W 1B 1X ] 16B 1X [ Re2 ] [ 16W  ]"}
+{"input": "hollow square beige", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a beautiful blue checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 3W 1X 3W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a diamond colored beige", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "can you make a white triangle pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "please create a hollow triangle colored mint", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 1M 1W 1M 6W 1X 6W 1M 3W 1M 5W 1X 5W 1M 5W 1M 4W 1X 4W 1M 7W 1M 3W 1X 3W 1M 9W 1M 2W 1X 2W 1M 11W 1M 1W 1X 1W 1M 13W 1M 1X [ Re3 ] [ 1M 14W 1M 1X ] 16M 1X [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple olive triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 1W 15E 1X [ Re4 ] [ 16E 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple orange square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10O 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you generate a border frame in red", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "green horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a simple cross in green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1G 7W 1X ] 2W 12G 2W 1X [ Re5 ] [ 8W 1G 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 hollow square in black", "output": "[ Re3 ] [ 16W 1X ] 3W 10K 3W 1X [ Re8 ] [ 3W 1K 8W 1K 3W 1X ] 3W 10K 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you make a yellow horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Y 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a mint diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "draw a retro 16x16 purple square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10P 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "create a simple border frame colored blue", "output": "[ Re2 ] [ 16B 1X ] [ Re12 ] [ 2B 12W 2B 1X ] [ Re2 ] [ 16B  ]"}
+{"input": "please make a black horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12K 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a navy hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 1U 1W 1U 6W 1X 6W 1U 3W 1U 5W 1X 5W 1U 5W 1U 4W 1X 4W 1U 7W 1U 3W 1X 3W 1U 9W 1U 2W 1X 2W 1U 11W 1U 1W 1X 1W 1U 13W 1U 1X [ Re3 ] [ 1U 14W 1U 1X ] 16U 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please draw a yellow checkerboard for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 3W 1X 3W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Create a triangle colored green", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 1W 15G 1X [ Re4 ] [ 16G 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple silver hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10V 3W 1X [ Re8 ] [ 3W 1V 8W 1V 3W 1X ] 3W 10V 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a mint diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "paint a beautiful brown cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1N 7W 1X ] 2W 12N 2W 1X [ Re5 ] [ 8W 1N 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a hollow square colored beige for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a beautiful triangle colored lime", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 1W 15L 1X [ Re4 ] [ 16L 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 cross in silver", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "cross black", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1K 7W 1X ] 2W 12K 2W 1X [ Re5 ] [ 8W 1K 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system paint a purple square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10P 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system create a border frame colored magenta", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "system generate a hollow square in orange", "output": "[ Re3 ] [ 16W 1X ] 3W 10O 3W 1X [ Re8 ] [ 3W 1O 8W 1O 3W 1X ] 3W 10O 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a retro 16x16 purple triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a purple border frame", "output": "[ Re2 ] [ 16P 1X ] [ Re12 ] [ 2P 12W 2P 1X ] [ Re2 ] [ 16P  ]"}
+{"input": "make a gold hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10D 3W 1X [ Re8 ] [ 3W 1D 8W 1D 3W 1X ] 3W 10D 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Triangle gold", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 1W 15D 1X [ Re4 ] [ 16D 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple checkerboard with purple color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a beautiful pink hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10H 3W 1X [ Re8 ] [ 3W 1H 8W 1H 3W 1X ] 3W 10H 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you create a hollow triangle colored black", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 1K 1W 1K 6W 1X 6W 1K 3W 1K 5W 1X 5W 1K 5W 1K 4W 1X 4W 1K 7W 1K 3W 1X 3W 1K 9W 1K 2W 1X 2W 1K 11W 1K 1W 1X 1W 1K 13W 1K 1X [ Re3 ] [ 1K 14W 1K 1X ] 16K 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a simple pink border frame", "output": "[ Re2 ] [ 16H 1X ] [ Re12 ] [ 2H 12W 2H 1X ] [ Re2 ] [ 16H  ]"}
+{"input": "draw a retro 16x16 purple cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 triangle in purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a beautiful purple horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12P 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a red diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 3W 11R 2W 1X 4W 9R 3W 1X 5W 7R 4W 1X 6W 5R 5W 1X 7W 3R 6W 1X 8W 1R 7W 1X 16W"}
+{"input": "sketch a hollow triangle with beige color", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 1Z 1W 1Z 6W 1X 6W 1Z 3W 1Z 5W 1X 5W 1Z 5W 1Z 4W 1X 4W 1Z 7W 1Z 3W 1X 3W 1Z 9W 1Z 2W 1X 2W 1Z 11W 1Z 1W 1X 1W 1Z 13W 1Z 1X [ Re3 ] [ 1Z 14W 1Z 1X ] 16Z 1X [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful horizontal stripes colored mint", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12M 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you render a orange checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 3W 1X 3W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a blue square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "make a simple pink hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 1H 1W 1H 6W 1X 6W 1H 3W 1H 5W 1X 5W 1H 5W 1H 4W 1X 4W 1H 7W 1H 3W 1X 3W 1H 9W 1H 2W 1X 2W 1H 11W 1H 1W 1X 1W 1H 13W 1H 1X [ Re3 ] [ 1H 14W 1H 1X ] 16H 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a orange hollow square for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10O 3W 1X [ Re8 ] [ 3W 1O 8W 1O 3W 1X ] 3W 10O 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Render a silver horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12V 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you generate a hollow triangle in mint", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 1M 1W 1M 6W 1X 6W 1M 3W 1M 5W 1X 5W 1M 5W 1M 4W 1X 4W 1M 7W 1M 3W 1X 3W 1M 9W 1M 2W 1X 2W 1M 11W 1M 1W 1X 1W 1M 13W 1M 1X [ Re3 ] [ 1M 14W 1M 1X ] 16M 1X [ Re2 ] [ 16W  ]"}
+{"input": "sky blue border frame", "output": "[ Re2 ] [ 16S 1X ] [ Re12 ] [ 2S 12W 2S 1X ] [ Re2 ] [ 16S  ]"}
+{"input": "Diamond red", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 3W 11R 2W 1X 4W 9R 3W 1X 5W 7R 4W 1X 6W 5R 5W 1X 7W 3R 6W 1X 8W 1R 7W 1X 16W"}
+{"input": "red cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1R 7W 1X ] 2W 12R 2W 1X [ Re5 ] [ 8W 1R 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a pink border frame grid for me", "output": "[ Re2 ] [ 16H 1X ] [ Re12 ] [ 2H 12W 2H 1X ] [ Re2 ] [ 16H  ]"}
+{"input": "make a retro 16x16 black horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12K 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful sky blue border frame", "output": "[ Re2 ] [ 16S 1X ] [ Re12 ] [ 2S 12W 2S 1X ] [ Re2 ] [ 16S  ]"}
+{"input": "please create a checkerboard colored red", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 3W 1X 3W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful border frame colored green", "output": "[ Re2 ] [ 16G 1X ] [ Re12 ] [ 2G 12W 2G 1X ] [ Re2 ] [ 16G  ]"}
+{"input": "can you draw a purple diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 3W 11P 2W 1X 4W 9P 3W 1X 5W 7P 4W 1X 6W 5P 5W 1X 7W 3P 6W 1X 8W 1P 7W 1X 16W"}
+{"input": "draw a retro 16x16 sky blue horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12S 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "horizontal stripes lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 cross in orange", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1O 7W 1X ] 2W 12O 2W 1X [ Re5 ] [ 8W 1O 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 diamond in olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "could you please generate a hollow triangle in sky blue for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 1S 1W 1S 6W 1X 6W 1S 3W 1S 5W 1X 5W 1S 5W 1S 4W 1X 4W 1S 7W 1S 3W 1X 3W 1S 9W 1S 2W 1X 2W 1S 11W 1S 1W 1X 1W 1S 13W 1S 1X [ Re3 ] [ 1S 14W 1S 1X ] 16S 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple diamond with sky blue color", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 3S 6W 1X 6W 5S 5W 1X 5W 7S 4W 1X 4W 9S 3W 1X 3W 11S 2W 1X 2W 13S 1W 1X 3W 11S 2W 1X 4W 9S 3W 1X 5W 7S 4W 1X 6W 5S 5W 1X 7W 3S 6W 1X 8W 1S 7W 1X 16W"}
+{"input": "Render a olive hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 1E 1W 1E 6W 1X 6W 1E 3W 1E 5W 1X 5W 1E 5W 1E 4W 1X 4W 1E 7W 1E 3W 1X 3W 1E 9W 1E 2W 1X 2W 1E 11W 1E 1W 1X 1W 1E 13W 1E 1X [ Re3 ] [ 1E 14W 1E 1X ] 16E 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a green diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 3W 11G 2W 1X 4W 9G 3W 1X 5W 7G 4W 1X 6W 5G 5W 1X 7W 3G 6W 1X 8W 1G 7W 1X 16W"}
+{"input": "please draw a silver border frame", "output": "[ Re2 ] [ 16V 1X ] [ Re12 ] [ 2V 12W 2V 1X ] [ Re2 ] [ 16V  ]"}
+{"input": "paint a beautiful yellow horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Y 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 magenta retro 16x16 square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10J 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please generate a border frame in mint", "output": "[ Re2 ] [ 16M 1X ] [ Re12 ] [ 2M 12W 2M 1X ] [ Re2 ] [ 16M  ]"}
+{"input": "create a retro 16x16 horizontal stripes colored yellow", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Y 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Paint a lime triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 1W 15L 1X [ Re4 ] [ 16L 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a simple purple checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a triangle colored blue", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 1W 15B 1X [ Re4 ] [ 16B 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a gold checkerboard for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 3W 1X 3W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful brown triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 1W 15N 1X [ Re4 ] [ 16N 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a retro 16x16 border frame colored red", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "create a hollow triangle colored red", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 1R 1W 1R 6W 1X 6W 1R 3W 1R 5W 1X 5W 1R 5W 1R 4W 1X 4W 1R 7W 1R 3W 1X 3W 1R 9W 1R 2W 1X 2W 1R 11W 1R 1W 1X 1W 1R 13W 1R 1X [ Re3 ] [ 1R 14W 1R 1X ] 16R 1X [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful checkerboard colored green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 3W 1X 3W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Render a silver cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a triangle in beige", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 1W 15Z 1X [ Re4 ] [ 16Z 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a green horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful cross colored sky blue", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1S 7W 1X ] 2W 12S 2W 1X [ Re5 ] [ 8W 1S 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system generate a square in gray", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10A 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "sketch a hollow triangle with olive color", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 1E 1W 1E 6W 1X 6W 1E 3W 1E 5W 1X 5W 1E 5W 1E 4W 1X 4W 1E 7W 1E 3W 1X 3W 1E 9W 1E 2W 1X 2W 1E 11W 1E 1W 1X 1W 1E 13W 1E 1X [ Re3 ] [ 1E 14W 1E 1X ] 16E 1X [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful checkerboard colored mint", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 3W 1X 3W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system create a hollow square colored navy", "output": "[ Re3 ] [ 16W 1X ] 3W 10U 3W 1X [ Re8 ] [ 3W 1U 8W 1U 3W 1X ] 3W 10U 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a simple green square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10G 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "make a simple olive hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "render a silver checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1V 1W 1V 1W 1V 1W 1V 1W 1V 1W 1V 3W 1X 3W 1V 1W 1V 1W 1V 1W 1V 1W 1V 1W 1V 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a navy square grid for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Diamond pink", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 3W 11H 2W 1X 4W 9H 3W 1X 5W 7H 4W 1X 6W 5H 5W 1X 7W 3H 6W 1X 8W 1H 7W 1X 16W"}
+{"input": "could you please create a square colored gray for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10A 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 green hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "Generate a hollow square in mint", "output": "[ Re3 ] [ 16W 1X ] 3W 10M 3W 1X [ Re8 ] [ 3W 1M 8W 1M 3W 1X ] 3W 10M 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system paint a silver cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a hollow square colored red", "output": "[ Re3 ] [ 16W 1X ] 3W 10R 3W 1X [ Re8 ] [ 3W 1R 8W 1R 3W 1X ] 3W 10R 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please create a checkerboard colored lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 blue border frame", "output": "[ Re2 ] [ 16B 1X ] [ Re12 ] [ 2B 12W 2B 1X ] [ Re2 ] [ 16B  ]"}
+{"input": "paint a beautiful orange triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 1W 15O 1X [ Re4 ] [ 16O 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a sky blue border frame pixel art", "output": "[ Re2 ] [ 16S 1X ] [ Re12 ] [ 2S 12W 2S 1X ] [ Re2 ] [ 16S  ]"}
+{"input": "system render a green horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a beautiful white checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a white hollow square pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "generate a simple border frame in beige", "output": "[ Re2 ] [ 16Z 1X ] [ Re12 ] [ 2Z 12W 2Z 1X ] [ Re2 ] [ 16Z  ]"}
+{"input": "render a beautiful gold triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 1W 15D 1X [ Re4 ] [ 16D 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a lime checkerboard pixel art for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please render a navy border frame", "output": "[ Re2 ] [ 16U 1X ] [ Re12 ] [ 2U 12W 2U 1X ] [ Re2 ] [ 16U  ]"}
+{"input": "system draw a gray hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10A 3W 1X [ Re8 ] [ 3W 1A 8W 1A 3W 1X ] 3W 10A 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system make a navy triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 1W 15U 1X [ Re4 ] [ 16U 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 red checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 3W 1X 3W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a simple diamond in mint", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "could you please generate a hollow triangle in purple for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 1P 1W 1P 6W 1X 6W 1P 3W 1P 5W 1X 5W 1P 5W 1P 4W 1X 4W 1P 7W 1P 3W 1X 3W 1P 9W 1P 2W 1X 2W 1P 11W 1P 1W 1X 1W 1P 13W 1P 1X [ Re3 ] [ 1P 14W 1P 1X ] 16P 1X [ Re2 ] [ 16W  ]"}
+{"input": "please draw a white horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Blue diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 3W 11B 2W 1X 4W 9B 3W 1X 5W 7B 4W 1X 6W 5B 5W 1X 7W 3B 6W 1X 8W 1B 7W 1X 16W"}
+{"input": "Make a black horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12K 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a red cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1R 7W 1X ] 2W 12R 2W 1X [ Re5 ] [ 8W 1R 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a mint cross grid for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1M 7W 1X ] 2W 12M 2W 1X [ Re5 ] [ 8W 1M 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a blue square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 triangle in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "create a retro 16x16 hollow triangle colored purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 1P 1W 1P 6W 1X 6W 1P 3W 1P 5W 1X 5W 1P 5W 1P 4W 1X 4W 1P 7W 1P 3W 1X 3W 1P 9W 1P 2W 1X 2W 1P 11W 1P 1W 1X 1W 1P 13W 1P 1X [ Re3 ] [ 1P 14W 1P 1X ] 16P 1X [ Re2 ] [ 16W  ]"}
+{"input": "system make a black square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10K 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "render a retro 16x16 mint horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12M 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a magenta triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a sky blue border frame", "output": "[ Re2 ] [ 16S 1X ] [ Re12 ] [ 2S 12W 2S 1X ] [ Re2 ] [ 16S  ]"}
+{"input": "Render a pink diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 3W 11H 2W 1X 4W 9H 3W 1X 5W 7H 4W 1X 6W 5H 5W 1X 7W 3H 6W 1X 8W 1H 7W 1X 16W"}
+{"input": "sketch a simple square with gray color", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10A 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "generate a beautiful cross in navy", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1U 7W 1X ] 2W 12U 2W 1X [ Re5 ] [ 8W 1U 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a triangle in lime", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 1W 15L 1X [ Re4 ] [ 16L 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a hollow square colored brown", "output": "[ Re3 ] [ 16W 1X ] 3W 10N 3W 1X [ Re8 ] [ 3W 1N 8W 1N 3W 1X ] 3W 10N 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "sketch a simple square with gold color", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10D 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "draw a beautiful silver cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system make a red hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10R 3W 1X [ Re8 ] [ 3W 1R 8W 1R 3W 1X ] 3W 10R 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a beautiful brown checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple border frame with navy color", "output": "[ Re2 ] [ 16U 1X ] [ Re12 ] [ 2U 12W 2U 1X ] [ Re2 ] [ 16U  ]"}
+{"input": "can you make a magenta hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 1J 1W 1J 6W 1X 6W 1J 3W 1J 5W 1X 5W 1J 5W 1J 4W 1X 4W 1J 7W 1J 3W 1X 3W 1J 9W 1J 2W 1X 2W 1J 11W 1J 1W 1X 1W 1J 13W 1J 1X [ Re3 ] [ 1J 14W 1J 1X ] 16J 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a yellow hollow square grid for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10Y 3W 1X [ Re8 ] [ 3W 1Y 8W 1Y 3W 1X ] 3W 10Y 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a retro 16x16 diamond colored gold", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "paint a retro 16x16 white cross grid", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "can you paint a gold hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 1D 1W 1D 6W 1X 6W 1D 3W 1D 5W 1X 5W 1D 5W 1D 4W 1X 4W 1D 7W 1D 3W 1X 3W 1D 9W 1D 2W 1X 2W 1D 11W 1D 1W 1X 1W 1D 13W 1D 1X [ Re3 ] [ 1D 14W 1D 1X ] 16D 1X [ Re2 ] [ 16W  ]"}
+{"input": "Triangle purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "cross white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "paint a beautiful gold hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 1D 1W 1D 6W 1X 6W 1D 3W 1D 5W 1X 5W 1D 5W 1D 4W 1X 4W 1D 7W 1D 3W 1X 3W 1D 9W 1D 2W 1X 2W 1D 11W 1D 1W 1X 1W 1D 13W 1D 1X [ Re3 ] [ 1D 14W 1D 1X ] 16D 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a gold diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "system paint a green hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "please paint a sky blue checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a checkerboard colored sky blue", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "magenta triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a green horizontal stripes for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please generate a cross in sky blue", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1S 7W 1X ] 2W 12S 2W 1X [ Re5 ] [ 8W 1S 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a gray hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10A 3W 1X [ Re8 ] [ 3W 1A 8W 1A 3W 1X ] 3W 10A 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system paint a pink border frame grid", "output": "[ Re2 ] [ 16H 1X ] [ Re12 ] [ 2H 12W 2H 1X ] [ Re2 ] [ 16H  ]"}
+{"input": "make a retro 16x16 mint cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1M 7W 1X ] 2W 12M 2W 1X [ Re5 ] [ 8W 1M 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Gray", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10A 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please make a gold horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12D 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system generate a diamond in navy", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 3W 11U 2W 1X 4W 9U 3W 1X 5W 7U 4W 1X 6W 5U 5W 1X 7W 3U 6W 1X 8W 1U 7W 1X 16W"}
+{"input": "can you render a red square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10R 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system generate a hollow square in lime", "output": "[ Re3 ] [ 16W 1X ] 3W 10L 3W 1X [ Re8 ] [ 3W 1L 8W 1L 3W 1X ] 3W 10L 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "could you please make a orange diamond pixel art for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 3W 11O 2W 1X 4W 9O 3W 1X 5W 7O 4W 1X 6W 5O 5W 1X 7W 3O 6W 1X 8W 1O 7W 1X 16W"}
+{"input": "Draw a beige triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 1W 15Z 1X [ Re4 ] [ 16Z 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful brown diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 3W 11N 2W 1X 4W 9N 3W 1X 5W 7N 4W 1X 6W 5N 5W 1X 7W 3N 6W 1X 8W 1N 7W 1X 16W"}
+{"input": "Create a border frame colored white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "render a beautiful blue square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system render a mint horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12M 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system create a cross colored green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1G 7W 1X ] 2W 12G 2W 1X [ Re5 ] [ 8W 1G 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system create a hollow square colored beige", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "render a simple mint hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10M 3W 1X [ Re8 ] [ 3W 1M 8W 1M 3W 1X ] 3W 10M 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a triangle colored olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 1W 15E 1X [ Re4 ] [ 16E 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "square olive", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10E 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Make a pink square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10H 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a simple magenta simple diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 3W 11J 2W 1X 4W 9J 3W 1X 5W 7J 4W 1X 6W 5J 5W 1X 7W 3J 6W 1X 8W 1J 7W 1X 16W"}
+{"input": "generate a checkerboard in mint", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 3W 1X 3W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a checkerboard with beige color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 3W 1X 3W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Cross purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a border frame colored silver", "output": "[ Re2 ] [ 16V 1X ] [ Re12 ] [ 2V 12W 2V 1X ] [ Re2 ] [ 16V  ]"}
+{"input": "silver border frame", "output": "[ Re2 ] [ 16V 1X ] [ Re12 ] [ 2V 12W 2V 1X ] [ Re2 ] [ 16V  ]"}
+{"input": "please make a purple cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you generate a border frame in gray", "output": "[ Re2 ] [ 16A 1X ] [ Re12 ] [ 2A 12W 2A 1X ] [ Re2 ] [ 16A  ]"}
+{"input": "sketch a horizontal stripes with magenta color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 sky blue triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 3S 6W 1X 6W 5S 5W 1X 5W 7S 4W 1X 4W 9S 3W 1X 3W 11S 2W 1X 2W 13S 1W 1X 1W 15S 1X [ Re4 ] [ 16S 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful square colored beige", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Z 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system render a green checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 3W 1X 3W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a simple silver hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 1V 1W 1V 6W 1X 6W 1V 3W 1V 5W 1X 5W 1V 5W 1V 4W 1X 4W 1V 7W 1V 3W 1X 3W 1V 9W 1V 2W 1X 2W 1V 11W 1V 1W 1X 1W 1V 13W 1V 1X [ Re3 ] [ 1V 14W 1V 1X ] 16V 1X [ Re2 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 olive triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 1W 15E 1X [ Re4 ] [ 16E 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Paint a beige hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a beautiful silver hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 1V 1W 1V 6W 1X 6W 1V 3W 1V 5W 1X 5W 1V 5W 1V 4W 1X 4W 1V 7W 1V 3W 1X 3W 1V 9W 1V 2W 1X 2W 1V 11W 1V 1W 1X 1W 1V 13W 1V 1X [ Re3 ] [ 1V 14W 1V 1X ] 16V 1X [ Re2 ] [ 16W  ]"}
+{"input": "paint a simple brown horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12N 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 sky blue checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "border frame beige", "output": "[ Re2 ] [ 16Z 1X ] [ Re12 ] [ 2Z 12W 2Z 1X ] [ Re2 ] [ 16Z  ]"}
+{"input": "draw a gray square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10A 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you draw a mint triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 1W 15M 1X [ Re4 ] [ 16M 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please draw a white hollow triangle for me", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "please draw a black diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 3W 11K 2W 1X 4W 9K 3W 1X 5W 7K 4W 1X 6W 5K 5W 1X 7W 3K 6W 1X 8W 1K 7W 1X 16W"}
+{"input": "create a beautiful checkerboard colored magenta", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1J 1W 1J 1W 1J 1W 1J 1W 1J 1W 1J 3W 1X 3W 1J 1W 1J 1W 1J 1W 1J 1W 1J 1W 1J 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a white hollow square grid for me", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "system generate a cross in beige", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a retro 16x16 white triangle", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "render a mint hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10M 3W 1X [ Re8 ] [ 3W 1M 8W 1M 3W 1X ] 3W 10M 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "draw a beautiful olive diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "Paint a black border frame grid", "output": "[ Re2 ] [ 16K 1X ] [ Re12 ] [ 2K 12W 2K 1X ] [ Re2 ] [ 16K  ]"}
+{"input": "generate a beautiful horizontal stripes in orange", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12O 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Square green", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10G 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "lime cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1L 7W 1X ] 2W 12L 2W 1X [ Re5 ] [ 8W 1L 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you render a brown horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12N 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a beautiful square in lime", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10L 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please make a green checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 3W 1X 3W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple black diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 3W 11K 2W 1X 4W 9K 3W 1X 5W 7K 4W 1X 6W 5K 5W 1X 7W 3K 6W 1X 8W 1K 7W 1X 16W"}
+{"input": "please draw a brown square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you create a diamond colored blue", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 3W 11B 2W 1X 4W 9B 3W 1X 5W 7B 4W 1X 6W 5B 5W 1X 7W 3B 6W 1X 8W 1B 7W 1X 16W"}
+{"input": "make a white diamond pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "create a simple cross colored olive", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1E 7W 1X ] 2W 12E 2W 1X [ Re5 ] [ 8W 1E 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a green diamond pixel art for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 3W 11G 2W 1X 4W 9G 3W 1X 5W 7G 4W 1X 6W 5G 5W 1X 7W 3G 6W 1X 8W 1G 7W 1X 16W"}
+{"input": "could you please generate a triangle in lime for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 1W 15L 1X [ Re4 ] [ 16L 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful red triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 1W 15R 1X [ Re4 ] [ 16R 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a simple square colored brown", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Draw a sky blue diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 3S 6W 1X 6W 5S 5W 1X 5W 7S 4W 1X 4W 9S 3W 1X 3W 11S 2W 1X 2W 13S 1W 1X 3W 11S 2W 1X 4W 9S 3W 1X 5W 7S 4W 1X 6W 5S 5W 1X 7W 3S 6W 1X 8W 1S 7W 1X 16W"}
+{"input": "olive horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a sky blue checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Create a cross colored white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "make a retro 16x16 orange horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12O 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a green hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "create a square colored black", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10K 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please create a triangle colored sky blue for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 3S 6W 1X 6W 5S 5W 1X 5W 7S 4W 1X 4W 9S 3W 1X 3W 11S 2W 1X 2W 13S 1W 1X 1W 15S 1X [ Re4 ] [ 16S 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a pink checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1H 1W 1H 1W 1H 1W 1H 1W 1H 1W 1H 3W 1X 3W 1H 1W 1H 1W 1H 1W 1H 1W 1H 1W 1H 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please create a cross colored mint", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1M 7W 1X ] 2W 12M 2W 1X [ Re5 ] [ 8W 1M 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a mint cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1M 7W 1X ] 2W 12M 2W 1X [ Re5 ] [ 8W 1M 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a hollow square in sky blue", "output": "[ Re3 ] [ 16W 1X ] 3W 10S 3W 1X [ Re8 ] [ 3W 1S 8W 1S 3W 1X ] 3W 10S 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "orange horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12O 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a retro 16x16 silver border frame", "output": "[ Re2 ] [ 16V 1X ] [ Re12 ] [ 2V 12W 2V 1X ] [ Re2 ] [ 16V  ]"}
+{"input": "system generate a border frame in magenta", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "system generate a square in gold", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10D 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a black square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10K 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Render a orange diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 3W 11O 2W 1X 4W 9O 3W 1X 5W 7O 4W 1X 6W 5O 5W 1X 7W 3O 6W 1X 8W 1O 7W 1X 16W"}
+{"input": "please paint a purple horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12P 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please make a brown checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a blue diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 3W 11B 2W 1X 4W 9B 3W 1X 5W 7B 4W 1X 6W 5B 5W 1X 7W 3B 6W 1X 8W 1B 7W 1X 16W"}
+{"input": "Paint a gold checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 3W 1X 3W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a square in red", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10R 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "draw a beautiful purple checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please make a mint square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10M 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Draw a pink hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 1H 1W 1H 6W 1X 6W 1H 3W 1H 5W 1X 5W 1H 5W 1H 4W 1X 4W 1H 7W 1H 3W 1X 3W 1H 9W 1H 2W 1X 2W 1H 11W 1H 1W 1X 1W 1H 13W 1H 1X [ Re3 ] [ 1H 14W 1H 1X ] 16H 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a horizontal stripes with orange color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12O 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a simple hollow triangle in brown", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 1N 1W 1N 6W 1X 6W 1N 3W 1N 5W 1X 5W 1N 5W 1N 4W 1X 4W 1N 7W 1N 3W 1X 3W 1N 9W 1N 2W 1X 2W 1N 11W 1N 1W 1X 1W 1N 13W 1N 1X [ Re3 ] [ 1N 14W 1N 1X ] 16N 1X [ Re2 ] [ 16W  ]"}
+{"input": "generate a simple hollow square in yellow", "output": "[ Re3 ] [ 16W 1X ] 3W 10Y 3W 1X [ Re8 ] [ 3W 1Y 8W 1Y 3W 1X ] 3W 10Y 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system draw a beige cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a yellow hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 1Y 1W 1Y 6W 1X 6W 1Y 3W 1Y 5W 1X 5W 1Y 5W 1Y 4W 1X 4W 1Y 7W 1Y 3W 1X 3W 1Y 9W 1Y 2W 1X 2W 1Y 11W 1Y 1W 1X 1W 1Y 13W 1Y 1X [ Re3 ] [ 1Y 14W 1Y 1X ] 16Y 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a orange cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1O 7W 1X ] 2W 12O 2W 1X [ Re5 ] [ 8W 1O 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Render a black border frame", "output": "[ Re2 ] [ 16K 1X ] [ Re12 ] [ 2K 12W 2K 1X ] [ Re2 ] [ 16K  ]"}
+{"input": "can you create a diamond colored gray", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 3W 11A 2W 1X 4W 9A 3W 1X 5W 7A 4W 1X 6W 5A 5W 1X 7W 3A 6W 1X 8W 1A 7W 1X 16W"}
+{"input": "paint a beautiful orange square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10O 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Render a olive square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10E 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please draw a beige cross for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system render a white hollow triangle", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "draw a beautiful blue hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 1B 1W 1B 6W 1X 6W 1B 3W 1B 5W 1X 5W 1B 5W 1B 4W 1X 4W 1B 7W 1B 3W 1X 3W 1B 9W 1B 2W 1X 2W 1B 11W 1B 1W 1X 1W 1B 13W 1B 1X [ Re3 ] [ 1B 14W 1B 1X ] 16B 1X [ Re2 ] [ 16W  ]"}
+{"input": "generate a hollow square in silver", "output": "[ Re3 ] [ 16W 1X ] 3W 10V 3W 1X [ Re8 ] [ 3W 1V 8W 1V 3W 1X ] 3W 10V 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "could you please render a gray hollow triangle for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 1A 1W 1A 6W 1X 6W 1A 3W 1A 5W 1X 5W 1A 5W 1A 4W 1X 4W 1A 7W 1A 3W 1X 3W 1A 9W 1A 2W 1X 2W 1A 11W 1A 1W 1X 1W 1A 13W 1A 1X [ Re3 ] [ 1A 14W 1A 1X ] 16A 1X [ Re2 ] [ 16W  ]"}
+{"input": "please create a hollow square colored white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 mint diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "draw a retro 16x16 blue triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 1W 15B 1X [ Re4 ] [ 16B 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Lime hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "Draw a green checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 3W 1X 3W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "hollow square olive", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a retro 16x16 triangle colored gray", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 1W 15A 1X [ Re4 ] [ 16A 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please make a sky blue checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a simple hollow triangle in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "Render a yellow square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Y 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Diamond olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "make a retro 16x16 gold square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10D 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "sketch a checkerboard with brown color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "hollow triangle gray", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 1A 1W 1A 6W 1X 6W 1A 3W 1A 5W 1X 5W 1A 5W 1A 4W 1X 4W 1A 7W 1A 3W 1X 3W 1A 9W 1A 2W 1X 2W 1A 11W 1A 1W 1X 1W 1A 13W 1A 1X [ Re3 ] [ 1A 14W 1A 1X ] 16A 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a cross colored red for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1R 7W 1X ] 2W 12R 2W 1X [ Re5 ] [ 8W 1R 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please generate a cross in navy", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1U 7W 1X ] 2W 12U 2W 1X [ Re5 ] [ 8W 1U 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a silver border frame grid", "output": "[ Re2 ] [ 16V 1X ] [ Re12 ] [ 2V 12W 2V 1X ] [ Re2 ] [ 16V  ]"}
+{"input": "create a checkerboard colored black", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1K 1W 1K 1W 1K 1W 1K 1W 1K 1W 1K 3W 1X 3W 1K 1W 1K 1W 1K 1W 1K 1W 1K 1W 1K 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a lime border frame grid", "output": "[ Re2 ] [ 16L 1X ] [ Re12 ] [ 2L 12W 2L 1X ] [ Re2 ] [ 16L  ]"}
+{"input": "could you please draw a sky blue checkerboard for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "border frame blue", "output": "[ Re2 ] [ 16B 1X ] [ Re12 ] [ 2B 12W 2B 1X ] [ Re2 ] [ 16B  ]"}
+{"input": "paint a simple olive diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "please make a magenta triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please draw a purple border frame", "output": "[ Re2 ] [ 16P 1X ] [ Re12 ] [ 2P 12W 2P 1X ] [ Re2 ] [ 16P  ]"}
+{"input": "generate a horizontal stripes in lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "horizontal stripes magenta", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please draw a white diamond for me", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "paint a magenta border frame grid", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "render a retro 16x16 blue hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10B 3W 1X [ Re8 ] [ 3W 1B 8W 1B 3W 1X ] 3W 10B 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a retro 16x16 horizontal stripes colored red", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12R 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Create a diamond colored beige", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "create a square colored yellow", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Y 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you create a diamond colored mint", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "paint a retro 16x16 pink cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sky blue square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10S 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system make a navy square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "draw a green cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1G 7W 1X ] 2W 12G 2W 1X [ Re5 ] [ 8W 1G 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a yellow cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Y 7W 1X ] 2W 12Y 2W 1X [ Re5 ] [ 8W 1Y 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a beige diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "please create a border frame colored lime", "output": "[ Re2 ] [ 16L 1X ] [ Re12 ] [ 2L 12W 2L 1X ] [ Re2 ] [ 16L  ]"}
+{"input": "Blue cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1B 7W 1X ] 2W 12B 2W 1X [ Re5 ] [ 8W 1B 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple triangle with blue color", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 1W 15B 1X [ Re4 ] [ 16B 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple silver checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1V 1W 1V 1W 1V 1W 1V 1W 1V 1W 1V 3W 1X 3W 1V 1W 1V 1W 1V 1W 1V 1W 1V 1W 1V 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you generate a hollow triangle in lime", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful mint hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10M 3W 1X [ Re8 ] [ 3W 1M 8W 1M 3W 1X ] 3W 10M 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "render a red diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 3W 11R 2W 1X 4W 9R 3W 1X 5W 7R 4W 1X 6W 5R 5W 1X 7W 3R 6W 1X 8W 1R 7W 1X 16W"}
+{"input": "Render a green hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10G 3W 1X [ Re8 ] [ 3W 1G 8W 1G 3W 1X ] 3W 10G 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Square mint", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10M 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "generate a simple square in mint", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10M 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Paint a gold triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 1W 15D 1X [ Re4 ] [ 16D 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a checkerboard in orange", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 3W 1X 3W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a retro 16x16 beige checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 3W 1X 3W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple sky blue hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 1S 1W 1S 6W 1X 6W 1S 3W 1S 5W 1X 5W 1S 5W 1S 4W 1X 4W 1S 7W 1S 3W 1X 3W 1S 9W 1S 2W 1X 2W 1S 11W 1S 1W 1X 1W 1S 13W 1S 1X [ Re3 ] [ 1S 14W 1S 1X ] 16S 1X [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 navy border frame pixel art", "output": "[ Re2 ] [ 16U 1X ] [ Re12 ] [ 2U 12W 2U 1X ] [ Re2 ] [ 16U  ]"}
+{"input": "generate a horizontal stripes in yellow", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Y 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please create a square colored magenta", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10J 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "create a hollow square colored orange", "output": "[ Re3 ] [ 16W 1X ] 3W 10O 3W 1X [ Re8 ] [ 3W 1O 8W 1O 3W 1X ] 3W 10O 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "could you please draw a gold horizontal stripes for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12D 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Draw a green hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "system create a square colored gold", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10D 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "create a diamond colored brown", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 3W 11N 2W 1X 4W 9N 3W 1X 5W 7N 4W 1X 6W 5N 5W 1X 7W 3N 6W 1X 8W 1N 7W 1X 16W"}
+{"input": "make a beautiful pink diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 3W 11H 2W 1X 4W 9H 3W 1X 5W 7H 4W 1X 6W 5H 5W 1X 7W 3H 6W 1X 8W 1H 7W 1X 16W"}
+{"input": "system create a diamond colored orange", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 3W 11O 2W 1X 4W 9O 3W 1X 5W 7O 4W 1X 6W 5O 5W 1X 7W 3O 6W 1X 8W 1O 7W 1X 16W"}
+{"input": "Paint a gray square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10A 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please create a border frame colored magenta for me", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "system render a lime horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a olive horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a simple border frame colored purple", "output": "[ Re2 ] [ 16P 1X ] [ Re12 ] [ 2P 12W 2P 1X ] [ Re2 ] [ 16P  ]"}
+{"input": "paint a beige cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a simple border frame colored pink", "output": "[ Re2 ] [ 16H 1X ] [ Re12 ] [ 2H 12W 2H 1X ] [ Re2 ] [ 16H  ]"}
+{"input": "system paint a red checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 3W 1X 3W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 triangle in yellow", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 1W 15Y 1X [ Re4 ] [ 16Y 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please generate a hollow triangle in red for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 1R 1W 1R 6W 1X 6W 1R 3W 1R 5W 1X 5W 1R 5W 1R 4W 1X 4W 1R 7W 1R 3W 1X 3W 1R 9W 1R 2W 1X 2W 1R 11W 1R 1W 1X 1W 1R 13W 1R 1X [ Re3 ] [ 1R 14W 1R 1X ] 16R 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please draw a brown hollow triangle for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 1N 1W 1N 6W 1X 6W 1N 3W 1N 5W 1X 5W 1N 5W 1N 4W 1X 4W 1N 7W 1N 3W 1X 3W 1N 9W 1N 2W 1X 2W 1N 11W 1N 1W 1X 1W 1N 13W 1N 1X [ Re3 ] [ 1N 14W 1N 1X ] 16N 1X [ Re2 ] [ 16W  ]"}
+{"input": "please draw a magenta square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10J 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please make a sky blue horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12S 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a beautiful hollow triangle in olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 1E 1W 1E 6W 1X 6W 1E 3W 1E 5W 1X 5W 1E 5W 1E 4W 1X 4W 1E 7W 1E 3W 1X 3W 1E 9W 1E 2W 1X 2W 1E 11W 1E 1W 1X 1W 1E 13W 1E 1X [ Re3 ] [ 1E 14W 1E 1X ] 16E 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a yellow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 1W 15Y 1X [ Re4 ] [ 16Y 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a magenta cross grid for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1J 7W 1X ] 2W 12J 2W 1X [ Re5 ] [ 8W 1J 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a hollow triangle in red", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 1R 1W 1R 6W 1X 6W 1R 3W 1R 5W 1X 5W 1R 5W 1R 4W 1X 4W 1R 7W 1R 3W 1X 3W 1R 9W 1R 2W 1X 2W 1R 11W 1R 1W 1X 1W 1R 13W 1R 1X [ Re3 ] [ 1R 14W 1R 1X ] 16R 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a olive hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you render a beige triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 1W 15Z 1X [ Re4 ] [ 16Z 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a purple triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a triangle in purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a magenta horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 gray diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 3W 11A 2W 1X 4W 9A 3W 1X 5W 7A 4W 1X 6W 5A 5W 1X 7W 3A 6W 1X 8W 1A 7W 1X 16W"}
+{"input": "can you paint a beige cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a pink cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a beautiful yellow border frame grid", "output": "[ Re2 ] [ 16Y 1X ] [ Re12 ] [ 2Y 12W 2Y 1X ] [ Re2 ] [ 16Y  ]"}
+{"input": "system create a triangle colored magenta", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a navy triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 1W 15U 1X [ Re4 ] [ 16U 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful horizontal stripes colored magenta", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you render a black square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10K 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Generate a horizontal stripes in brown", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12N 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a beautiful mint diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "please create a hollow square colored lime", "output": "[ Re3 ] [ 16W 1X ] 3W 10L 3W 1X [ Re8 ] [ 3W 1L 8W 1L 3W 1X ] 3W 10L 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system create a hollow triangle colored white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "please render a yellow diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 3W 11Y 2W 1X 4W 9Y 3W 1X 5W 7Y 4W 1X 6W 5Y 5W 1X 7W 3Y 6W 1X 8W 1Y 7W 1X 16W"}
+{"input": "render a beautiful black cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1K 7W 1X ] 2W 12K 2W 1X [ Re5 ] [ 8W 1K 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a simple navy triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 1W 15U 1X [ Re4 ] [ 16U 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system render a gray hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 1A 1W 1A 6W 1X 6W 1A 3W 1A 5W 1X 5W 1A 5W 1A 4W 1X 4W 1A 7W 1A 3W 1X 3W 1A 9W 1A 2W 1X 2W 1A 11W 1A 1W 1X 1W 1A 13W 1A 1X [ Re3 ] [ 1A 14W 1A 1X ] 16A 1X [ Re2 ] [ 16W  ]"}
+{"input": "please render a sky blue hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 1S 1W 1S 6W 1X 6W 1S 3W 1S 5W 1X 5W 1S 5W 1S 4W 1X 4W 1S 7W 1S 3W 1X 3W 1S 9W 1S 2W 1X 2W 1S 11W 1S 1W 1X 1W 1S 13W 1S 1X [ Re3 ] [ 1S 14W 1S 1X ] 16S 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you create a hollow square colored magenta", "output": "[ Re3 ] [ 16W 1X ] 3W 10J 3W 1X [ Re8 ] [ 3W 1J 8W 1J 3W 1X ] 3W 10J 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "could you please render a navy horizontal stripes for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12U 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a beautiful gray cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1A 7W 1X ] 2W 12A 2W 1X [ Re5 ] [ 8W 1A 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a yellow hollow square for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10Y 3W 1X [ Re8 ] [ 3W 1Y 8W 1Y 3W 1X ] 3W 10Y 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please draw a olive diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "render a retro 16x16 gray hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10A 3W 1X [ Re8 ] [ 3W 1A 8W 1A 3W 1X ] 3W 10A 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you draw a white horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a hollow triangle with magenta color", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 1J 1W 1J 6W 1X 6W 1J 3W 1J 5W 1X 5W 1J 5W 1J 4W 1X 4W 1J 7W 1J 3W 1X 3W 1J 9W 1J 2W 1X 2W 1J 11W 1J 1W 1X 1W 1J 13W 1J 1X [ Re3 ] [ 1J 14W 1J 1X ] 16J 1X [ Re2 ] [ 16W  ]"}
+{"input": "Create a horizontal stripes colored magenta", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system make a red border frame pixel art", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "please render a brown square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Draw a sky blue horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12S 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you generate a border frame in gold", "output": "[ Re2 ] [ 16D 1X ] [ Re12 ] [ 2D 12W 2D 1X ] [ Re2 ] [ 16D  ]"}
+{"input": "paint a simple beige triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 1W 15Z 1X [ Re4 ] [ 16Z 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system paint a green cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1G 7W 1X ] 2W 12G 2W 1X [ Re5 ] [ 8W 1G 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a brown horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12N 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Create a checkerboard colored magenta", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1J 1W 1J 1W 1J 1W 1J 1W 1J 1W 1J 3W 1X 3W 1J 1W 1J 1W 1J 1W 1J 1W 1J 1W 1J 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "purple border frame", "output": "[ Re2 ] [ 16P 1X ] [ Re12 ] [ 2P 12W 2P 1X ] [ Re2 ] [ 16P  ]"}
+{"input": "create a simple hollow square colored sky blue", "output": "[ Re3 ] [ 16W 1X ] 3W 10S 3W 1X [ Re8 ] [ 3W 1S 8W 1S 3W 1X ] 3W 10S 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please make a silver square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10V 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you create a horizontal stripes colored sky blue", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12S 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful magenta beautiful cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1J 7W 1X ] 2W 12J 2W 1X [ Re5 ] [ 8W 1J 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Render a black hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 1K 1W 1K 6W 1X 6W 1K 3W 1K 5W 1X 5W 1K 5W 1K 4W 1X 4W 1K 7W 1K 3W 1X 3W 1K 9W 1K 2W 1X 2W 1K 11W 1K 1W 1X 1W 1K 13W 1K 1X [ Re3 ] [ 1K 14W 1K 1X ] 16K 1X [ Re2 ] [ 16W  ]"}
+{"input": "please paint a red hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 1R 1W 1R 6W 1X 6W 1R 3W 1R 5W 1X 5W 1R 5W 1R 4W 1X 4W 1R 7W 1R 3W 1X 3W 1R 9W 1R 2W 1X 2W 1R 11W 1R 1W 1X 1W 1R 13W 1R 1X [ Re3 ] [ 1R 14W 1R 1X ] 16R 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a simple mint square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10M 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Render a brown cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1N 7W 1X ] 2W 12N 2W 1X [ Re5 ] [ 8W 1N 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a border frame in red", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "could you please render a gold border frame for me", "output": "[ Re2 ] [ 16D 1X ] [ Re12 ] [ 2D 12W 2D 1X ] [ Re2 ] [ 16D  ]"}
+{"input": "make a retro 16x16 navy square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system render a gold diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "create a beautiful diamond colored lime", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 3W 11L 2W 1X 4W 9L 3W 1X 5W 7L 4W 1X 6W 5L 5W 1X 7W 3L 6W 1X 8W 1L 7W 1X 16W"}
+{"input": "Generate a hollow square in gold", "output": "[ Re3 ] [ 16W 1X ] 3W 10D 3W 1X [ Re8 ] [ 3W 1D 8W 1D 3W 1X ] 3W 10D 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you make a orange border frame pixel art", "output": "[ Re2 ] [ 16O 1X ] [ Re12 ] [ 2O 12W 2O 1X ] [ Re2 ] [ 16O  ]"}
+{"input": "system paint a lime horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a red triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 1W 15R 1X [ Re4 ] [ 16R 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "navy diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 3W 11U 2W 1X 4W 9U 3W 1X 5W 7U 4W 1X 6W 5U 5W 1X 7W 3U 6W 1X 8W 1U 7W 1X 16W"}
+{"input": "draw a simple olive horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a horizontal stripes in silver", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12V 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please draw a yellow border frame", "output": "[ Re2 ] [ 16Y 1X ] [ Re12 ] [ 2Y 12W 2Y 1X ] [ Re2 ] [ 16Y  ]"}
+{"input": "can you make a gold horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12D 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful triangle colored purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system generate a horizontal stripes in pink", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12H 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please generate a border frame in white for me", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "system paint a silver hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 1V 1W 1V 6W 1X 6W 1V 3W 1V 5W 1X 5W 1V 5W 1V 4W 1X 4W 1V 7W 1V 3W 1X 3W 1V 9W 1V 2W 1X 2W 1V 11W 1V 1W 1X 1W 1V 13W 1V 1X [ Re3 ] [ 1V 14W 1V 1X ] 16V 1X [ Re2 ] [ 16W  ]"}
+{"input": "please generate a checkerboard in lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "green", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10G 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please create a hollow square colored white for me", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "blue square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "create a simple diamond colored yellow", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 3W 11Y 2W 1X 4W 9Y 3W 1X 5W 7Y 4W 1X 6W 5Y 5W 1X 7W 3Y 6W 1X 8W 1Y 7W 1X 16W"}
+{"input": "generate a retro 16x16 horizontal stripes in green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please generate a border frame in green for me", "output": "[ Re2 ] [ 16G 1X ] [ Re12 ] [ 2G 12W 2G 1X ] [ Re2 ] [ 16G  ]"}
+{"input": "could you please paint a black checkerboard grid for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1K 1W 1K 1W 1K 1W 1K 1W 1K 1W 1K 3W 1X 3W 1K 1W 1K 1W 1K 1W 1K 1W 1K 1W 1K 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful green hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "create a checkerboard colored white", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a hollow square colored mint", "output": "[ Re3 ] [ 16W 1X ] 3W 10M 3W 1X [ Re8 ] [ 3W 1M 8W 1M 3W 1X ] 3W 10M 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "paint a simple green triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 1W 15G 1X [ Re4 ] [ 16G 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a lime hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful square colored lime", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10L 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please make a red hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 1R 1W 1R 6W 1X 6W 1R 3W 1R 5W 1X 5W 1R 5W 1R 4W 1X 4W 1R 7W 1R 3W 1X 3W 1R 9W 1R 2W 1X 2W 1R 11W 1R 1W 1X 1W 1R 13W 1R 1X [ Re3 ] [ 1R 14W 1R 1X ] 16R 1X [ Re2 ] [ 16W  ]"}
+{"input": "please make a white checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a white hollow triangle grid", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "make a white border frame pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "render a retro 16x16 black hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10K 3W 1X [ Re8 ] [ 3W 1K 8W 1K 3W 1X ] 3W 10K 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please make a gold checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 3W 1X 3W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system make a orange checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 3W 1X 3W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple diamond with navy color", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 3W 11U 2W 1X 4W 9U 3W 1X 5W 7U 4W 1X 6W 5U 5W 1X 7W 3U 6W 1X 8W 1U 7W 1X 16W"}
+{"input": "Paint a sky blue diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 3S 6W 1X 6W 5S 5W 1X 5W 7S 4W 1X 4W 9S 3W 1X 3W 11S 2W 1X 2W 13S 1W 1X 3W 11S 2W 1X 4W 9S 3W 1X 5W 7S 4W 1X 6W 5S 5W 1X 7W 3S 6W 1X 8W 1S 7W 1X 16W"}
+{"input": "system create a triangle colored navy", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 1W 15U 1X [ Re4 ] [ 16U 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a simple brown diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 3W 11N 2W 1X 4W 9N 3W 1X 5W 7N 4W 1X 6W 5N 5W 1X 7W 3N 6W 1X 8W 1N 7W 1X 16W"}
+{"input": "can you create a horizontal stripes colored green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful gold checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 3W 1X 3W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "orange border frame", "output": "[ Re2 ] [ 16O 1X ] [ Re12 ] [ 2O 12W 2O 1X ] [ Re2 ] [ 16O  ]"}
+{"input": "system generate a square in olive", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10E 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system create a diamond colored gold", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "could you please make a blue cross pixel art for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1B 7W 1X ] 2W 12B 2W 1X [ Re5 ] [ 8W 1B 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a orange triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 1W 15O 1X [ Re4 ] [ 16O 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a triangle with gray color", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 1W 15A 1X [ Re4 ] [ 16A 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a purple horizontal stripes for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12P 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please make a beige hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "generate a diamond in yellow", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 3W 11Y 2W 1X 4W 9Y 3W 1X 5W 7Y 4W 1X 6W 5Y 5W 1X 7W 3Y 6W 1X 8W 1Y 7W 1X 16W"}
+{"input": "Create a diamond colored gray", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 3W 11A 2W 1X 4W 9A 3W 1X 5W 7A 4W 1X 6W 5A 5W 1X 7W 3A 6W 1X 8W 1A 7W 1X 16W"}
+{"input": "can you create a cross colored sky blue", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1S 7W 1X ] 2W 12S 2W 1X [ Re5 ] [ 8W 1S 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a magenta diamond grid for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 3W 11J 2W 1X 4W 9J 3W 1X 5W 7J 4W 1X 6W 5J 5W 1X 7W 3J 6W 1X 8W 1J 7W 1X 16W"}
+{"input": "system paint a sky blue diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 3S 6W 1X 6W 5S 5W 1X 5W 7S 4W 1X 4W 9S 3W 1X 3W 11S 2W 1X 2W 13S 1W 1X 3W 11S 2W 1X 4W 9S 3W 1X 5W 7S 4W 1X 6W 5S 5W 1X 7W 3S 6W 1X 8W 1S 7W 1X 16W"}
+{"input": "generate a simple checkerboard in gray", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1A 1W 1A 1W 1A 1W 1A 1W 1A 1W 1A 3W 1X 3W 1A 1W 1A 1W 1A 1W 1A 1W 1A 1W 1A 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a triangle in mint", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 1W 15M 1X [ Re4 ] [ 16M 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a horizontal stripes colored sky blue for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12S 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a cross colored gray for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1A 7W 1X ] 2W 12A 2W 1X [ Re5 ] [ 8W 1A 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a red triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 1W 15R 1X [ Re4 ] [ 16R 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please draw a blue horizontal stripes for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12B 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a checkerboard colored beige for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 3W 1X 3W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful silver diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 3V 6W 1X 6W 5V 5W 1X 5W 7V 4W 1X 4W 9V 3W 1X 3W 11V 2W 1X 2W 13V 1W 1X 3W 11V 2W 1X 4W 9V 3W 1X 5W 7V 4W 1X 6W 5V 5W 1X 7W 3V 6W 1X 8W 1V 7W 1X 16W"}
+{"input": "create a simple horizontal stripes colored beige", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Z 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a brown square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "generate a hollow triangle in olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 1E 1W 1E 6W 1X 6W 1E 3W 1E 5W 1X 5W 1E 5W 1E 4W 1X 4W 1E 7W 1E 3W 1X 3W 1E 9W 1E 2W 1X 2W 1E 11W 1E 1W 1X 1W 1E 13W 1E 1X [ Re3 ] [ 1E 14W 1E 1X ] 16E 1X [ Re2 ] [ 16W  ]"}
+{"input": "please make a mint cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1M 7W 1X ] 2W 12M 2W 1X [ Re5 ] [ 8W 1M 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a simple square colored green", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10G 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "sketch a simple horizontal stripes with purple color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12P 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please draw a yellow horizontal stripes for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Y 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "gold hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 1D 1W 1D 6W 1X 6W 1D 3W 1D 5W 1X 5W 1D 5W 1D 4W 1X 4W 1D 7W 1D 3W 1X 3W 1D 9W 1D 2W 1X 2W 1D 11W 1D 1W 1X 1W 1D 13W 1D 1X [ Re3 ] [ 1D 14W 1D 1X ] 16D 1X [ Re2 ] [ 16W  ]"}
+{"input": "please render a yellow hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 1Y 1W 1Y 6W 1X 6W 1Y 3W 1Y 5W 1X 5W 1Y 5W 1Y 4W 1X 4W 1Y 7W 1Y 3W 1X 3W 1Y 9W 1Y 2W 1X 2W 1Y 11W 1Y 1W 1X 1W 1Y 13W 1Y 1X [ Re3 ] [ 1Y 14W 1Y 1X ] 16Y 1X [ Re2 ] [ 16W  ]"}
+{"input": "create a simple border frame colored beige", "output": "[ Re2 ] [ 16Z 1X ] [ Re12 ] [ 2Z 12W 2Z 1X ] [ Re2 ] [ 16Z  ]"}
+{"input": "Make a yellow hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10Y 3W 1X [ Re8 ] [ 3W 1Y 8W 1Y 3W 1X ] 3W 10Y 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Create a triangle colored pink", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 1W 15H 1X [ Re4 ] [ 16H 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a black cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1K 7W 1X ] 2W 12K 2W 1X [ Re5 ] [ 8W 1K 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please render a beige square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Z 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system make a yellow border frame pixel art", "output": "[ Re2 ] [ 16Y 1X ] [ Re12 ] [ 2Y 12W 2Y 1X ] [ Re2 ] [ 16Y  ]"}
+{"input": "create a beautiful diamond colored black", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 3W 11K 2W 1X 4W 9K 3W 1X 5W 7K 4W 1X 6W 5K 5W 1X 7W 3K 6W 1X 8W 1K 7W 1X 16W"}
+{"input": "Make a silver square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10V 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please generate a hollow square in navy", "output": "[ Re3 ] [ 16W 1X ] 3W 10U 3W 1X [ Re8 ] [ 3W 1U 8W 1U 3W 1X ] 3W 10U 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "draw a simple gray checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1A 1W 1A 1W 1A 1W 1A 1W 1A 1W 1A 3W 1X 3W 1A 1W 1A 1W 1A 1W 1A 1W 1A 1W 1A 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a lime cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1L 7W 1X ] 2W 12L 2W 1X [ Re5 ] [ 8W 1L 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a triangle in silver", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 3V 6W 1X 6W 5V 5W 1X 5W 7V 4W 1X 4W 9V 3W 1X 3W 11V 2W 1X 2W 13V 1W 1X 1W 15V 1X [ Re4 ] [ 16V 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a checkerboard colored brown for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please create a checkerboard colored yellow", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 3W 1X 3W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Cross gold", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1D 7W 1X ] 2W 12D 2W 1X [ Re5 ] [ 8W 1D 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please render a white triangle", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "draw a orange triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 1W 15O 1X [ Re4 ] [ 16O 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Render a lime hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10L 3W 1X [ Re8 ] [ 3W 1L 8W 1L 3W 1X ] 3W 10L 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "render a retro 16x16 purple square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10P 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you draw a green border frame", "output": "[ Re2 ] [ 16G 1X ] [ Re12 ] [ 2G 12W 2G 1X ] [ Re2 ] [ 16G  ]"}
+{"input": "can you make a gray horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12A 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please draw a blue square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please generate a square in orange for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10O 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "create a beautiful diamond colored mint", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "sketch a checkerboard with blue color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 3W 1X 3W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple lime hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you make a gray cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1A 7W 1X ] 2W 12A 2W 1X [ Re5 ] [ 8W 1A 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a red border frame grid", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "could you please make a green hollow square pixel art for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10G 3W 1X [ Re8 ] [ 3W 1G 8W 1G 3W 1X ] 3W 10G 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "sketch a triangle with gold color", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 1W 15D 1X [ Re4 ] [ 16D 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a blue cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1B 7W 1X ] 2W 12B 2W 1X [ Re5 ] [ 8W 1B 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a hollow triangle colored green", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "system create a hollow square colored yellow", "output": "[ Re3 ] [ 16W 1X ] 3W 10Y 3W 1X [ Re8 ] [ 3W 1Y 8W 1Y 3W 1X ] 3W 10Y 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Create a cross colored magenta", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1J 7W 1X ] 2W 12J 2W 1X [ Re5 ] [ 8W 1J 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a beautiful olive hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a retro 16x16 square colored orange", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10O 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please render a blue cross for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1B 7W 1X ] 2W 12B 2W 1X [ Re5 ] [ 8W 1B 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Draw a red border frame", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "Green horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Draw a blue hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10B 3W 1X [ Re8 ] [ 3W 1B 8W 1B 3W 1X ] 3W 10B 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system draw a gray horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12A 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a simple yellow hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10Y 3W 1X [ Re8 ] [ 3W 1Y 8W 1Y 3W 1X ] 3W 10Y 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "sketch a simple hollow triangle with gray color", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 1A 1W 1A 6W 1X 6W 1A 3W 1A 5W 1X 5W 1A 5W 1A 4W 1X 4W 1A 7W 1A 3W 1X 3W 1A 9W 1A 2W 1X 2W 1A 11W 1A 1W 1X 1W 1A 13W 1A 1X [ Re3 ] [ 1A 14W 1A 1X ] 16A 1X [ Re2 ] [ 16W  ]"}
+{"input": "Draw a sky blue cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1S 7W 1X ] 2W 12S 2W 1X [ Re5 ] [ 8W 1S 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a magenta triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a brown diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 3W 11N 2W 1X 4W 9N 3W 1X 5W 7N 4W 1X 6W 5N 5W 1X 7W 3N 6W 1X 8W 1N 7W 1X 16W"}
+{"input": "can you draw a mint diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "create a cross colored beige", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a simple lime square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10L 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you create a checkerboard colored mint", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 3W 1X 3W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful pink checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1H 1W 1H 1W 1H 1W 1H 1W 1H 1W 1H 3W 1X 3W 1H 1W 1H 1W 1H 1W 1H 1W 1H 1W 1H 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a blue checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 3W 1X 3W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 lime hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10L 3W 1X [ Re8 ] [ 3W 1L 8W 1L 3W 1X ] 3W 10L 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please create a triangle colored brown", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 1W 15N 1X [ Re4 ] [ 16N 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a navy cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1U 7W 1X ] 2W 12U 2W 1X [ Re5 ] [ 8W 1U 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a magenta hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10J 3W 1X [ Re8 ] [ 3W 1J 8W 1J 3W 1X ] 3W 10J 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you draw a gray border frame", "output": "[ Re2 ] [ 16A 1X ] [ Re12 ] [ 2A 12W 2A 1X ] [ Re2 ] [ 16A  ]"}
+{"input": "can you make a silver cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful sky blue border frame", "output": "[ Re2 ] [ 16S 1X ] [ Re12 ] [ 2S 12W 2S 1X ] [ Re2 ] [ 16S  ]"}
+{"input": "Paint a navy checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1U 1W 1U 1W 1U 1W 1U 1W 1U 1W 1U 3W 1X 3W 1U 1W 1U 1W 1U 1W 1U 1W 1U 1W 1U 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please generate a diamond in white for me", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "system create a checkerboard colored brown", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a magenta horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a orange border frame", "output": "[ Re2 ] [ 16O 1X ] [ Re12 ] [ 2O 12W 2O 1X ] [ Re2 ] [ 16O  ]"}
+{"input": "make a pink hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10H 3W 1X [ Re8 ] [ 3W 1H 8W 1H 3W 1X ] 3W 10H 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a beautiful checkerboard colored lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system paint a mint triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 1W 15M 1X [ Re4 ] [ 16M 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful triangle colored orange", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 1W 15O 1X [ Re4 ] [ 16O 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please create a square colored black", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10K 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Checkerboard magenta", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1J 1W 1J 1W 1J 1W 1J 1W 1J 1W 1J 3W 1X 3W 1J 1W 1J 1W 1J 1W 1J 1W 1J 1W 1J 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful gray hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10A 3W 1X [ Re8 ] [ 3W 1A 8W 1A 3W 1X ] 3W 10A 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Make a mint triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 1W 15M 1X [ Re4 ] [ 16M 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a simple horizontal stripes colored navy", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12U 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please draw a olive square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10E 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "make a simple brown square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please create a horizontal stripes colored orange", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12O 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a brown hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10N 3W 1X [ Re8 ] [ 3W 1N 8W 1N 3W 1X ] 3W 10N 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please paint a orange cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1O 7W 1X ] 2W 12O 2W 1X [ Re5 ] [ 8W 1O 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a beige hollow square pixel art for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you paint a mint hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 1M 1W 1M 6W 1X 6W 1M 3W 1M 5W 1X 5W 1M 5W 1M 4W 1X 4W 1M 7W 1M 3W 1X 3W 1M 9W 1M 2W 1X 2W 1M 11W 1M 1W 1X 1W 1M 13W 1M 1X [ Re3 ] [ 1M 14W 1M 1X ] 16M 1X [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 diamond in pink", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 3W 11H 2W 1X 4W 9H 3W 1X 5W 7H 4W 1X 6W 5H 5W 1X 7W 3H 6W 1X 8W 1H 7W 1X 16W"}
+{"input": "create a diamond colored green", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 3W 11G 2W 1X 4W 9G 3W 1X 5W 7G 4W 1X 6W 5G 5W 1X 7W 3G 6W 1X 8W 1G 7W 1X 16W"}
+{"input": "Cross beige", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a retro 16x16 checkerboard colored yellow", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 3W 1X 3W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a lime triangle pixel art for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 1W 15L 1X [ Re4 ] [ 16L 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beige triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 1W 15Z 1X [ Re4 ] [ 16Z 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 purple triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 yellow horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Y 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please generate a square in yellow", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Y 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you make a mint square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10M 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please create a triangle colored magenta", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Paint a orange triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 1W 15O 1X [ Re4 ] [ 16O 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a beautiful triangle in brown", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 1W 15N 1X [ Re4 ] [ 16N 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Create a cross colored pink", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a magenta horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a cross with pink color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system make a yellow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 1W 15Y 1X [ Re4 ] [ 16Y 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a hollow triangle colored olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 1E 1W 1E 6W 1X 6W 1E 3W 1E 5W 1X 5W 1E 5W 1E 4W 1X 4W 1E 7W 1E 3W 1X 3W 1E 9W 1E 2W 1X 2W 1E 11W 1E 1W 1X 1W 1E 13W 1E 1X [ Re3 ] [ 1E 14W 1E 1X ] 16E 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a black checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1K 1W 1K 1W 1K 1W 1K 1W 1K 1W 1K 3W 1X 3W 1K 1W 1K 1W 1K 1W 1K 1W 1K 1W 1K 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a black hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 1K 1W 1K 6W 1X 6W 1K 3W 1K 5W 1X 5W 1K 5W 1K 4W 1X 4W 1K 7W 1K 3W 1X 3W 1K 9W 1K 2W 1X 2W 1K 11W 1K 1W 1X 1W 1K 13W 1K 1X [ Re3 ] [ 1K 14W 1K 1X ] 16K 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you make a purple checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a hollow triangle with orange color", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 1O 1W 1O 6W 1X 6W 1O 3W 1O 5W 1X 5W 1O 5W 1O 4W 1X 4W 1O 7W 1O 3W 1X 3W 1O 9W 1O 2W 1X 2W 1O 11W 1O 1W 1X 1W 1O 13W 1O 1X [ Re3 ] [ 1O 14W 1O 1X ] 16O 1X [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 checkerboard in red", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 3W 1X 3W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a red checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 3W 1X 3W 1R 1W 1R 1W 1R 1W 1R 1W 1R 1W 1R 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Diamond purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 3W 11P 2W 1X 4W 9P 3W 1X 5W 7P 4W 1X 6W 5P 5W 1X 7W 3P 6W 1X 8W 1P 7W 1X 16W"}
+{"input": "generate a beautiful checkerboard in olive", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1E 1W 1E 1W 1E 1W 1E 1W 1E 1W 1E 3W 1X 3W 1E 1W 1E 1W 1E 1W 1E 1W 1E 1W 1E 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a square colored blue", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "render a retro 16x16 orange border frame", "output": "[ Re2 ] [ 16O 1X ] [ Re12 ] [ 2O 12W 2O 1X ] [ Re2 ] [ 16O  ]"}
+{"input": "hollow triangle orange", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 1O 1W 1O 6W 1X 6W 1O 3W 1O 5W 1X 5W 1O 5W 1O 4W 1X 4W 1O 7W 1O 3W 1X 3W 1O 9W 1O 2W 1X 2W 1O 11W 1O 1W 1X 1W 1O 13W 1O 1X [ Re3 ] [ 1O 14W 1O 1X ] 16O 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you generate a cross in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "generate a hollow triangle in blue", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 1B 1W 1B 6W 1X 6W 1B 3W 1B 5W 1X 5W 1B 5W 1B 4W 1X 4W 1B 7W 1B 3W 1X 3W 1B 9W 1B 2W 1X 2W 1B 11W 1B 1W 1X 1W 1B 13W 1B 1X [ Re3 ] [ 1B 14W 1B 1X ] 16B 1X [ Re2 ] [ 16W  ]"}
+{"input": "create a simple hollow triangle colored blue", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 1B 1W 1B 6W 1X 6W 1B 3W 1B 5W 1X 5W 1B 5W 1B 4W 1X 4W 1B 7W 1B 3W 1X 3W 1B 9W 1B 2W 1X 2W 1B 11W 1B 1W 1X 1W 1B 13W 1B 1X [ Re3 ] [ 1B 14W 1B 1X ] 16B 1X [ Re2 ] [ 16W  ]"}
+{"input": "triangle silver", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 3V 6W 1X 6W 5V 5W 1X 5W 7V 4W 1X 4W 9V 3W 1X 3W 11V 2W 1X 2W 13V 1W 1X 1W 15V 1X [ Re4 ] [ 16V 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a black border frame pixel art", "output": "[ Re2 ] [ 16K 1X ] [ Re12 ] [ 2K 12W 2K 1X ] [ Re2 ] [ 16K  ]"}
+{"input": "Create a hollow square colored navy", "output": "[ Re3 ] [ 16W 1X ] 3W 10U 3W 1X [ Re8 ] [ 3W 1U 8W 1U 3W 1X ] 3W 10U 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you generate a cross in silver", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12K 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple cross with gold color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1D 7W 1X ] 2W 12D 2W 1X [ Re5 ] [ 8W 1D 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a orange hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 1O 1W 1O 6W 1X 6W 1O 3W 1O 5W 1X 5W 1O 5W 1O 4W 1X 4W 1O 7W 1O 3W 1X 3W 1O 9W 1O 2W 1X 2W 1O 11W 1O 1W 1X 1W 1O 13W 1O 1X [ Re3 ] [ 1O 14W 1O 1X ] 16O 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a square colored olive for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10E 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system make a pink cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a horizontal stripes with yellow color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Y 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please create a cross colored olive", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1E 7W 1X ] 2W 12E 2W 1X [ Re5 ] [ 8W 1E 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a olive triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 1W 15E 1X [ Re4 ] [ 16E 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a beautiful square in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "create a retro 16x16 square colored pink", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10H 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you paint a mint border frame grid", "output": "[ Re2 ] [ 16M 1X ] [ Re12 ] [ 2M 12W 2M 1X ] [ Re2 ] [ 16M  ]"}
+{"input": "can you draw a silver square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10V 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "please generate a cross in green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1G 7W 1X ] 2W 12G 2W 1X [ Re5 ] [ 8W 1G 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple green checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 3W 1X 3W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a olive horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple black triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 1W 15K 1X [ Re4 ] [ 16K 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Draw a gray border frame", "output": "[ Re2 ] [ 16A 1X ] [ Re12 ] [ 2A 12W 2A 1X ] [ Re2 ] [ 16A  ]"}
+{"input": "generate a triangle in black", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 1W 15K 1X [ Re4 ] [ 16K 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please render a purple hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10P 3W 1X [ Re8 ] [ 3W 1P 8W 1P 3W 1X ] 3W 10P 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system paint a olive horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a beautiful silver hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10V 3W 1X [ Re8 ] [ 3W 1V 8W 1V 3W 1X ] 3W 10V 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "render a white triangle", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "draw a silver horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12V 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Square red", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10R 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "make a retro 16x16 beige hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a retro 16x16 triangle colored lime", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 1W 15L 1X [ Re4 ] [ 16L 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a diamond with purple color", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 3W 11P 2W 1X 4W 9P 3W 1X 5W 7P 4W 1X 6W 5P 5W 1X 7W 3P 6W 1X 8W 1P 7W 1X 16W"}
+{"input": "could you please draw a white checkerboard for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a brown checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 diamond in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "generate a diamond in olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "create a beautiful hollow triangle colored beige", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 1Z 1W 1Z 6W 1X 6W 1Z 3W 1Z 5W 1X 5W 1Z 5W 1Z 4W 1X 4W 1Z 7W 1Z 3W 1X 3W 1Z 9W 1Z 2W 1X 2W 1Z 11W 1Z 1W 1X 1W 1Z 13W 1Z 1X [ Re3 ] [ 1Z 14W 1Z 1X ] 16Z 1X [ Re2 ] [ 16W  ]"}
+{"input": "please make a white square pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "Render a purple hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 1P 1W 1P 6W 1X 6W 1P 3W 1P 5W 1X 5W 1P 5W 1P 4W 1X 4W 1P 7W 1P 3W 1X 3W 1P 9W 1P 2W 1X 2W 1P 11W 1P 1W 1X 1W 1P 13W 1P 1X [ Re3 ] [ 1P 14W 1P 1X ] 16P 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a triangle with black color", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 1W 15K 1X [ Re4 ] [ 16K 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "border frame magenta", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "system make a mint diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "please make a blue horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12B 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a horizontal stripes colored brown", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12N 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system render a lime cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1L 7W 1X ] 2W 12L 2W 1X [ Re5 ] [ 8W 1L 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a green diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 3W 11G 2W 1X 4W 9G 3W 1X 5W 7G 4W 1X 6W 5G 5W 1X 7W 3G 6W 1X 8W 1G 7W 1X 16W"}
+{"input": "paint a black diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 3W 11K 2W 1X 4W 9K 3W 1X 5W 7K 4W 1X 6W 5K 5W 1X 7W 3K 6W 1X 8W 1K 7W 1X 16W"}
+{"input": "please render a purple hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 1P 1W 1P 6W 1X 6W 1P 3W 1P 5W 1X 5W 1P 5W 1P 4W 1X 4W 1P 7W 1P 3W 1X 3W 1P 9W 1P 2W 1X 2W 1P 11W 1P 1W 1X 1W 1P 13W 1P 1X [ Re3 ] [ 1P 14W 1P 1X ] 16P 1X [ Re2 ] [ 16W  ]"}
+{"input": "system create a square colored navy", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 hollow triangle in lime", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "generate a simple square in orange", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10O 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please draw a orange checkerboard for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 3W 1X 3W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "border frame orange", "output": "[ Re2 ] [ 16O 1X ] [ Re12 ] [ 2O 12W 2O 1X ] [ Re2 ] [ 16O  ]"}
+{"input": "render a retro 16x16 white diamond", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "please create a hollow square colored orange", "output": "[ Re3 ] [ 16W 1X ] 3W 10O 3W 1X [ Re8 ] [ 3W 1O 8W 1O 3W 1X ] 3W 10O 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a retro 16x16 white border frame pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "can you make a silver hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10V 3W 1X [ Re8 ] [ 3W 1V 8W 1V 3W 1X ] 3W 10V 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a simple magenta simple border frame pixel art", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "sketch a horizontal stripes with purple color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12P 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a horizontal stripes colored gold for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12D 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a border frame with navy color", "output": "[ Re2 ] [ 16U 1X ] [ Re12 ] [ 2U 12W 2U 1X ] [ Re2 ] [ 16U  ]"}
+{"input": "draw a retro 16x16 blue hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10B 3W 1X [ Re8 ] [ 3W 1B 8W 1B 3W 1X ] 3W 10B 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a simple lime horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple diamond with gold color", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "draw a simple sky blue checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 3W 1X 3W 1S 1W 1S 1W 1S 1W 1S 1W 1S 1W 1S 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a simple gray checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1A 1W 1A 1W 1A 1W 1A 1W 1A 1W 1A 3W 1X 3W 1A 1W 1A 1W 1A 1W 1A 1W 1A 1W 1A 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Olive square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10E 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 beige checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 3W 1X 3W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system paint a purple hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10P 3W 1X [ Re8 ] [ 3W 1P 8W 1P 3W 1X ] 3W 10P 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "draw a silver border frame", "output": "[ Re2 ] [ 16V 1X ] [ Re12 ] [ 2V 12W 2V 1X ] [ Re2 ] [ 16V  ]"}
+{"input": "can you make a green hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a purple hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10P 3W 1X [ Re8 ] [ 3W 1P 8W 1P 3W 1X ] 3W 10P 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a purple hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10P 3W 1X [ Re8 ] [ 3W 1P 8W 1P 3W 1X ] 3W 10P 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "paint a beautiful olive diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "could you please draw a purple diamond for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 3W 11P 2W 1X 4W 9P 3W 1X 5W 7P 4W 1X 6W 5P 5W 1X 7W 3P 6W 1X 8W 1P 7W 1X 16W"}
+{"input": "system render a beige hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you make a beige triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 1W 15Z 1X [ Re4 ] [ 16Z 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a black horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12K 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 silver hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10V 3W 1X [ Re8 ] [ 3W 1V 8W 1V 3W 1X ] 3W 10V 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please paint a beige hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 1Z 1W 1Z 6W 1X 6W 1Z 3W 1Z 5W 1X 5W 1Z 5W 1Z 4W 1X 4W 1Z 7W 1Z 3W 1X 3W 1Z 9W 1Z 2W 1X 2W 1Z 11W 1Z 1W 1X 1W 1Z 13W 1Z 1X [ Re3 ] [ 1Z 14W 1Z 1X ] 16Z 1X [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple brown hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10N 3W 1X [ Re8 ] [ 3W 1N 8W 1N 3W 1X ] 3W 10N 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system generate a hollow triangle in green", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a triangle with green color", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 1W 15G 1X [ Re4 ] [ 16G 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 red hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10R 3W 1X [ Re8 ] [ 3W 1R 8W 1R 3W 1X ] 3W 10R 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "could you please create a border frame colored white for me", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "Render a orange horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12O 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a simple gray hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10A 3W 1X [ Re8 ] [ 3W 1A 8W 1A 3W 1X ] 3W 10A 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "draw a simple orange cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1O 7W 1X ] 2W 12O 2W 1X [ Re5 ] [ 8W 1O 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system paint a lime checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "purple triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system render a blue square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please render a green diamond for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 3W 11G 2W 1X 4W 9G 3W 1X 5W 7G 4W 1X 6W 5G 5W 1X 7W 3G 6W 1X 8W 1G 7W 1X 16W"}
+{"input": "can you generate a cross in mint", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1M 7W 1X ] 2W 12M 2W 1X [ Re5 ] [ 8W 1M 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 blue horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12B 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Hollow triangle olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 1E 1W 1E 6W 1X 6W 1E 3W 1E 5W 1X 5W 1E 5W 1E 4W 1X 4W 1E 7W 1E 3W 1X 3W 1E 9W 1E 2W 1X 2W 1E 11W 1E 1W 1X 1W 1E 13W 1E 1X [ Re3 ] [ 1E 14W 1E 1X ] 16E 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple hollow square with lime color", "output": "[ Re3 ] [ 16W 1X ] 3W 10L 3W 1X [ Re8 ] [ 3W 1L 8W 1L 3W 1X ] 3W 10L 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "paint a black triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 1W 15K 1X [ Re4 ] [ 16K 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system paint a blue square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Create a checkerboard colored brown", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Triangle gray", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 1W 15A 1X [ Re4 ] [ 16A 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please generate a square in sky blue", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10S 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Make a green hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please draw a gold square for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10D 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please create a square colored yellow for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Y 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system generate a cross in blue", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1B 7W 1X ] 2W 12B 2W 1X [ Re5 ] [ 8W 1B 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system make a navy border frame pixel art", "output": "[ Re2 ] [ 16U 1X ] [ Re12 ] [ 2U 12W 2U 1X ] [ Re2 ] [ 16U  ]"}
+{"input": "could you please paint a navy hollow square grid for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10U 3W 1X [ Re8 ] [ 3W 1U 8W 1U 3W 1X ] 3W 10U 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a horizontal stripes colored olive", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful border frame colored olive", "output": "[ Re2 ] [ 16E 1X ] [ Re12 ] [ 2E 12W 2E 1X ] [ Re2 ] [ 16E  ]"}
+{"input": "create a cross colored mint", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1M 7W 1X ] 2W 12M 2W 1X [ Re5 ] [ 8W 1M 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a brown triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 1W 15N 1X [ Re4 ] [ 16N 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please make a gold hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 1D 1W 1D 6W 1X 6W 1D 3W 1D 5W 1X 5W 1D 5W 1D 4W 1X 4W 1D 7W 1D 3W 1X 3W 1D 9W 1D 2W 1X 2W 1D 11W 1D 1W 1X 1W 1D 13W 1D 1X [ Re3 ] [ 1D 14W 1D 1X ] 16D 1X [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple brown triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 1W 15N 1X [ Re4 ] [ 16N 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you generate a border frame in beige", "output": "[ Re2 ] [ 16Z 1X ] [ Re12 ] [ 2Z 12W 2Z 1X ] [ Re2 ] [ 16Z  ]"}
+{"input": "please paint a mint border frame grid", "output": "[ Re2 ] [ 16M 1X ] [ Re12 ] [ 2M 12W 2M 1X ] [ Re2 ] [ 16M  ]"}
+{"input": "generate a beautiful square in red", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10R 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system create a checkerboard colored green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 3W 1X 3W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a square in orange", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10O 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 yellow diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 3W 11Y 2W 1X 4W 9Y 3W 1X 5W 7Y 4W 1X 6W 5Y 5W 1X 7W 3Y 6W 1X 8W 1Y 7W 1X 16W"}
+{"input": "could you please paint a magenta hollow square grid for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10J 3W 1X [ Re8 ] [ 3W 1J 8W 1J 3W 1X ] 3W 10J 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system make a black checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1K 1W 1K 1W 1K 1W 1K 1W 1K 1W 1K 3W 1X 3W 1K 1W 1K 1W 1K 1W 1K 1W 1K 1W 1K 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a border frame in gray", "output": "[ Re2 ] [ 16A 1X ] [ Re12 ] [ 2A 12W 2A 1X ] [ Re2 ] [ 16A  ]"}
+{"input": "make a blue diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 3W 11B 2W 1X 4W 9B 3W 1X 5W 7B 4W 1X 6W 5B 5W 1X 7W 3B 6W 1X 8W 1B 7W 1X 16W"}
+{"input": "system make a black diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 3W 11K 2W 1X 4W 9K 3W 1X 5W 7K 4W 1X 6W 5K 5W 1X 7W 3K 6W 1X 8W 1K 7W 1X 16W"}
+{"input": "could you please draw a gray hollow triangle for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 1A 1W 1A 6W 1X 6W 1A 3W 1A 5W 1X 5W 1A 5W 1A 4W 1X 4W 1A 7W 1A 3W 1X 3W 1A 9W 1A 2W 1X 2W 1A 11W 1A 1W 1X 1W 1A 13W 1A 1X [ Re3 ] [ 1A 14W 1A 1X ] 16A 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please generate a triangle in navy for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 1W 15U 1X [ Re4 ] [ 16U 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "beige horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Z 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please draw a silver square for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10V 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system create a diamond colored purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 3W 11P 2W 1X 4W 9P 3W 1X 5W 7P 4W 1X 6W 5P 5W 1X 7W 3P 6W 1X 8W 1P 7W 1X 16W"}
+{"input": "green hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "Horizontal stripes red", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12R 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a blue horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12B 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 white triangle pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "please generate a triangle in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 checkerboard in lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Gold cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1D 7W 1X ] 2W 12D 2W 1X [ Re5 ] [ 8W 1D 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful navy checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1U 1W 1U 1W 1U 1W 1U 1W 1U 1W 1U 3W 1X 3W 1U 1W 1U 1W 1U 1W 1U 1W 1U 1W 1U 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a retro 16x16 square colored purple", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10P 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a black border frame grid", "output": "[ Re2 ] [ 16K 1X ] [ Re12 ] [ 2K 12W 2K 1X ] [ Re2 ] [ 16K  ]"}
+{"input": "could you please make a sky blue hollow triangle pixel art for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 1S 1W 1S 6W 1X 6W 1S 3W 1S 5W 1X 5W 1S 5W 1S 4W 1X 4W 1S 7W 1S 3W 1X 3W 1S 9W 1S 2W 1X 2W 1S 11W 1S 1W 1X 1W 1S 13W 1S 1X [ Re3 ] [ 1S 14W 1S 1X ] 16S 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you generate a cross in purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Purple hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 1P 1W 1P 6W 1X 6W 1P 3W 1P 5W 1X 5W 1P 5W 1P 4W 1X 4W 1P 7W 1P 3W 1X 3W 1P 9W 1P 2W 1X 2W 1P 11W 1P 1W 1X 1W 1P 13W 1P 1X [ Re3 ] [ 1P 14W 1P 1X ] 16P 1X [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful mint checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 3W 1X 3W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple border frame with red color", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "make a beautiful sky blue horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12S 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a blue square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10B 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a beautiful white checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "diamond mint", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "paint a retro 16x16 white diamond grid", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "could you please paint a purple diamond grid for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 3W 11P 2W 1X 4W 9P 3W 1X 5W 7P 4W 1X 6W 5P 5W 1X 7W 3P 6W 1X 8W 1P 7W 1X 16W"}
+{"input": "system make a olive horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a retro 16x16 gold checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 3W 1X 3W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a diamond colored mint for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 3M 6W 1X 6W 5M 5W 1X 5W 7M 4W 1X 4W 9M 3W 1X 3W 11M 2W 1X 2W 13M 1W 1X 3W 11M 2W 1X 4W 9M 3W 1X 5W 7M 4W 1X 6W 5M 5W 1X 7W 3M 6W 1X 8W 1M 7W 1X 16W"}
+{"input": "make a beautiful black hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 1K 1W 1K 6W 1X 6W 1K 3W 1K 5W 1X 5W 1K 5W 1K 4W 1X 4W 1K 7W 1K 3W 1X 3W 1K 9W 1K 2W 1X 2W 1K 11W 1K 1W 1X 1W 1K 13W 1K 1X [ Re3 ] [ 1K 14W 1K 1X ] 16K 1X [ Re2 ] [ 16W  ]"}
+{"input": "please create a border frame colored silver", "output": "[ Re2 ] [ 16V 1X ] [ Re12 ] [ 2V 12W 2V 1X ] [ Re2 ] [ 16V  ]"}
+{"input": "make a red cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1R 7W 1X ] 2W 12R 2W 1X [ Re5 ] [ 8W 1R 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a retro 16x16 cross colored green", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1G 7W 1X ] 2W 12G 2W 1X [ Re5 ] [ 8W 1G 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a pink hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 1H 1W 1H 6W 1X 6W 1H 3W 1H 5W 1X 5W 1H 5W 1H 4W 1X 4W 1H 7W 1H 3W 1X 3W 1H 9W 1H 2W 1X 2W 1H 11W 1H 1W 1X 1W 1H 13W 1H 1X [ Re3 ] [ 1H 14W 1H 1X ] 16H 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you make a blue cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1B 7W 1X ] 2W 12B 2W 1X [ Re5 ] [ 8W 1B 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Paint a red horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12R 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system create a border frame colored sky blue", "output": "[ Re2 ] [ 16S 1X ] [ Re12 ] [ 2S 12W 2S 1X ] [ Re2 ] [ 16S  ]"}
+{"input": "Generate a square in black", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10K 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please make a navy border frame pixel art for me", "output": "[ Re2 ] [ 16U 1X ] [ Re12 ] [ 2U 12W 2U 1X ] [ Re2 ] [ 16U  ]"}
+{"input": "can you paint a sky blue square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10S 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "create a retro 16x16 border frame colored sky blue", "output": "[ Re2 ] [ 16S 1X ] [ Re12 ] [ 2S 12W 2S 1X ] [ Re2 ] [ 16S  ]"}
+{"input": "system create a cross colored gold", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1D 7W 1X ] 2W 12D 2W 1X [ Re5 ] [ 8W 1D 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a beige triangle grid for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 1W 15Z 1X [ Re4 ] [ 16Z 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Pink diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 3W 11H 2W 1X 4W 9H 3W 1X 5W 7H 4W 1X 6W 5H 5W 1X 7W 3H 6W 1X 8W 1H 7W 1X 16W"}
+{"input": "please make a beige cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful border frame colored magenta", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "sketch a cross with orange color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1O 7W 1X ] 2W 12O 2W 1X [ Re5 ] [ 8W 1O 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a magenta cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1J 7W 1X ] 2W 12J 2W 1X [ Re5 ] [ 8W 1J 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple mint horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12M 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a orange square pixel art for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10O 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system render a red cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1R 7W 1X ] 2W 12R 2W 1X [ Re5 ] [ 8W 1R 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a lime cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1L 7W 1X ] 2W 12L 2W 1X [ Re5 ] [ 8W 1L 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a diamond colored pink", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 3W 11H 2W 1X 4W 9H 3W 1X 5W 7H 4W 1X 6W 5H 5W 1X 7W 3H 6W 1X 8W 1H 7W 1X 16W"}
+{"input": "system paint a beige horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Z 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 lime hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10L 3W 1X [ Re8 ] [ 3W 1L 8W 1L 3W 1X ] 3W 10L 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please create a square colored white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "make a simple green cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1G 7W 1X ] 2W 12G 2W 1X [ Re5 ] [ 8W 1G 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Sky blue hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 1S 1W 1S 6W 1X 6W 1S 3W 1S 5W 1X 5W 1S 5W 1S 4W 1X 4W 1S 7W 1S 3W 1X 3W 1S 9W 1S 2W 1X 2W 1S 11W 1S 1W 1X 1W 1S 13W 1S 1X [ Re3 ] [ 1S 14W 1S 1X ] 16S 1X [ Re2 ] [ 16W  ]"}
+{"input": "Gold diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "can you render a pink triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 1W 15H 1X [ Re4 ] [ 16H 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you render a yellow cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Y 7W 1X ] 2W 12Y 2W 1X [ Re5 ] [ 8W 1Y 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a olive border frame grid for me", "output": "[ Re2 ] [ 16E 1X ] [ Re12 ] [ 2E 12W 2E 1X ] [ Re2 ] [ 16E  ]"}
+{"input": "Create a triangle colored olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 1W 15E 1X [ Re4 ] [ 16E 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a white checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a square in yellow", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Y 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "draw a beautiful yellow checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 3W 1X 3W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a square colored navy", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you paint a black square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10K 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "render a navy square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Draw a beige hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Paint a gray cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1A 7W 1X ] 2W 12A 2W 1X [ Re5 ] [ 8W 1A 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a green hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 1G 1W 1G 6W 1X 6W 1G 3W 1G 5W 1X 5W 1G 5W 1G 4W 1X 4W 1G 7W 1G 3W 1X 3W 1G 9W 1G 2W 1X 2W 1G 11W 1G 1W 1X 1W 1G 13W 1G 1X [ Re3 ] [ 1G 14W 1G 1X ] 16G 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you create a triangle colored yellow", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 1W 15Y 1X [ Re4 ] [ 16Y 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you render a gold square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10D 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please generate a checkerboard in gold for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 3W 1X 3W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful triangle colored red", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 1W 15R 1X [ Re4 ] [ 16R 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please create a border frame colored blue", "output": "[ Re2 ] [ 16B 1X ] [ Re12 ] [ 2B 12W 2B 1X ] [ Re2 ] [ 16B  ]"}
+{"input": "render a beautiful brown square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "create a beautiful horizontal stripes colored blue", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12B 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a mint checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 3W 1X 3W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please draw a gold hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 1D 1W 1D 6W 1X 6W 1D 3W 1D 5W 1X 5W 1D 5W 1D 4W 1X 4W 1D 7W 1D 3W 1X 3W 1D 9W 1D 2W 1X 2W 1D 11W 1D 1W 1X 1W 1D 13W 1D 1X [ Re3 ] [ 1D 14W 1D 1X ] 16D 1X [ Re2 ] [ 16W  ]"}
+{"input": "Create a square colored olive", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10E 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "draw a brown square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you paint a orange hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10O 3W 1X [ Re8 ] [ 3W 1O 8W 1O 3W 1X ] 3W 10O 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "paint a beautiful pink hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 1H 1W 1H 6W 1X 6W 1H 3W 1H 5W 1X 5W 1H 5W 1H 4W 1X 4W 1H 7W 1H 3W 1X 3W 1H 9W 1H 2W 1X 2W 1H 11W 1H 1W 1X 1W 1H 13W 1H 1X [ Re3 ] [ 1H 14W 1H 1X ] 16H 1X [ Re2 ] [ 16W  ]"}
+{"input": "please make a blue hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 1B 1W 1B 6W 1X 6W 1B 3W 1B 5W 1X 5W 1B 5W 1B 4W 1X 4W 1B 7W 1B 3W 1X 3W 1B 9W 1B 2W 1X 2W 1B 11W 1B 1W 1X 1W 1B 13W 1B 1X [ Re3 ] [ 1B 14W 1B 1X ] 16B 1X [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a yellow border frame for me", "output": "[ Re2 ] [ 16Y 1X ] [ Re12 ] [ 2Y 12W 2Y 1X ] [ Re2 ] [ 16Y  ]"}
+{"input": "sketch a simple border frame with magenta simple color", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "render a brown checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 3W 1X 3W 1N 1W 1N 1W 1N 1W 1N 1W 1N 1W 1N 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please generate a horizontal stripes in navy for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12U 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a simple sky blue diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 3S 6W 1X 6W 5S 5W 1X 5W 7S 4W 1X 4W 9S 3W 1X 3W 11S 2W 1X 2W 13S 1W 1X 3W 11S 2W 1X 4W 9S 3W 1X 5W 7S 4W 1X 6W 5S 5W 1X 7W 3S 6W 1X 8W 1S 7W 1X 16W"}
+{"input": "render a retro 16x16 olive horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 orange horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12O 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a yellow checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 3W 1X 3W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Paint a beige cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Render a red hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 1R 1W 1R 6W 1X 6W 1R 3W 1R 5W 1X 5W 1R 5W 1R 4W 1X 4W 1R 7W 1R 3W 1X 3W 1R 9W 1R 2W 1X 2W 1R 11W 1R 1W 1X 1W 1R 13W 1R 1X [ Re3 ] [ 1R 14W 1R 1X ] 16R 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful lime hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "system draw a lime horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Create a triangle colored white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "could you please generate a diamond in gold for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "please render a green hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10G 3W 1X [ Re8 ] [ 3W 1G 8W 1G 3W 1X ] 3W 10G 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please paint a beige diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "make a simple silver cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a red hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10R 3W 1X [ Re8 ] [ 3W 1R 8W 1R 3W 1X ] 3W 10R 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a retro 16x16 navy triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 1W 15U 1X [ Re4 ] [ 16U 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple pink hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 1H 1W 1H 6W 1X 6W 1H 3W 1H 5W 1X 5W 1H 5W 1H 4W 1X 4W 1H 7W 1H 3W 1X 3W 1H 9W 1H 2W 1X 2W 1H 11W 1H 1W 1X 1W 1H 13W 1H 1X [ Re3 ] [ 1H 14W 1H 1X ] 16H 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple border frame with pink color", "output": "[ Re2 ] [ 16H 1X ] [ Re12 ] [ 2H 12W 2H 1X ] [ Re2 ] [ 16H  ]"}
+{"input": "Create a horizontal stripes colored gray", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12A 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple gold cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1D 7W 1X ] 2W 12D 2W 1X [ Re5 ] [ 8W 1D 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please generate a checkerboard in beige", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 3W 1X 3W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "triangle white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "please render a blue diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 3W 11B 2W 1X 4W 9B 3W 1X 5W 7B 4W 1X 6W 5B 5W 1X 7W 3B 6W 1X 8W 1B 7W 1X 16W"}
+{"input": "could you please generate a hollow triangle in gray for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 1A 1W 1A 6W 1X 6W 1A 3W 1A 5W 1X 5W 1A 5W 1A 4W 1X 4W 1A 7W 1A 3W 1X 3W 1A 9W 1A 2W 1X 2W 1A 11W 1A 1W 1X 1W 1A 13W 1A 1X [ Re3 ] [ 1A 14W 1A 1X ] 16A 1X [ Re2 ] [ 16W  ]"}
+{"input": "make a silver cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please create a horizontal stripes colored olive for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please generate a cross in pink for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a retro 16x16 pink border frame", "output": "[ Re2 ] [ 16H 1X ] [ Re12 ] [ 2H 12W 2H 1X ] [ Re2 ] [ 16H  ]"}
+{"input": "create a beautiful border frame colored gray", "output": "[ Re2 ] [ 16A 1X ] [ Re12 ] [ 2A 12W 2A 1X ] [ Re2 ] [ 16A  ]"}
+{"input": "render a beige horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Z 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 gold diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "Render a beige diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "render a simple magenta simple triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a checkerboard colored purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 silver border frame pixel art", "output": "[ Re2 ] [ 16V 1X ] [ Re12 ] [ 2V 12W 2V 1X ] [ Re2 ] [ 16V  ]"}
+{"input": "can you render a mint hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10M 3W 1X [ Re8 ] [ 3W 1M 8W 1M 3W 1X ] 3W 10M 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Make a pink cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a cross colored white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "could you please render a mint horizontal stripes for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12M 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 cross in lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1L 7W 1X ] 2W 12L 2W 1X [ Re5 ] [ 8W 1L 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 navy square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 triangle in brown", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 1W 15N 1X [ Re4 ] [ 16N 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a gray hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10A 3W 1X [ Re8 ] [ 3W 1A 8W 1A 3W 1X ] 3W 10A 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Paint a gray border frame grid", "output": "[ Re2 ] [ 16A 1X ] [ Re12 ] [ 2A 12W 2A 1X ] [ Re2 ] [ 16A  ]"}
+{"input": "system create a cross colored magenta", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1J 7W 1X ] 2W 12J 2W 1X [ Re5 ] [ 8W 1J 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system create a square colored lime", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10L 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Paint a blue hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10B 3W 1X [ Re8 ] [ 3W 1B 8W 1B 3W 1X ] 3W 10B 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you render a gold hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10D 3W 1X [ Re8 ] [ 3W 1D 8W 1D 3W 1X ] 3W 10D 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please draw a gray border frame", "output": "[ Re2 ] [ 16A 1X ] [ Re12 ] [ 2A 12W 2A 1X ] [ Re2 ] [ 16A  ]"}
+{"input": "gold triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 1W 15D 1X [ Re4 ] [ 16D 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "beige diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "can you draw a orange checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 3W 1X 3W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please create a border frame colored sky blue", "output": "[ Re2 ] [ 16S 1X ] [ Re12 ] [ 2S 12W 2S 1X ] [ Re2 ] [ 16S  ]"}
+{"input": "system make a brown hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10N 3W 1X [ Re8 ] [ 3W 1N 8W 1N 3W 1X ] 3W 10N 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 green horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "diamond purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 3W 11P 2W 1X 4W 9P 3W 1X 5W 7P 4W 1X 6W 5P 5W 1X 7W 3P 6W 1X 8W 1P 7W 1X 16W"}
+{"input": "could you please paint a mint border frame grid for me", "output": "[ Re2 ] [ 16M 1X ] [ Re12 ] [ 2M 12W 2M 1X ] [ Re2 ] [ 16M  ]"}
+{"input": "create a beautiful cross colored pink", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a white diamond grid", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "triangle orange", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 3O 6W 1X 6W 5O 5W 1X 5W 7O 4W 1X 4W 9O 3W 1X 3W 11O 2W 1X 2W 13O 1W 1X 1W 15O 1X [ Re4 ] [ 16O 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a simple square colored mint", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10M 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "make a beautiful navy hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10U 3W 1X [ Re8 ] [ 3W 1U 8W 1U 3W 1X ] 3W 10U 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system generate a cross in purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a navy square pixel art for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "system make a lime checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Checkerboard yellow", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 3W 1X 3W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 1W 1Y 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Pink hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10H 3W 1X [ Re8 ] [ 3W 1H 8W 1H 3W 1X ] 3W 10H 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please create a hollow triangle colored orange", "output": "[ Re2 ] [ 16W 1X ] 8W 1O 7W 1X 7W 1O 1W 1O 6W 1X 6W 1O 3W 1O 5W 1X 5W 1O 5W 1O 4W 1X 4W 1O 7W 1O 3W 1X 3W 1O 9W 1O 2W 1X 2W 1O 11W 1O 1W 1X 1W 1O 13W 1O 1X [ Re3 ] [ 1O 14W 1O 1X ] 16O 1X [ Re2 ] [ 16W  ]"}
+{"input": "draw a green diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 3W 11G 2W 1X 4W 9G 3W 1X 5W 7G 4W 1X 6W 5G 5W 1X 7W 3G 6W 1X 8W 1G 7W 1X 16W"}
+{"input": "make a simple navy triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 1W 15U 1X [ Re4 ] [ 16U 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a horizontal stripes with navy color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12U 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a magenta triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a magenta diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 3W 11J 2W 1X 4W 9J 3W 1X 5W 7J 4W 1X 6W 5J 5W 1X 7W 3J 6W 1X 8W 1J 7W 1X 16W"}
+{"input": "please generate a hollow triangle in lime", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "system generate a square in red", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10R 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Create a hollow triangle colored red", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 1R 1W 1R 6W 1X 6W 1R 3W 1R 5W 1X 5W 1R 5W 1R 4W 1X 4W 1R 7W 1R 3W 1X 3W 1R 9W 1R 2W 1X 2W 1R 11W 1R 1W 1X 1W 1R 13W 1R 1X [ Re3 ] [ 1R 14W 1R 1X ] 16R 1X [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple navy cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1U 7W 1X ] 2W 12U 2W 1X [ Re5 ] [ 8W 1U 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a border frame colored brown", "output": "[ Re2 ] [ 16N 1X ] [ Re12 ] [ 2N 12W 2N 1X ] [ Re2 ] [ 16N  ]"}
+{"input": "checkerboard mint", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 3W 1X 3W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please generate a hollow triangle in black for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 1K 1W 1K 6W 1X 6W 1K 3W 1K 5W 1X 5W 1K 5W 1K 4W 1X 4W 1K 7W 1K 3W 1X 3W 1K 9W 1K 2W 1X 2W 1K 11W 1K 1W 1X 1W 1K 13W 1K 1X [ Re3 ] [ 1K 14W 1K 1X ] 16K 1X [ Re2 ] [ 16W  ]"}
+{"input": "system draw a magenta diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 3W 11J 2W 1X 4W 9J 3W 1X 5W 7J 4W 1X 6W 5J 5W 1X 7W 3J 6W 1X 8W 1J 7W 1X 16W"}
+{"input": "paint a simple white square grid", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "Generate a border frame in yellow", "output": "[ Re2 ] [ 16Y 1X ] [ Re12 ] [ 2Y 12W 2Y 1X ] [ Re2 ] [ 16Y  ]"}
+{"input": "make a lime border frame pixel art", "output": "[ Re2 ] [ 16L 1X ] [ Re12 ] [ 2L 12W 2L 1X ] [ Re2 ] [ 16L  ]"}
+{"input": "system create a hollow triangle colored lime", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 1L 1W 1L 6W 1X 6W 1L 3W 1L 5W 1X 5W 1L 5W 1L 4W 1X 4W 1L 7W 1L 3W 1X 3W 1L 9W 1L 2W 1X 2W 1L 11W 1L 1W 1X 1W 1L 13W 1L 1X [ Re3 ] [ 1L 14W 1L 1X ] 16L 1X [ Re2 ] [ 16W  ]"}
+{"input": "Draw a brown hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10N 3W 1X [ Re8 ] [ 3W 1N 8W 1N 3W 1X ] 3W 10N 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you generate a horizontal stripes in gray", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12A 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please generate a square in navy", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10U 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "sketch a simple square with pink color", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10H 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "triangle purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a diamond with red color", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 3W 11R 2W 1X 4W 9R 3W 1X 5W 7R 4W 1X 6W 5R 5W 1X 7W 3R 6W 1X 8W 1R 7W 1X 16W"}
+{"input": "please generate a hollow triangle in magenta", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 1J 1W 1J 6W 1X 6W 1J 3W 1J 5W 1X 5W 1J 5W 1J 4W 1X 4W 1J 7W 1J 3W 1X 3W 1J 9W 1J 2W 1X 2W 1J 11W 1J 1W 1X 1W 1J 13W 1J 1X [ Re3 ] [ 1J 14W 1J 1X ] 16J 1X [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a gray checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1A 1W 1A 1W 1A 1W 1A 1W 1A 1W 1A 3W 1X 3W 1A 1W 1A 1W 1A 1W 1A 1W 1A 1W 1A 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a beautiful checkerboard colored purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a square in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "Create a cross colored silver", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple horizontal stripes with lime color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a retro 16x16 yellow diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 3Y 6W 1X 6W 5Y 5W 1X 5W 7Y 4W 1X 4W 9Y 3W 1X 3W 11Y 2W 1X 2W 13Y 1W 1X 3W 11Y 2W 1X 4W 9Y 3W 1X 5W 7Y 4W 1X 6W 5Y 5W 1X 7W 3Y 6W 1X 8W 1Y 7W 1X 16W"}
+{"input": "generate a beautiful triangle in magenta", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Draw a olive hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system render a purple hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10P 3W 1X [ Re8 ] [ 3W 1P 8W 1P 3W 1X ] 3W 10P 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "paint a simple white triangle grid", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "can you create a square colored white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "can you make a olive diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 3W 11E 2W 1X 4W 9E 3W 1X 5W 7E 4W 1X 6W 5E 5W 1X 7W 3E 6W 1X 8W 1E 7W 1X 16W"}
+{"input": "can you make a green hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10G 3W 1X [ Re8 ] [ 3W 1G 8W 1G 3W 1X ] 3W 10G 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "could you please make a gray hollow triangle pixel art for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 1A 1W 1A 6W 1X 6W 1A 3W 1A 5W 1X 5W 1A 5W 1A 4W 1X 4W 1A 7W 1A 3W 1X 3W 1A 9W 1A 2W 1X 2W 1A 11W 1A 1W 1X 1W 1A 13W 1A 1X [ Re3 ] [ 1A 14W 1A 1X ] 16A 1X [ Re2 ] [ 16W  ]"}
+{"input": "paint a sky blue square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10S 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 yellow hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 1Y 1W 1Y 6W 1X 6W 1Y 3W 1Y 5W 1X 5W 1Y 5W 1Y 4W 1X 4W 1Y 7W 1Y 3W 1X 3W 1Y 9W 1Y 2W 1X 2W 1Y 11W 1Y 1W 1X 1W 1Y 13W 1Y 1X [ Re3 ] [ 1Y 14W 1Y 1X ] 16Y 1X [ Re2 ] [ 16W  ]"}
+{"input": "generate a simple square in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "can you paint a purple square grid", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10P 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you create a horizontal stripes colored silver", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12V 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Render a navy hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10U 3W 1X [ Re8 ] [ 3W 1U 8W 1U 3W 1X ] 3W 10U 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please make a gold diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "system make a silver triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 3V 6W 1X 6W 5V 5W 1X 5W 7V 4W 1X 4W 9V 3W 1X 3W 11V 2W 1X 2W 13V 1W 1X 1W 15V 1X [ Re4 ] [ 16V 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a yellow square pixel art for me", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Y 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 red horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12R 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a simple gold hollow square pixel art", "output": "[ Re3 ] [ 16W 1X ] 3W 10D 3W 1X [ Re8 ] [ 3W 1D 8W 1D 3W 1X ] 3W 10D 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you paint a navy checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1U 1W 1U 1W 1U 1W 1U 1W 1U 1W 1U 3W 1X 3W 1U 1W 1U 1W 1U 1W 1U 1W 1U 1W 1U 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a cross in silver", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1V 7W 1X ] 2W 12V 2W 1X [ Re5 ] [ 8W 1V 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you draw a pink hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10H 3W 1X [ Re8 ] [ 3W 1H 8W 1H 3W 1X ] 3W 10H 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "could you please create a hollow triangle colored navy for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 1U 1W 1U 6W 1X 6W 1U 3W 1U 5W 1X 5W 1U 5W 1U 4W 1X 4W 1U 7W 1U 3W 1X 3W 1U 9W 1U 2W 1X 2W 1U 11W 1U 1W 1X 1W 1U 13W 1U 1X [ Re3 ] [ 1U 14W 1U 1X ] 16U 1X [ Re2 ] [ 16W  ]"}
+{"input": "Make a pink horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12H 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple orange checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 3W 1X 3W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a retro 16x16 yellow border frame", "output": "[ Re2 ] [ 16Y 1X ] [ Re12 ] [ 2Y 12W 2Y 1X ] [ Re2 ] [ 16Y  ]"}
+{"input": "create a retro 16x16 checkerboard colored purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a sky blue horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12S 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please make a beige diamond pixel art for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "could you please draw a gold diamond for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1D 7W 1X 7W 3D 6W 1X 6W 5D 5W 1X 5W 7D 4W 1X 4W 9D 3W 1X 3W 11D 2W 1X 2W 13D 1W 1X 3W 11D 2W 1X 4W 9D 3W 1X 5W 7D 4W 1X 6W 5D 5W 1X 7W 3D 6W 1X 8W 1D 7W 1X 16W"}
+{"input": "please paint a yellow hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10Y 3W 1X [ Re8 ] [ 3W 1Y 8W 1Y 3W 1X ] 3W 10Y 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a triangle colored sky blue", "output": "[ Re2 ] [ 16W 1X ] 8W 1S 7W 1X 7W 3S 6W 1X 6W 5S 5W 1X 5W 7S 4W 1X 4W 9S 3W 1X 3W 11S 2W 1X 2W 13S 1W 1X 1W 15S 1X [ Re4 ] [ 16S 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a black hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 1K 1W 1K 6W 1X 6W 1K 3W 1K 5W 1X 5W 1K 5W 1K 4W 1X 4W 1K 7W 1K 3W 1X 3W 1K 9W 1K 2W 1X 2W 1K 11W 1K 1W 1X 1W 1K 13W 1K 1X [ Re3 ] [ 1K 14W 1K 1X ] 16K 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful black hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 1K 1W 1K 6W 1X 6W 1K 3W 1K 5W 1X 5W 1K 5W 1K 4W 1X 4W 1K 7W 1K 3W 1X 3W 1K 9W 1K 2W 1X 2W 1K 11W 1K 1W 1X 1W 1K 13W 1K 1X [ Re3 ] [ 1K 14W 1K 1X ] 16K 1X [ Re2 ] [ 16W  ]"}
+{"input": "Render a brown border frame", "output": "[ Re2 ] [ 16N 1X ] [ Re12 ] [ 2N 12W 2N 1X ] [ Re2 ] [ 16N  ]"}
+{"input": "generate a retro 16x16 diamond in beige", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "generate a square in sky blue", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10S 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a brown hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10N 3W 1X [ Re8 ] [ 3W 1N 8W 1N 3W 1X ] 3W 10N 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "Make a brown square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10N 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "can you generate a horizontal stripes in beige", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Z 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a diamond in magenta", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 3W 11J 2W 1X 4W 9J 3W 1X 5W 7J 4W 1X 6W 5J 5W 1X 7W 3J 6W 1X 8W 1J 7W 1X 16W"}
+{"input": "make a retro 16x16 magenta retro 16x16 horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Render a orange hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10O 3W 1X [ Re8 ] [ 3W 1O 8W 1O 3W 1X ] 3W 10O 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "draw a beautiful mint hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1M 7W 1X 7W 1M 1W 1M 6W 1X 6W 1M 3W 1M 5W 1X 5W 1M 5W 1M 4W 1X 4W 1M 7W 1M 3W 1X 3W 1M 9W 1M 2W 1X 2W 1M 11W 1M 1W 1X 1W 1M 13W 1M 1X [ Re3 ] [ 1M 14W 1M 1X ] 16M 1X [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple triangle with brown color", "output": "[ Re2 ] [ 16W 1X ] 8W 1N 7W 1X 7W 3N 6W 1X 6W 5N 5W 1X 5W 7N 4W 1X 4W 9N 3W 1X 3W 11N 2W 1X 2W 13N 1W 1X 1W 15N 1X [ Re4 ] [ 16N 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple diamond with red color", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 3W 11R 2W 1X 4W 9R 3W 1X 5W 7R 4W 1X 6W 5R 5W 1X 7W 3R 6W 1X 8W 1R 7W 1X 16W"}
+{"input": "draw a retro 16x16 purple diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 3W 11P 2W 1X 4W 9P 3W 1X 5W 7P 4W 1X 6W 5P 5W 1X 7W 3P 6W 1X 8W 1P 7W 1X 16W"}
+{"input": "Generate a hollow square in olive", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "draw a retro 16x16 sky blue hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10S 3W 1X [ Re8 ] [ 3W 1S 8W 1S 3W 1X ] 3W 10S 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "please render a brown horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12N 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a simple gray cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1A 7W 1X ] 2W 12A 2W 1X [ Re5 ] [ 8W 1A 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please render a black cross for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1K 7W 1X ] 2W 12K 2W 1X [ Re5 ] [ 8W 1K 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "horizontal stripes white", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please draw a gray hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 1A 1W 1A 6W 1X 6W 1A 3W 1A 5W 1X 5W 1A 5W 1A 4W 1X 4W 1A 7W 1A 3W 1X 3W 1A 9W 1A 2W 1X 2W 1A 11W 1A 1W 1X 1W 1A 13W 1A 1X [ Re3 ] [ 1A 14W 1A 1X ] 16A 1X [ Re2 ] [ 16W  ]"}
+{"input": "paint a beautiful black hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 1K 1W 1K 6W 1X 6W 1K 3W 1K 5W 1X 5W 1K 5W 1K 4W 1X 4W 1K 7W 1K 3W 1X 3W 1K 9W 1K 2W 1X 2W 1K 11W 1K 1W 1X 1W 1K 13W 1K 1X [ Re3 ] [ 1K 14W 1K 1X ] 16K 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a white hollow triangle", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "generate a beautiful diamond in gray", "output": "[ Re2 ] [ 16W 1X ] 8W 1A 7W 1X 7W 3A 6W 1X 6W 5A 5W 1X 5W 7A 4W 1X 4W 9A 3W 1X 3W 11A 2W 1X 2W 13A 1W 1X 3W 11A 2W 1X 4W 9A 3W 1X 5W 7A 4W 1X 6W 5A 5W 1X 7W 3A 6W 1X 8W 1A 7W 1X 16W"}
+{"input": "system render a gold checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 3W 1X 3W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Olive triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 1W 15E 1X [ Re4 ] [ 16E 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a checkerboard in purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 3W 1X 3W 1P 1W 1P 1W 1P 1W 1P 1W 1P 1W 1P 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a black square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10K 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "make a beautiful silver triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 3V 6W 1X 6W 5V 5W 1X 5W 7V 4W 1X 4W 9V 3W 1X 3W 11V 2W 1X 2W 13V 1W 1X 1W 15V 1X [ Re4 ] [ 16V 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please paint a green checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 3W 1X 3W 1G 1W 1G 1W 1G 1W 1G 1W 1G 1W 1G 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a horizontal stripes in white", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a brown cross pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1N 7W 1X ] 2W 12N 2W 1X [ Re5 ] [ 8W 1N 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful gold border frame", "output": "[ Re2 ] [ 16D 1X ] [ Re12 ] [ 2D 12W 2D 1X ] [ Re2 ] [ 16D  ]"}
+{"input": "diamond black", "output": "[ Re2 ] [ 16W 1X ] 8W 1K 7W 1X 7W 3K 6W 1X 6W 5K 5W 1X 5W 7K 4W 1X 4W 9K 3W 1X 3W 11K 2W 1X 2W 13K 1W 1X 3W 11K 2W 1X 4W 9K 3W 1X 5W 7K 4W 1X 6W 5K 5W 1X 7W 3K 6W 1X 8W 1K 7W 1X 16W"}
+{"input": "could you please make a lime horizontal stripes pixel art for me", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful lime checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple cross with white color", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "can you render a beige square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10Z 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "make a retro 16x16 white checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 16W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a retro 16x16 horizontal stripes in lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system create a hollow triangle colored blue", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 1B 1W 1B 6W 1X 6W 1B 3W 1B 5W 1X 5W 1B 5W 1B 4W 1X 4W 1B 7W 1B 3W 1X 3W 1B 9W 1B 2W 1X 2W 1B 11W 1B 1W 1X 1W 1B 13W 1B 1X [ Re3 ] [ 1B 14W 1B 1X ] 16B 1X [ Re2 ] [ 16W  ]"}
+{"input": "please paint a lime diamond grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 3W 11L 2W 1X 4W 9L 3W 1X 5W 7L 4W 1X 6W 5L 5W 1X 7W 3L 6W 1X 8W 1L 7W 1X 16W"}
+{"input": "generate a border frame in magenta", "output": "[ Re2 ] [ 16J 1X ] [ Re12 ] [ 2J 12W 2J 1X ] [ Re2 ] [ 16J  ]"}
+{"input": "generate a retro 16x16 cross in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "Render a purple hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10P 3W 1X [ Re8 ] [ 3W 1P 8W 1P 3W 1X ] 3W 10P 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "create a hollow triangle colored blue", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 1B 1W 1B 6W 1X 6W 1B 3W 1B 5W 1X 5W 1B 5W 1B 4W 1X 4W 1B 7W 1B 3W 1X 3W 1B 9W 1B 2W 1X 2W 1B 11W 1B 1W 1X 1W 1B 13W 1B 1X [ Re3 ] [ 1B 14W 1B 1X ] 16B 1X [ Re2 ] [ 16W  ]"}
+{"input": "Render a olive horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12E 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "sketch a simple checkerboard with mint color", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 3W 1X 3W 1M 1W 1M 1W 1M 1W 1M 1W 1M 1W 1M 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Lime diamond", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 3W 11L 2W 1X 4W 9L 3W 1X 5W 7L 4W 1X 6W 5L 5W 1X 7W 3L 6W 1X 8W 1L 7W 1X 16W"}
+{"input": "please paint a pink triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 1W 15H 1X [ Re4 ] [ 16H 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "create a square colored gray", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10A 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "paint a simple gold cross grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1D 7W 1X ] 2W 12D 2W 1X [ Re5 ] [ 8W 1D 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "generate a cross in pink", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1H 7W 1X ] 2W 12H 2W 1X [ Re5 ] [ 8W 1H 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a blue border frame pixel art", "output": "[ Re2 ] [ 16B 1X ] [ Re12 ] [ 2B 12W 2B 1X ] [ Re2 ] [ 16B  ]"}
+{"input": "paint a simple pink hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 1H 1W 1H 6W 1X 6W 1H 3W 1H 5W 1X 5W 1H 5W 1H 4W 1X 4W 1H 7W 1H 3W 1X 3W 1H 9W 1H 2W 1X 2W 1H 11W 1H 1W 1X 1W 1H 13W 1H 1X [ Re3 ] [ 1H 14W 1H 1X ] 16H 1X [ Re2 ] [ 16W  ]"}
+{"input": "paint a simple pink triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1H 7W 1X 7W 3H 6W 1X 6W 5H 5W 1X 5W 7H 4W 1X 4W 9H 3W 1X 3W 11H 2W 1X 2W 13H 1W 1X 1W 15H 1X [ Re4 ] [ 16H 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please make a orange horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12O 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a retro 16x16 purple horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12P 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please generate a hollow square in white", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "render a pink square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10H 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "Yellow horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Y 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple red triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 3R 6W 1X 6W 5R 5W 1X 5W 7R 4W 1X 4W 9R 3W 1X 3W 11R 2W 1X 2W 13R 1W 1X 1W 15R 1X [ Re4 ] [ 16R 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Make a red hollow triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1R 7W 1X 7W 1R 1W 1R 6W 1X 6W 1R 3W 1R 5W 1X 5W 1R 5W 1R 4W 1X 4W 1R 7W 1R 3W 1X 3W 1R 9W 1R 2W 1X 2W 1R 11W 1R 1W 1X 1W 1R 13W 1R 1X [ Re3 ] [ 1R 14W 1R 1X ] 16R 1X [ Re2 ] [ 16W  ]"}
+{"input": "render a gray horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12A 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Generate a cross in lime", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1L 7W 1X ] 2W 12L 2W 1X [ Re5 ] [ 8W 1L 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a beige checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 3W 1X 3W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 1W 1Z 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you make a orange checkerboard pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 3W 1X 3W 1O 1W 1O 1W 1O 1W 1O 1W 1O 1W 1O 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a olive checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1E 1W 1E 1W 1E 1W 1E 1W 1E 1W 1E 3W 1X 3W 1E 1W 1E 1W 1E 1W 1E 1W 1E 1W 1E 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a yellow hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1Y 7W 1X 7W 1Y 1W 1Y 6W 1X 6W 1Y 3W 1Y 5W 1X 5W 1Y 5W 1Y 4W 1X 4W 1Y 7W 1Y 3W 1X 3W 1Y 9W 1Y 2W 1X 2W 1Y 11W 1Y 1W 1X 1W 1Y 13W 1Y 1X [ Re3 ] [ 1Y 14W 1Y 1X ] 16Y 1X [ Re2 ] [ 16W  ]"}
+{"input": "please render a magenta horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12J 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a orange cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1O 7W 1X ] 2W 12O 2W 1X [ Re5 ] [ 8W 1O 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a beautiful olive border frame", "output": "[ Re2 ] [ 16E 1X ] [ Re12 ] [ 2E 12W 2E 1X ] [ Re2 ] [ 16E  ]"}
+{"input": "lime checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 3W 1X 3W 1L 1W 1L 1W 1L 1W 1L 1W 1L 1W 1L 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "could you please paint a olive hollow square grid for me", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "can you generate a horizontal stripes in purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12P 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "draw a simple gold horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12D 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful navy horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12U 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a lime triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1L 7W 1X 7W 3L 6W 1X 6W 5L 5W 1X 5W 7L 4W 1X 4W 9L 3W 1X 3W 11L 2W 1X 2W 13L 1W 1X 1W 15L 1X [ Re4 ] [ 16L 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful pink hollow square", "output": "[ Re3 ] [ 16W 1X ] 3W 10H 3W 1X [ Re8 ] [ 3W 1H 8W 1H 3W 1X ] 3W 10H 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "system render a yellow cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Y 7W 1X ] 2W 12Y 2W 1X [ Re5 ] [ 8W 1Y 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Draw a beige cross", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1Z 7W 1X ] 2W 12Z 2W 1X [ Re5 ] [ 8W 1Z 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please draw a beige horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12Z 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "make a beautiful green diamond pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 3W 11G 2W 1X 4W 9G 3W 1X 5W 7G 4W 1X 6W 5G 5W 1X 7W 3G 6W 1X 8W 1G 7W 1X 16W"}
+{"input": "please generate a triangle in olive", "output": "[ Re2 ] [ 16W 1X ] 8W 1E 7W 1X 7W 3E 6W 1X 6W 5E 5W 1X 5W 7E 4W 1X 4W 9E 3W 1X 3W 11E 2W 1X 2W 13E 1W 1X 1W 15E 1X [ Re4 ] [ 16E 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a triangle colored purple", "output": "[ Re2 ] [ 16W 1X ] 8W 1P 7W 1X 7W 3P 6W 1X 6W 5P 5W 1X 5W 7P 4W 1X 4W 9P 3W 1X 3W 11P 2W 1X 2W 13P 1W 1X 1W 15P 1X [ Re4 ] [ 16P 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Paint a blue checkerboard grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 3W 1X 3W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Horizontal stripes black", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12K 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system create a checkerboard colored gold", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 3W 1X 3W 1D 1W 1D 1W 1D 1W 1D 1W 1D 1W 1D 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system render a silver hollow triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 1V 1W 1V 6W 1X 6W 1V 3W 1V 5W 1X 5W 1V 5W 1V 4W 1X 4W 1V 7W 1V 3W 1X 3W 1V 9W 1V 2W 1X 2W 1V 11W 1V 1W 1X 1W 1V 13W 1V 1X [ Re3 ] [ 1V 14W 1V 1X ] 16V 1X [ Re2 ] [ 16W  ]"}
+{"input": "system render a blue checkerboard", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 3W 1X 3W 1B 1W 1B 1W 1B 1W 1B 1W 1B 1W 1B 2W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "Paint a lime horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a beautiful magenta beautiful triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 1W 15J 1X [ Re4 ] [ 16J 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system draw a purple border frame", "output": "[ Re2 ] [ 16P 1X ] [ Re12 ] [ 2P 12W 2P 1X ] [ Re2 ] [ 16P  ]"}
+{"input": "system generate a hollow square in olive", "output": "[ Re3 ] [ 16W 1X ] 3W 10E 3W 1X [ Re8 ] [ 3W 1E 8W 1E 3W 1X ] 3W 10E 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "blue triangle", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 1W 15B 1X [ Re4 ] [ 16B 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "paint a green horizontal stripes grid", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12G 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you create a diamond colored beige", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 3Z 6W 1X 6W 5Z 5W 1X 5W 7Z 4W 1X 4W 9Z 3W 1X 3W 11Z 2W 1X 2W 13Z 1W 1X 3W 11Z 2W 1X 4W 9Z 3W 1X 5W 7Z 4W 1X 6W 5Z 5W 1X 7W 3Z 6W 1X 8W 1Z 7W 1X 16W"}
+{"input": "create a simple border frame colored red", "output": "[ Re2 ] [ 16R 1X ] [ Re12 ] [ 2R 12W 2R 1X ] [ Re2 ] [ 16R  ]"}
+{"input": "make a retro 16x16 lime horizontal stripes pixel art", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12L 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "can you paint a orange border frame grid", "output": "[ Re2 ] [ 16O 1X ] [ Re12 ] [ 2O 12W 2O 1X ] [ Re2 ] [ 16O  ]"}
+{"input": "can you create a hollow square colored gray", "output": "[ Re3 ] [ 16W 1X ] 3W 10A 3W 1X [ Re8 ] [ 3W 1A 8W 1A 3W 1X ] 3W 10A 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "paint a retro 16x16 beige border frame grid", "output": "[ Re2 ] [ 16Z 1X ] [ Re12 ] [ 2Z 12W 2Z 1X ] [ Re2 ] [ 16Z  ]"}
+{"input": "could you please create a diamond colored magenta for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1J 7W 1X 7W 3J 6W 1X 6W 5J 5W 1X 5W 7J 4W 1X 4W 9J 3W 1X 3W 11J 2W 1X 2W 13J 1W 1X 3W 11J 2W 1X 4W 9J 3W 1X 5W 7J 4W 1X 6W 5J 5W 1X 7W 3J 6W 1X 8W 1J 7W 1X 16W"}
+{"input": "make a red square pixel art", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10R 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "could you please render a silver diamond for me", "output": "[ Re2 ] [ 16W 1X ] 8W 1V 7W 1X 7W 3V 6W 1X 6W 5V 5W 1X 5W 7V 4W 1X 4W 9V 3W 1X 3W 11V 2W 1X 2W 13V 1W 1X 3W 11V 2W 1X 4W 9V 3W 1X 5W 7V 4W 1X 6W 5V 5W 1X 7W 3V 6W 1X 8W 1V 7W 1X 16W"}
+{"input": "draw a sky blue horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12S 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "render a white hollow square", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "please make a green triangle pixel art", "output": "[ Re2 ] [ 16W 1X ] 8W 1G 7W 1X 7W 3G 6W 1X 6W 5G 5W 1X 5W 7G 4W 1X 4W 9G 3W 1X 3W 11G 2W 1X 2W 13G 1W 1X 1W 15G 1X [ Re4 ] [ 16G 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "cross purple", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 8W 1P 7W 1X ] 2W 12P 2W 1X [ Re5 ] [ 8W 1P 7W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "please create a border frame colored beige", "output": "[ Re2 ] [ 16Z 1X ] [ Re12 ] [ 2Z 12W 2Z 1X ] [ Re2 ] [ 16Z  ]"}
+{"input": "please render a silver square", "output": "[ Re3 ] [ 16W 1X ] [ Re10 ] [ 3W 10V 3W 1X ] [ Re3 ] [ 16W  ]"}
+{"input": "create a beautiful diamond colored navy", "output": "[ Re2 ] [ 16W 1X ] 8W 1U 7W 1X 7W 3U 6W 1X 6W 5U 5W 1X 5W 7U 4W 1X 4W 9U 3W 1X 3W 11U 2W 1X 2W 13U 1W 1X 3W 11U 2W 1X 4W 9U 3W 1X 5W 7U 4W 1X 6W 5U 5W 1X 7W 3U 6W 1X 8W 1U 7W 1X 16W"}
+{"input": "Create a diamond colored blue", "output": "[ Re2 ] [ 16W 1X ] 8W 1B 7W 1X 7W 3B 6W 1X 6W 5B 5W 1X 5W 7B 4W 1X 4W 9B 3W 1X 3W 11B 2W 1X 2W 13B 1W 1X 3W 11B 2W 1X 4W 9B 3W 1X 5W 7B 4W 1X 6W 5B 5W 1X 7W 3B 6W 1X 8W 1B 7W 1X 16W"}
+{"input": "paint a simple beige hollow square grid", "output": "[ Re3 ] [ 16W 1X ] 3W 10Z 3W 1X [ Re8 ] [ 3W 1Z 8W 1Z 3W 1X ] 3W 10Z 3W 1X [ Re3 ] [ 16W  ]"}
+{"input": "make a simple white square pixel art", "output": "[ Re16 ] [ 16W  ]"}
+{"input": "make a beautiful pink border frame pixel art", "output": "[ Re2 ] [ 16H 1X ] [ Re12 ] [ 2H 12W 2H 1X ] [ Re2 ] [ 16H  ]"}
+{"input": "render a beautiful mint horizontal stripes", "output": "[ Re2 ] [ 16W 1X ] [ Re6 ] [ 2W 12M 2W 1X 16W 1X ] [ Re2 ] [ 16W  ]"}
+{"input": "system paint a beige hollow triangle grid", "output": "[ Re2 ] [ 16W 1X ] 8W 1Z 7W 1X 7W 1Z 1W 1Z 6W 1X 6W 1Z 3W 1Z 5W 1X 5W 1Z 5W 1Z 4W 1X 4W 1Z 7W 1Z 3W 1X 3W 1Z 9W 1Z 2W 1X 2W 1Z 11W 1Z 1W 1X 1W 1Z 13W 1Z 1X [ Re3 ] [ 1Z 14W 1Z 1X ] 16Z 1X [ Re2 ] [ 16W  ]"}

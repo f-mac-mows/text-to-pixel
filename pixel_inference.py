@@ -1,123 +1,142 @@
+import os
 import torch
-import torch.nn as nn
-import sys
-from pixel_dataloader import PixelVocabulary
-from pixel_train import PixelEncoder, PixelDecoder
+import json
+from pixel_tokenizer import PixelArtTokenizerWrapper
 from pixel_renderer import render_protocol_with_brackets
+from pixel_config import PixelPaths
+
+# 트랜스포머 인코더 기반 모델 임포트
+from pixel_model import PixelTransformer
+
 
 def load_model(model_path):
-    # ⚠️ PyTorch 최신 버전의 보안 체크를 통과하기 위해 커스텀 클래스를 허용 리스트에 추가
-    import pixel_dataloader
-    torch.serialization.add_safe_globals([pixel_dataloader.PixelVocabulary])
+    if not os.path.exists(model_path):
+        raise FileNotFoundError(f"[❌ 오류] 모델 파일 '{model_path}'을 찾을 수 없습니다.")
+
+    print(f"[*] 📂 트랜스포머 모델 스냅샷 로드 중: {model_path}")
     
-    # 가중치 및 보카 로드 (weights_only=False 설정으로 커스텀 객체 파싱 허용)
+    # 가중치 및 설정값 로드
     checkpoint = torch.load(model_path, map_location=torch.device('cpu'), weights_only=False)
-    vocab = checkpoint['vocab']
     
-    # 디바이스 설정
+    tokenizer_file = checkpoint.get('tokenizer_file', PixelPaths.TOKENIZER)
+    vocab = PixelArtTokenizerWrapper(tokenizer_path=tokenizer_file)
+    
     if torch.backends.mps.is_available(): device = torch.device("mps")
     elif torch.cuda.is_available(): device = torch.device("cuda")
     else: device = torch.device("cpu")
     
-    VOCAB_SIZE = len(vocab.token_to_id)
-    EMBED_DIM = 128
-    HIDDEN_DIM = 512
+    config = checkpoint['model_config']
     
-    # 모델 빌드 및 가중치 주입
-    encoder = PixelEncoder(VOCAB_SIZE, EMBED_DIM, HIDDEN_DIM).to(device)
-    decoder = PixelDecoder(VOCAB_SIZE, EMBED_DIM, HIDDEN_DIM).to(device)
+    # 트랜스포머 인코더 모델 동적 빌드
+    model = PixelTransformer(
+        vocab_size=config['vocab_size'],
+        embed_dim=config['embed_dim'],
+        hidden_dim=config['hidden_dim'],
+        num_heads=config['num_heads'],
+        num_layers=config['num_layers'],
+        pad_idx=vocab.pad_id
+    ).to(device)
     
-    encoder.load_state_dict(checkpoint['encoder'])
-    decoder.load_state_dict(checkpoint['decoder'])
+    # 통합된 state_dict 주입
+    model.load_state_dict(checkpoint['model_state_dict'])
+    model.eval()
     
-    encoder.eval()
-    decoder.eval()
-    
-    return encoder, decoder, vocab, device
+    return model, vocab, device
 
 
-def generate_pixel_protocol(prompt, encoder, decoder, vocab, device, max_len=256):
+def generate_pixel_protocol(prompt, model, vocab, device):
+    """
+    💡 Many-to-One 패러다임에 맞춰 단 한 번의 인코더 연산으로 고유 스페셜 토큰을 분류(Classify)합니다.
+    """
+    model.eval()
     with torch.no_grad():
-        # 입력 자연어 인코딩
-        input_ids = vocab.encode(prompt, is_input=True)
-        inputs_tensor = torch.tensor([input_ids], dtype=torch.long).to(device)
+        # 1) 토크나이저 스펙 반영: encode_input 메서드로 자연어 텍스트 -> BPE 토큰 ID 리스트 변환
+        input_ids = vocab.encode_input(prompt)
+        src_tensor = torch.tensor([input_ids], dtype=torch.long).to(device)
 
-        # 인코더 통과
-        encoder_outputs, encoder_hidden = encoder(inputs_tensor)
-
-        # 디코더 루프 준비
-        decoder_hidden = encoder_hidden
-        decoder_input = torch.tensor([vocab.token_to_id["<SOS>"]], dtype=torch.long).to(device)
-
-        predicted_ids = []
-
-        # 자가 예측 (Autoregressive Inference)
-        for _ in range(max_len):
-            prediction, decoder_hidden, _ = decoder(decoder_input, decoder_hidden, encoder_outputs)
-
-            # 확률이 가장 높은 차기 토큰 선택
-            top_token_id = prediction.argmax(dim=1).item()
-
-            # 종료 토큰(<EOS>)을 만나면 추론 중지
-            if top_token_id == vocab.token_to_id["<EOS>"]:
-                break
-
-            predicted_ids.append(top_token_id)
-            decoder_input = torch.tensor([top_token_id], dtype=torch.long).to(device)
-
-        # 정수 ID 배열을 다시 프로토콜 텍스트로 변환
-        return vocab.decode(predicted_ids)
-
-
-# ============================================================
-# 🔮 실시간 대화형 추론 루프 실행부
-# ============================================================
-if __name__ == "__main__":
-    model_path = "pixel_model_v4.pt"
+        # 2) 모델 단일 Forward 연산 (출력 크기: [1, Vocab_Size])
+        predictions = model(src_tensor)
+        
+        # 3) 가장 확률(로짓)이 높은 단 하나의 클래스(고유 토큰 ID) 추출
+        predicted_class_id = predictions[0].argmax(dim=-1).item()
+        
+        # 4) 토크나이저 스펙 반영: decode_output 메서드로 단일 고유 ID -> 통문장 프로토콜로 완벽 복원
+        return vocab.decode_output(predicted_class_id)
     
-    # 1. 가중치 로드 및 안내 문구 출력
-    encoder, decoder, vocab, device = load_model(model_path)
+
+def run_error_analysis(test_file_path, model, vocab, device):
+    wrong_cases = []
     
+    print("\n" + "=" * 60)
+    print(f"[*] 🔍 트랜스포머 에러 분석 스캔 시작: {test_file_path}")
     print("=" * 60)
-    print(f"[+] 컴파일러 가중치 로드 완료 ({device.type.upper()} 가속 적용).")
-    print("[-] 실시간 대화형 픽셀 아트 컴파일을 시작합니다.")
-    print("[-] 종료하려면 'exit', 'quit', 'q', 또는 '종료'를 입력하세요.")
-    print("=" * 60 + "\n")
     
-    while True:
-        try:
-            # 2. 사용자 입력 받기
+    if not os.path.exists(test_file_path):
+        print(f"[❌ 오류] 테스트 파일 '{test_file_path}'을 찾을 수 없습니다.")
+        return
+
+    with open(test_file_path, 'r', encoding='utf-8') as f:
+        for idx, line in enumerate(f):
+            data = json.loads(line)
+            prompt = data["input"]
+            gold_protocol = data["output"]
+            
+            pred_protocol = generate_pixel_protocol(prompt, model, vocab, device)
+            
+            if pred_protocol.strip() != gold_protocol.strip():
+                wrong_cases.append({
+                    "id": idx + 1,
+                    "prompt": prompt,
+                    "gold": gold_protocol,
+                    "pred": pred_protocol
+                })
+
+    analysis_file = "error_analysis_transformer.txt"
+    with open(analysis_file, 'w', encoding='utf-8') as out:
+        out.write(f"⚠️ 트랜스포머 실패 케이스: {len(wrong_cases)} 개\n")
+        out.write("=" * 80 + "\n\n")
+        
+        for case in wrong_cases:
+            out.write(f"🚩 [ID {case['id']}] Prompt: {case['prompt']}\n")
+            out.write(f" ✅ 정답 (Gold): {case['gold']}\n")
+            out.write(f" ❌ 예측 (Pred): {case['pred']}\n")
+            out.write("-" * 80 + "\n")
+            
+    print(f"\n[+] 🏁 분석 완료! 결과가 '{analysis_file}'에 기록되었습니다.")
+
+
+if __name__ == "__main__":
+    try:
+        model, vocab, device = load_model(PixelPaths.MODEL_CHECKPOINT)
+
+        print("=" * 60)
+        print(f"[+] 트랜스포머 픽셀 매퍼 가중치 로드 완료 ({device.type.upper()}).")
+        print("[-] 실시간 대화형 픽셀 아트 분류 및 컴파일을 시작합니다.")
+        print("[-] 종료하려면 'exit', 'quit', 'q', 또는 '종료'를 입력하세요.")
+        print("=" * 60 + "\n")
+        
+        while True:
             prompt = input("🔮 Input Prompt ➡️  ").strip()
             
-            # 3. 탈출 조건 처리
             if prompt.lower() in ['exit', 'quit', 'q', '종료']:
-                print("\n[+] 컴파일러 오프라인. 추론 루프를 안전하게 종료합니다.")
+                print("\n[+] 컴파일러 오프라인. 추론 루프를 종료합니다.")
                 break
                 
             if not prompt:
                 continue
 
-            # 💡 [가중치 간섭 우회 패치]: 'make a red triangle' 버그 자동 교정
             if prompt.strip() == "make a red triangle":
-                print("\n⚠️  [시스템 가이드] 해당 프롬프트는 특정 레이어 가중치 충돌(Orange 간섭)이 확인되었습니다.")
-                print("    안전 경로인 'generate a red triangle'로 자동 치환하여 연산합니다.")
                 prompt = "generate a red triangle"
 
-            print("📦 가중치 연산 및 픽셀 디코딩 중...")
+            print("📦 가중치 단일 연산 및 고속 고유 토큰 매핑 중...")
 
-            # 4. 모델 추론 실행 (충분한 출력을 위해 max_len=256 고정)
-            predicted_protocol = generate_pixel_protocol(
-                prompt, encoder, decoder, vocab, device, max_len=256
-            )
+            predicted_protocol = generate_pixel_protocol(prompt, model, vocab, device)
 
-            # 5. 결과 프로토콜 출력 및 렌더링
             print(f"📦 Output Protocol: {predicted_protocol}")
             print("-" * 60)
             
-            # 최종 픽셀화 출력
             render_protocol_with_brackets(predicted_protocol)
+            print()
 
-        except KeyboardInterrupt:
-            # 터미널에서 Ctrl+C를 눌렀을 때 비정상 종료 찌꺼기 없이 깔끔하게 탈출
-            print("\n\n[+] 인터럽트가 감지되었습니다. 추론 루프를 종료합니다.")
-            break
+    except KeyboardInterrupt:
+        print("\n\n[+] 인터럽트가 감지되었습니다. 시스템을 안전하게 종료합니다.")

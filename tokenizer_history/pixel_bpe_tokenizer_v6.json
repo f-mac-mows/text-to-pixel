@@ -1,0 +1,1392 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<PAD>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<SOS>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "<EOS>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<UNK>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<UNK>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<PAD>": 0,
+      "<SOS>": 1,
+      "<EOS>": 2,
+      "<UNK>": 3,
+      "a": 4,
+      "b": 5,
+      "c": 6,
+      "d": 7,
+      "e": 8,
+      "f": 9,
+      "g": 10,
+      "h": 11,
+      "i": 12,
+      "k": 13,
+      "l": 14,
+      "m": 15,
+      "n": 16,
+      "o": 17,
+      "p": 18,
+      "q": 19,
+      "r": 20,
+      "s": 21,
+      "t": 22,
+      "u": 23,
+      "v": 24,
+      "w": 25,
+      "x": 26,
+      "y": 27,
+      "z": 28,
+      "ra": 29,
+      "ar": 30,
+      "ge": 31,
+      "te": 32,
+      "ri": 33,
+      "le": 34,
+      "on": 35,
+      "er": 36,
+      "ow": 37,
+      "gen": 38,
+      "el": 39,
+      "pi": 40,
+      "ma": 41,
+      "re": 42,
+      "ho": 43,
+      "tri": 44,
+      "low": 45,
+      "ot": 46,
+      "an": 47,
+      "dra": 48,
+      "era": 49,
+      "ke": 50,
+      "xel": 51,
+      "art": 52,
+      "genera": 53,
+      "pixel": 54,
+      "make": 55,
+      "draw": 56,
+      "generate": 57,
+      "ion": 58,
+      "pot": 59,
+      "potion": 60,
+      "bo": 61,
+      "gle": 62,
+      "llow": 63,
+      "qu": 64,
+      "squ": 65,
+      "are": 66,
+      "hollow": 67,
+      "trian": 68,
+      "square": 69,
+      "triangle": 70,
+      "me": 71,
+      "bl": 72,
+      "der": 73,
+      "ard": 74,
+      "st": 75,
+      "ck": 76,
+      "ta": 77,
+      "li": 78,
+      "di": 79,
+      "ue": 80,
+      "blue": 81,
+      "es": 82,
+      "ch": 83,
+      "pri": 84,
+      "be": 85,
+      "sk": 86,
+      "spri": 87,
+      "sprite": 88,
+      "mon": 89,
+      "pes": 90,
+      "amon": 91,
+      "cr": 92,
+      "eck": 93,
+      "fra": 94,
+      "os": 95,
+      "rder": 96,
+      "stri": 97,
+      "zon": 98,
+      "rizon": 99,
+      "erbo": 100,
+      "horizon": 101,
+      "border": 102,
+      "tal": 103,
+      "diamon": 104,
+      "check": 105,
+      "cros": 106,
+      "frame": 107,
+      "stripes": 108,
+      "erboard": 109,
+      "horizontal": 110,
+      "diamond": 111,
+      "checkerboard": 112,
+      "cross": 113,
+      "ple": 114,
+      "in": 115,
+      "pu": 116,
+      "en": 117,
+      "gra": 118,
+      "gre": 119,
+      "nk": 120,
+      "nge": 121,
+      "ora": 122,
+      "rple": 123,
+      "yel": 124,
+      "purple": 125,
+      "green": 126,
+      "orange": 127,
+      "yellow": 128,
+      "br": 129,
+      "go": 130,
+      "hi": 131,
+      "il": 132,
+      "sil": 133,
+      "ver": 134,
+      "whi": 135,
+      "own": 136,
+      "pink": 137,
+      "red": 138,
+      "lime": 139,
+      "gray": 140,
+      "brown": 141,
+      "silver": 142,
+      "white": 143,
+      "test": 144,
+      "agen": 145,
+      "ask": 146,
+      "bre": 147,
+      "bot": 148,
+      "dard": 149,
+      "ed": 150,
+      "fl": 151,
+      "lar": 152,
+      "nder": 153,
+      "sle": 154,
+      "tu": 155,
+      "tle": 156,
+      "wed": 157,
+      "reagen": 158,
+      "andard": 159,
+      "standard": 160,
+      "brewed": 161,
+      "bottle": 162,
+      "flask": 163,
+      "large": 164,
+      "slender": 165,
+      "tube": 166,
+      "reagent": 167,
+      "av": 168,
+      "ack": 169,
+      "ige": 170,
+      "ld": 171,
+      "min": 172,
+      "nav": 173,
+      "oli": 174,
+      "ve": 175,
+      "genta": 176,
+      "magenta": 177,
+      "black": 178,
+      "beige": 179,
+      "sky": 180,
+      "gold": 181,
+      "mint": 182,
+      "navy": 183,
+      "olive": 184,
+      "al": 185,
+      "teal": 186,
+      "digo": 187,
+      "indigo": 188,
+      "to": 189,
+      "ca": 190,
+      "ries": 191,
+      "erries": 192,
+      "ap": 193,
+      "apri": 194,
+      "berries": 195,
+      "co": 196,
+      "fr": 197,
+      "it": 198,
+      "ka": 199,
+      "ll": 200,
+      "pe": 201,
+      "papri": 202,
+      "sma": 203,
+      "uit": 204,
+      "mato": 205,
+      "tomato": 206,
+      "apple": 207,
+      "fruit": 208,
+      "paprika": 209,
+      "small": 210,
+      "at": 211,
+      "age": 212,
+      "ate": 213,
+      "ach": 214,
+      "ato": 215,
+      "bb": 216,
+      "bi": 217,
+      "ban": 218,
+      "car": 219,
+      "con": 220,
+      "do": 221,
+      "eg": 222,
+      "eapple": 223,
+      "flow": 224,
+      "gp": 225,
+      "gar": 226,
+      "gon": 227,
+      "gin": 228,
+      "iw": 229,
+      "kin": 230,
+      "kiw": 231,
+      "lan": 232,
+      "mp": 233,
+      "mel": 234,
+      "neapple": 235,
+      "oca": 236,
+      "rn": 237,
+      "ry": 238,
+      "rot": 239,
+      "rmel": 240,
+      "ut": 241,
+      "uli": 242,
+      "unk": 243,
+      "wberries": 244,
+      "wate": 245,
+      "rawberries": 246,
+      "ger": 247,
+      "lemon": 248,
+      "onion": 249,
+      "erry": 250,
+      "pineapple": 251,
+      "ana": 252,
+      "dragon": 253,
+      "potato": 254,
+      "meat": 255,
+      "strawberries": 256,
+      "lic": 257,
+      "blueberries": 258,
+      "cherries": 259,
+      "chunk": 260,
+      "cherry": 261,
+      "pump": 262,
+      "grapes": 263,
+      "avoca": 264,
+      "cabb": 265,
+      "cauli": 266,
+      "cocon": 267,
+      "corn": 268,
+      "pear": 269,
+      "peach": 270,
+      "big": 271,
+      "banana": 272,
+      "carrot": 273,
+      "eggp": 274,
+      "flower": 275,
+      "garlic": 276,
+      "ginger": 277,
+      "kiwi": 278,
+      "lant": 279,
+      "rmelon": 280,
+      "watermelon": 281,
+      "potatoes": 282,
+      "pumpkin": 283,
+      "avocado": 284,
+      "cabbage": 285,
+      "cauliflower": 286,
+      "coconut": 287,
+      "eggplant": 288
+    },
+    "merges": [
+      [
+        "r",
+        "a"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "t",
+        "e"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "ge",
+        "n"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "p",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "h",
+        "o"
+      ],
+      [
+        "t",
+        "ri"
+      ],
+      [
+        "l",
+        "ow"
+      ],
+      [
+        "o",
+        "t"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "ra"
+      ],
+      [
+        "e",
+        "ra"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "x",
+        "el"
+      ],
+      [
+        "ar",
+        "t"
+      ],
+      [
+        "gen",
+        "era"
+      ],
+      [
+        "pi",
+        "xel"
+      ],
+      [
+        "ma",
+        "ke"
+      ],
+      [
+        "dra",
+        "w"
+      ],
+      [
+        "genera",
+        "te"
+      ],
+      [
+        "i",
+        "on"
+      ],
+      [
+        "p",
+        "ot"
+      ],
+      [
+        "pot",
+        "ion"
+      ],
+      [
+        "b",
+        "o"
+      ],
+      [
+        "g",
+        "le"
+      ],
+      [
+        "l",
+        "low"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "s",
+        "qu"
+      ],
+      [
+        "ar",
+        "e"
+      ],
+      [
+        "ho",
+        "llow"
+      ],
+      [
+        "tri",
+        "an"
+      ],
+      [
+        "squ",
+        "are"
+      ],
+      [
+        "trian",
+        "gle"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "b",
+        "l"
+      ],
+      [
+        "d",
+        "er"
+      ],
+      [
+        "ar",
+        "d"
+      ],
+      [
+        "s",
+        "t"
+      ],
+      [
+        "c",
+        "k"
+      ],
+      [
+        "t",
+        "a"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "u",
+        "e"
+      ],
+      [
+        "bl",
+        "ue"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "p",
+        "ri"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "s",
+        "k"
+      ],
+      [
+        "s",
+        "pri"
+      ],
+      [
+        "spri",
+        "te"
+      ],
+      [
+        "m",
+        "on"
+      ],
+      [
+        "p",
+        "es"
+      ],
+      [
+        "a",
+        "mon"
+      ],
+      [
+        "c",
+        "r"
+      ],
+      [
+        "e",
+        "ck"
+      ],
+      [
+        "f",
+        "ra"
+      ],
+      [
+        "o",
+        "s"
+      ],
+      [
+        "r",
+        "der"
+      ],
+      [
+        "s",
+        "tri"
+      ],
+      [
+        "z",
+        "on"
+      ],
+      [
+        "ri",
+        "zon"
+      ],
+      [
+        "er",
+        "bo"
+      ],
+      [
+        "ho",
+        "rizon"
+      ],
+      [
+        "bo",
+        "rder"
+      ],
+      [
+        "ta",
+        "l"
+      ],
+      [
+        "di",
+        "amon"
+      ],
+      [
+        "ch",
+        "eck"
+      ],
+      [
+        "cr",
+        "os"
+      ],
+      [
+        "fra",
+        "me"
+      ],
+      [
+        "stri",
+        "pes"
+      ],
+      [
+        "erbo",
+        "ard"
+      ],
+      [
+        "horizon",
+        "tal"
+      ],
+      [
+        "diamon",
+        "d"
+      ],
+      [
+        "check",
+        "erboard"
+      ],
+      [
+        "cros",
+        "s"
+      ],
+      [
+        "p",
+        "le"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "p",
+        "u"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "g",
+        "ra"
+      ],
+      [
+        "g",
+        "re"
+      ],
+      [
+        "n",
+        "k"
+      ],
+      [
+        "n",
+        "ge"
+      ],
+      [
+        "o",
+        "ra"
+      ],
+      [
+        "r",
+        "ple"
+      ],
+      [
+        "y",
+        "el"
+      ],
+      [
+        "pu",
+        "rple"
+      ],
+      [
+        "gre",
+        "en"
+      ],
+      [
+        "ora",
+        "nge"
+      ],
+      [
+        "yel",
+        "low"
+      ],
+      [
+        "b",
+        "r"
+      ],
+      [
+        "g",
+        "o"
+      ],
+      [
+        "h",
+        "i"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "s",
+        "il"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "w",
+        "hi"
+      ],
+      [
+        "ow",
+        "n"
+      ],
+      [
+        "pi",
+        "nk"
+      ],
+      [
+        "re",
+        "d"
+      ],
+      [
+        "li",
+        "me"
+      ],
+      [
+        "gra",
+        "y"
+      ],
+      [
+        "br",
+        "own"
+      ],
+      [
+        "sil",
+        "ver"
+      ],
+      [
+        "whi",
+        "te"
+      ],
+      [
+        "te",
+        "st"
+      ],
+      [
+        "a",
+        "gen"
+      ],
+      [
+        "a",
+        "sk"
+      ],
+      [
+        "b",
+        "re"
+      ],
+      [
+        "b",
+        "ot"
+      ],
+      [
+        "d",
+        "ard"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "f",
+        "l"
+      ],
+      [
+        "l",
+        "ar"
+      ],
+      [
+        "n",
+        "der"
+      ],
+      [
+        "s",
+        "le"
+      ],
+      [
+        "t",
+        "u"
+      ],
+      [
+        "t",
+        "le"
+      ],
+      [
+        "w",
+        "ed"
+      ],
+      [
+        "re",
+        "agen"
+      ],
+      [
+        "an",
+        "dard"
+      ],
+      [
+        "st",
+        "andard"
+      ],
+      [
+        "bre",
+        "wed"
+      ],
+      [
+        "bot",
+        "tle"
+      ],
+      [
+        "fl",
+        "ask"
+      ],
+      [
+        "lar",
+        "ge"
+      ],
+      [
+        "sle",
+        "nder"
+      ],
+      [
+        "tu",
+        "be"
+      ],
+      [
+        "reagen",
+        "t"
+      ],
+      [
+        "a",
+        "v"
+      ],
+      [
+        "a",
+        "ck"
+      ],
+      [
+        "i",
+        "ge"
+      ],
+      [
+        "l",
+        "d"
+      ],
+      [
+        "m",
+        "in"
+      ],
+      [
+        "n",
+        "av"
+      ],
+      [
+        "o",
+        "li"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "gen",
+        "ta"
+      ],
+      [
+        "ma",
+        "genta"
+      ],
+      [
+        "bl",
+        "ack"
+      ],
+      [
+        "be",
+        "ige"
+      ],
+      [
+        "sk",
+        "y"
+      ],
+      [
+        "go",
+        "ld"
+      ],
+      [
+        "min",
+        "t"
+      ],
+      [
+        "nav",
+        "y"
+      ],
+      [
+        "oli",
+        "ve"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "te",
+        "al"
+      ],
+      [
+        "di",
+        "go"
+      ],
+      [
+        "in",
+        "digo"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "c",
+        "a"
+      ],
+      [
+        "ri",
+        "es"
+      ],
+      [
+        "er",
+        "ries"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "a",
+        "pri"
+      ],
+      [
+        "b",
+        "erries"
+      ],
+      [
+        "c",
+        "o"
+      ],
+      [
+        "f",
+        "r"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "k",
+        "a"
+      ],
+      [
+        "l",
+        "l"
+      ],
+      [
+        "p",
+        "e"
+      ],
+      [
+        "p",
+        "apri"
+      ],
+      [
+        "s",
+        "ma"
+      ],
+      [
+        "u",
+        "it"
+      ],
+      [
+        "ma",
+        "to"
+      ],
+      [
+        "to",
+        "mato"
+      ],
+      [
+        "ap",
+        "ple"
+      ],
+      [
+        "fr",
+        "uit"
+      ],
+      [
+        "papri",
+        "ka"
+      ],
+      [
+        "sma",
+        "ll"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "a",
+        "ge"
+      ],
+      [
+        "a",
+        "te"
+      ],
+      [
+        "a",
+        "ch"
+      ],
+      [
+        "a",
+        "to"
+      ],
+      [
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "i"
+      ],
+      [
+        "b",
+        "an"
+      ],
+      [
+        "c",
+        "ar"
+      ],
+      [
+        "c",
+        "on"
+      ],
+      [
+        "d",
+        "o"
+      ],
+      [
+        "e",
+        "g"
+      ],
+      [
+        "e",
+        "apple"
+      ],
+      [
+        "f",
+        "low"
+      ],
+      [
+        "g",
+        "p"
+      ],
+      [
+        "g",
+        "ar"
+      ],
+      [
+        "g",
+        "on"
+      ],
+      [
+        "g",
+        "in"
+      ],
+      [
+        "i",
+        "w"
+      ],
+      [
+        "k",
+        "in"
+      ],
+      [
+        "k",
+        "iw"
+      ],
+      [
+        "l",
+        "an"
+      ],
+      [
+        "m",
+        "p"
+      ],
+      [
+        "m",
+        "el"
+      ],
+      [
+        "n",
+        "eapple"
+      ],
+      [
+        "o",
+        "ca"
+      ],
+      [
+        "r",
+        "n"
+      ],
+      [
+        "r",
+        "y"
+      ],
+      [
+        "r",
+        "ot"
+      ],
+      [
+        "r",
+        "mel"
+      ],
+      [
+        "u",
+        "t"
+      ],
+      [
+        "u",
+        "li"
+      ],
+      [
+        "u",
+        "nk"
+      ],
+      [
+        "w",
+        "berries"
+      ],
+      [
+        "w",
+        "ate"
+      ],
+      [
+        "ra",
+        "wberries"
+      ],
+      [
+        "ge",
+        "r"
+      ],
+      [
+        "le",
+        "mon"
+      ],
+      [
+        "on",
+        "ion"
+      ],
+      [
+        "er",
+        "ry"
+      ],
+      [
+        "pi",
+        "neapple"
+      ],
+      [
+        "an",
+        "a"
+      ],
+      [
+        "dra",
+        "gon"
+      ],
+      [
+        "pot",
+        "ato"
+      ],
+      [
+        "me",
+        "at"
+      ],
+      [
+        "st",
+        "rawberries"
+      ],
+      [
+        "li",
+        "c"
+      ],
+      [
+        "blue",
+        "berries"
+      ],
+      [
+        "ch",
+        "erries"
+      ],
+      [
+        "ch",
+        "unk"
+      ],
+      [
+        "ch",
+        "erry"
+      ],
+      [
+        "pu",
+        "mp"
+      ],
+      [
+        "gra",
+        "pes"
+      ],
+      [
+        "av",
+        "oca"
+      ],
+      [
+        "ca",
+        "bb"
+      ],
+      [
+        "ca",
+        "uli"
+      ],
+      [
+        "co",
+        "con"
+      ],
+      [
+        "co",
+        "rn"
+      ],
+      [
+        "pe",
+        "ar"
+      ],
+      [
+        "pe",
+        "ach"
+      ],
+      [
+        "bi",
+        "g"
+      ],
+      [
+        "ban",
+        "ana"
+      ],
+      [
+        "car",
+        "rot"
+      ],
+      [
+        "eg",
+        "gp"
+      ],
+      [
+        "flow",
+        "er"
+      ],
+      [
+        "gar",
+        "lic"
+      ],
+      [
+        "gin",
+        "ger"
+      ],
+      [
+        "kiw",
+        "i"
+      ],
+      [
+        "lan",
+        "t"
+      ],
+      [
+        "rmel",
+        "on"
+      ],
+      [
+        "wate",
+        "rmelon"
+      ],
+      [
+        "potato",
+        "es"
+      ],
+      [
+        "pump",
+        "kin"
+      ],
+      [
+        "avoca",
+        "do"
+      ],
+      [
+        "cabb",
+        "age"
+      ],
+      [
+        "cauli",
+        "flower"
+      ],
+      [
+        "cocon",
+        "ut"
+      ],
+      [
+        "eggp",
+        "lant"
+      ]
+    ]
+  }
+}
