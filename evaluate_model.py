@@ -1,4 +1,5 @@
 import os
+# 💡 PyTorch의 MPS 폴백 설정을 최상단에 유지
 os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
 
 import json
@@ -10,21 +11,19 @@ from pixel_inference import load_model, generate_pixel_protocol
 from pixel_logger import setup_logger
 
 # ========================================================
-# 🎨 오답 시각화를 위한 초경량 디코더 & 이모지 맵 (유지)
+# 🎨 [정밀 보정] 256색 하이컬러 대응용 이모지 맵 & 디코더
 # ========================================================
 RENDER_MAP = {
-    'R': '🟥', 'B': '🟦', 'G': '🟩', 'Y': '🟨', 'K': '⬛',
-    'P': '🟪', 'O': '🟧', 'H': '💗', 'W': '⬜', 'A': '🪙',
-    'N': '🟫', 'S': '🔷', 'L': '💚', 'M': '🧼', 'D': '👑',
-    'V': '🥈', 'U': '🔵', 'E': '🌿', 'Z': '📜', 'J': '🔮'
+    'c000': '⬛',  
+    'c255': '⬜',  
+    'c028': '🟩',  
+    'c248': '🟨',  
 }
 
 def visual_decode(encoded_str: str) -> str:
-    """ 압축 프로토콜을 복원하여 텍스트 이모지 바둑판 문자열로 반환합니다. """
     try:
         encoded_str = re.sub(r'\s+', ' ', encoded_str).strip()
         bracket_pattern = re.compile(r'\[\s*Re(\d+)\s*\]\s*\[\s*([^\]]+)\s*\]')
-        
         while True:
             match = bracket_pattern.search(encoded_str)
             if not match:
@@ -51,37 +50,51 @@ def visual_decode(encoded_str: str) -> str:
         for r_tokens in raw_rows:
             row_pixels = []
             for token in r_tokens:
-                match = re.match(r'(\d+)([A-Z])', token)
+                match = re.match(r'(\d+)(c\d{3})', token)
                 if match:
-                    row_pixels.extend([match.group(2)] * int(match.group(1)))
-                elif len(token) == 1 and token.isalpha():
+                    length = int(match.group(1))
+                    color_token = match.group(2)
+                    row_pixels.extend([color_token] * length)
+                elif re.match(r'c\d{3}', token): 
                     row_pixels.append(token)
             
             if len(row_pixels) < 16:
-                row_pixels.extend(['W'] * (16 - len(row_pixels)))
+                row_pixels.extend(['c000'] * (16 - len(row_pixels)))
+                
             lines.append("".join([RENDER_MAP.get(px, '❓') for px in row_pixels[:16]]))
         
         while len(lines) < 16:
-            lines.append("⬜" * 16)
+            lines.append("⬛" * 16) 
+            
         return "\n".join(lines[:16])
-    except Exception:
-        return "⚠️ [디코딩 실패: 프로토콜 문법 붕괴 또는 UNK 토큰 검출]"
+    except Exception as e:
+        return f"⚠️ [디코딩 실패: {str(e)}]"
 
 
 # ========================================================
 # 📊 메인 평가 루프
 # ========================================================
 def run_test_evaluation():
-    PixelPaths.log_summary()
-    
-    if not os.path.exists(PixelPaths.TEST_DATA):
-        print(f"[❌ 오류] 테스트 데이터셋 '{PixelPaths.TEST_DATA}'이 존재하지 않습니다.")
-        return
-        
+    # 💡 로거 초기화를 최상단으로 끌어올려 안전장치 확보
     logger, log_path = setup_logger(mode="evaluate")
 
-    print("[*] 🤖 트랜스포머 전수 검증을 위해 모델 가중치를 로드합니다...")
-    model, vocab, device = load_model(PixelPaths.MODEL_CHECKPOINT)
+    # 💡 명세 출력도 logger로 통일하여 마스터 로그와 연동
+    logger.info("============================================================")
+    logger.info(f"[*] 📂 검증 공정 시작 환경 명세:")
+    logger.info(f" ├─ 테스트 데이터셋: {PixelPaths.TEST_DATA}")
+    logger.info(f" └─ 체크포인트 로드: {PixelPaths.MODEL_CHECKPOINT}")
+    logger.info("============================================================")
+    
+    if not os.path.exists(PixelPaths.TEST_DATA):
+        logger.error(f"[❌ 오류] 테스트 데이터셋 '{PixelPaths.TEST_DATA}'이 존재하지 않습니다.")
+        sys.exit(1)
+
+    logger.info("[*] 🤖 트랜스포머 전수 검증을 위해 모델 가중치를 로드합니다...")
+    try:
+        model, vocab, device = load_model(PixelPaths.MODEL_CHECKPOINT)
+    except Exception as e:
+        logger.error(f"[❌ 오류] 모델 로드 실패: {e}")
+        sys.exit(1)
     
     test_samples = []
     with open(PixelPaths.TEST_DATA, "r", encoding="utf-8") as f:
@@ -90,28 +103,22 @@ def run_test_evaluation():
             
     total_count = len(test_samples)
     correct_count = 0
-    
     total_wrong_count = 0  
     wrong_samples = []     
     
-    print(f"[*] 📊 총 {total_count}개의 미공개 테스트 샘플 트랜스포머 분류 검사 가동...\n")
+    logger.info(f"[*] 📊 총 {total_count}개의 미공개 테스트 샘플 분류 검사 가동...\n")
     
     for idx, sample in enumerate(test_samples, 1):
         prompt = sample["input"]
         ground_truth = sample["output"].strip()
         
-        # 💡 시퀀스 생성이 아니라 단일 인덱스 추론 후 통문장 복원
-        predicted_protocol = generate_pixel_protocol(
-            prompt, model, vocab, device
-        ).strip()
+        predicted_protocol = generate_pixel_protocol(prompt, model, vocab, device).strip()
         
-        # 💡 분류 문제 특성상 문자열이 완벽히 일치하는지만 대조하면 됩니다.
         is_correct = (predicted_protocol == ground_truth)
         if is_correct:
             correct_count += 1
         else:
             total_wrong_count += 1
-            # 20번째 오답마다 샘플링
             if total_wrong_count % 20 == 1: 
                 wrong_samples.append({
                     "idx": idx,
@@ -121,25 +128,26 @@ def run_test_evaluation():
                     "wrong_nth": total_wrong_count  
                 })
             
+        # 💡 터미널 실시간 스트리밍 UI는 sys.stdout으로 유지하되 복잡한 포맷 정리
         if idx % 10 == 0 or idx == total_count:
             current_acc = (correct_count / idx) * 100
-            print(f"\r 🔍 Processing: {idx:4d}/{total_count} | 현재 누적 정확도: {current_acc:.1f}%\t", end="")
+            sys.stdout.write(f"\r 🔍 Processing: {idx:4d}/{total_count} | 현재 누적 정확도: {current_acc:.1f}%")
             sys.stdout.flush() 
             
             if idx % 100 == 0 or idx == total_count:
                 logger.info(f"Processing: {idx}/{total_count} | Accum. Acc: {current_acc:.1f}%")
             
-    print() 
+    print() # 줄바꿈
     
     final_accuracy = (correct_count / total_count) * 100
     
     # [오답 리포트 파일 저장 공정]
-    error_log_path = log_path.replace("_evaluate.log", "_error_analysis.txt")
+    error_log_path = log_path.replace("_evaluate.log", "_error_analysis.log")
     os.makedirs(os.path.dirname(error_log_path), exist_ok=True)
     
     with open(error_log_path, "w", encoding="utf-8") as ef:
         ef.write("============================================================\n")
-        ef.write(f"❌ TRANSFORMER ERROR ANALYSIS REPORT (총 {total_wrong_count}개의 오답 중 {len(wrong_samples)}개 샘플링 완료)\n")
+        ef.write(f"❌ TRANSFORMER ERROR ANALYSIS REPORT (총 {total_wrong_count}개의 오답 중 {len(wrong_samples)}개 샘플링)\n")
         ef.write(f"🎯 최종 정확도: {final_accuracy:.2f}%\n")
         ef.write("============================================================\n\n")
         

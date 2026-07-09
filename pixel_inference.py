@@ -2,7 +2,8 @@ import os
 import torch
 import json
 from pixel_tokenizer import PixelArtTokenizerWrapper
-from pixel_renderer import render_protocol_with_brackets
+# 💡 [수정] 리팩토링된 256색 전용 HighColorRenderer 임포트
+from pixel_renderer import HighColorRenderer
 from pixel_config import PixelPaths
 
 # 트랜스포머 인코더 기반 모델 임포트
@@ -15,7 +16,6 @@ def load_model(model_path):
 
     print(f"[*] 📂 트랜스포머 모델 스냅샷 로드 중: {model_path}")
     
-    # 가중치 및 설정값 로드
     checkpoint = torch.load(model_path, map_location=torch.device('cpu'), weights_only=False)
     
     tokenizer_file = checkpoint.get('tokenizer_file', PixelPaths.TOKENIZER)
@@ -27,7 +27,6 @@ def load_model(model_path):
     
     config = checkpoint['model_config']
     
-    # 트랜스포머 인코더 모델 동적 빌드
     model = PixelTransformer(
         vocab_size=config['vocab_size'],
         embed_dim=config['embed_dim'],
@@ -37,7 +36,6 @@ def load_model(model_path):
         pad_idx=vocab.pad_id
     ).to(device)
     
-    # 통합된 state_dict 주입
     model.load_state_dict(checkpoint['model_state_dict'])
     model.eval()
     
@@ -50,17 +48,14 @@ def generate_pixel_protocol(prompt, model, vocab, device):
     """
     model.eval()
     with torch.no_grad():
-        # 1) 토크나이저 스펙 반영: encode_input 메서드로 자연어 텍스트 -> BPE 토큰 ID 리스트 변환
         input_ids = vocab.encode_input(prompt)
         src_tensor = torch.tensor([input_ids], dtype=torch.long).to(device)
 
-        # 2) 모델 단일 Forward 연산 (출력 크기: [1, Vocab_Size])
         predictions = model(src_tensor)
-        
-        # 3) 가장 확률(로짓)이 높은 단 하나의 클래스(고유 토큰 ID) 추출
         predicted_class_id = predictions[0].argmax(dim=-1).item()
         
-        # 4) 토크나이저 스펙 반영: decode_output 메서드로 단일 고유 ID -> 통문장 프로토콜로 완벽 복원
+        # 💡 [체크] 질문자님의 다중 클래스 분류 구조에서는 단일 ID를 
+        # 통문장으로 바꾸는 기존의 decode_output(predicted_class_id) 방식을 그대로 유지합니다.
         return vocab.decode_output(predicted_class_id)
     
 
@@ -135,7 +130,8 @@ if __name__ == "__main__":
             print(f"📦 Output Protocol: {predicted_protocol}")
             print("-" * 60)
             
-            render_protocol_with_brackets(predicted_protocol)
+            # 💡 [핵심 수정] 새롭게 리팩토링된 HighColorRenderer의 클래스 메서드 호출로 변경
+            HighColorRenderer.render(predicted_protocol)
             print()
 
     except KeyboardInterrupt:
