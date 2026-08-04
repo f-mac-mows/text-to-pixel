@@ -413,14 +413,23 @@ if __name__ == "__main__":
 
                     if "books" in norm_root:
                         color = " ".join([t for t in tokens if t in ['dark', 'light', 'gray', 'silver', 'red', 'orange', 'gold', 'yellow', 'lime', 'green', 'teal', 'cyan', 'blue', 'purple', 'pink']])
-                        style = tokens[-1] if tokens[-1] in ['basic', 'refined', 'alpha', 'beta', 'border', 'glow', 'cross', 'gold', 'enchanted', 'mythic'] else 'basic'
+                        style_raw = tokens[-1]
+                        style_key = style_raw.split('_')[-1] if '_' in style_raw else style_raw
+                        style = style_key if style_key in ['basic', 'refined', 'alpha', 'beta', 'border', 'glow', 'cross', 'gold', 'enchanted', 'mythic'] else 'basic'
                         
                         asset_prompts.append(f"{color} book {style}")
                         asset_prompts.append(f"pixel art {color} book {style}")
                         
-                        if style in ['basic', 'refined']: rich_desc = f"a book with a {color} gem"
-                        elif 'rune' in refined_desc: rich_desc = f"a {color} book engraved with an ancient rune"
-                        elif style in ['glow', 'enchanted', 'mythic']: rich_desc = f"an enchanted {color} magical book"
+                        if style == 'basic': rich_desc = f"a book with a {color} gem"
+                        elif style == 'refined': rich_desc = f"a book with a polished {color} gem"
+                        elif style == 'alpha': rich_desc = f"a {color} book engraved with an ancient rune"
+                        elif style == 'beta': rich_desc = f"a {color} book engraved with a mystic rune"
+                        elif style == 'border': rich_desc = f"a {color} book with an ornate border"
+                        elif style == 'glow': rich_desc = f"a glowing {color} magical book"
+                        elif style == 'cross': rich_desc = f"a {color} book marked with an ancient cross"
+                        elif style == 'gold': rich_desc = f"a royal golden {color} book"
+                        elif style == 'enchanted': rich_desc = f"an enchanted {color} magical book"
+                        elif style == 'mythic': rich_desc = f"a mythic {color} magical book"
                         else: rich_desc = f"a {color} book in {style} style"
                             
                         asset_prompts.append(rich_desc)
@@ -428,12 +437,17 @@ if __name__ == "__main__":
 
                     elif "potions" in norm_root:
                         color = tokens[0]
-                        shape = tokens[1] if len(tokens) > 1 else 'standard'
-                        deco = tokens[2] if len(tokens) > 2 else 'basic'
-                        
+                        if len(tokens) >= 4:
+                            # test_tube류처럼 shape 자체가 두 단어인 경우 (예: test tube)
+                            shape = f"{tokens[1]} {tokens[2]}"
+                            deco = tokens[3]
+                        else:
+                            shape = tokens[1] if len(tokens) > 1 else 'standard'
+                            deco = tokens[2] if len(tokens) > 2 else 'basic'
+
                         asset_prompts.append(f"{color} {shape} {deco} potion")
                         asset_prompts.append(f"{color} {shape} potion {deco}")
-                        
+
                         rich_desc = f"a {shape} {color} potion bottle with a {deco} top"
                         asset_prompts.append(rich_desc)
                         asset_prompts.append(f"a pixel art sprite of {rich_desc}")
