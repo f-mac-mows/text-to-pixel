@@ -242,26 +242,25 @@ class ProtocolAugmenter:
 
     @classmethod
     def generate_all_variants(cls, prompt, protocol_str):
-        """하나의 인풋 소스로부터 단일 토큰 기반의 기하학적 좌우 반전 및 90도 회전 증강 팩 생성"""
+        """하나의 인풋 소스로부터 단일 토큰 기반의 기하학적 좌우 반전 및 90도 회전 증강 팩 생성.
+        대칭 도형은 flip/rotate해도 output이 원본과 동일해지므로, 실제로 output이
+        달라지는 variant만 데이터셋에 포함시킨다."""
         variants = []
         
-        # 기본 디큐브 및 매트릭스 동기화 복원
         grid = cls.deserialize_to_matrix(protocol_str)
-        
-        # 0) 원본 인코딩 재적용 (새 규격 포맷 단일화 통일 보장)
         base_proto = cls.serialize_from_matrix(grid)
         variants.append({"prompt": prompt, "protocol": base_proto})
         
         try:
-            # 1) 좌우 반전 (Horizontal Flip)
             flipped_grid = np.fliplr(grid)
             flipped_proto = cls.serialize_from_matrix(flipped_grid)
-            variants.append({"prompt": f"{prompt} flipped", "protocol": flipped_proto})
+            if flipped_proto != base_proto:
+                variants.append({"prompt": f"{prompt} flipped", "protocol": flipped_proto})
             
-            # 2) 90도 회전 (Rotation)
             rotated_grid = np.rot90(grid, 1)
             rotated_proto = cls.serialize_from_matrix(rotated_grid)
-            variants.append({"prompt": f"{prompt} rotated", "protocol": rotated_proto})
+            if rotated_proto != base_proto:
+                variants.append({"prompt": f"{prompt} rotated", "protocol": rotated_proto})
         except Exception:
             pass
             
