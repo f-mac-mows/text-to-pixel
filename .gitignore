@@ -237,4 +237,4 @@ deprecated/
 ### Epoch Savepoints
 /models_history/pixel_model_v1_epochs
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,python,virtualenv
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,python,virtualenvdataset_history/
